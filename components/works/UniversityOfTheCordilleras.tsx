@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import { TiArrowForwardOutline } from "react-icons/ti";
+
 import { AiFillThunderbolt } from "react-icons/ai";
-import { AiFillCode } from "react-icons/ai";
 
 const UniversityOfTheCordilleras = () => {
   return (

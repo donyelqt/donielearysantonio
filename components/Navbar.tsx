@@ -2,7 +2,7 @@ import { logo } from "@/public/assets";
 import { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { easeIn, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { MdOutlineClose } from "react-icons/md";
 import { BsGithub } from "react-icons/bs";
 import { SiFacebook } from "react-icons/si";
