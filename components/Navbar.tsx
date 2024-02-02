@@ -24,7 +24,7 @@ const handleScroll =(e:React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
   elem?.scrollIntoView({
     behavior: "smooth"
   });
-  // Update the class name of the clicked link
+  
   const link = document.querySelectorAll(".nav-link")
   link.forEach((link)=>{
     link.classList.remove("active")
@@ -34,7 +34,7 @@ const handleScroll =(e:React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
 
 function handleClick(e:any){
   if (e.target.contains(ref.current)){
-     // do something with myRef.current
+   
      setShowMenu(false);
   }
 }
