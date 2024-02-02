@@ -133,7 +133,7 @@ function handleClick(e:any){
           </motion.button>
          </a>
         </div>
-        {/* Small Icon section */}
+      
         <div 
           onClick={() => setShowMenu(true)} 
           className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textCyan cursor-pointer overflow-hidden group">
