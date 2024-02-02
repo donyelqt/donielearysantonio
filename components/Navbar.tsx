@@ -75,7 +75,7 @@ function handleClick(e:any){
                 animate={{ y: 0, opacity: 1 }} 
                 transition={{ duration: 0.2 }}
             >
-                <span className="text-textCyan">//</span>
+                <span className="text-textCyan">01.</span>
                 About
              </motion.li>
             </Link>
@@ -89,7 +89,7 @@ function handleClick(e:any){
                 animate={{ y: 0, opacity: 1 }} 
                 transition={{ duration: 0.3 }}
             >
-                <span className="text-textCyan">//</span>
+                <span className="text-textCyan">02.</span>
                 Experience
              </motion.li>
             </Link>
@@ -103,7 +103,7 @@ function handleClick(e:any){
                 animate={{ y: 0, opacity: 1 }} 
                 transition={{ duration: 0.4 }}
             >
-                <span className="text-textCyan">//</span>
+                <span className="text-textCyan">03.</span>
                 Project
              </motion.li>
             </Link>
@@ -117,7 +117,7 @@ function handleClick(e:any){
                 animate={{ y: 0, opacity: 1 }} 
                 transition={{ duration: 0.5 }}
             >
-                <span className="text-textCyan">//</span>
+                <span className="text-textCyan">04.</span>
                 Contact
              </motion.li>
             </Link>    
@@ -190,7 +190,7 @@ function handleClick(e:any){
                   ease: "easeIn"
                 }}
             >
-                <span className="text-textCyan">//</span>
+                <span className="text-textCyan">01.</span>
                 About
              </motion.li>
             </Link>
@@ -208,7 +208,7 @@ function handleClick(e:any){
                   ease: "easeIn"
                 }}
             >
-                <span className="text-textCyan">//</span>
+                <span className="text-textCyan">02.</span>
                 Experience
              </motion.li>
             </Link>
@@ -226,7 +226,7 @@ function handleClick(e:any){
                   ease: "easeIn"
                 }}
             >
-                <span className="text-textCyan">//</span>
+                <span className="text-textCyan">03.</span>
                 Project
              </motion.li>
             </Link>
@@ -244,7 +244,7 @@ function handleClick(e:any){
                   ease: "easeIn"
                 }}
             >
-                <span className="text-textCyan">//</span>
+                <span className="text-textCyan">04.</span>
                 Contact
              </motion.li>
             </Link>    
