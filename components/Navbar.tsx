@@ -55,7 +55,7 @@ function handleClick(e:any){
             <Link 
               href="#home" 
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-textBlack hover:text-textPurple cursor-pointer duration-300 nav-link"
             >
              <motion.li 
                initial={{ y: -10, opacity: 0}} 
