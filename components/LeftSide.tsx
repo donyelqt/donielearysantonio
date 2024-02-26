@@ -38,7 +38,7 @@ const LeftSide = () => {
             </span>
          </a>
       </div>
-      <div className="w-[2px] h-32 bg-textBlack">
+      <div className="w-[2px] h-32 bg-transparent">
          
       </div>
     </div>
