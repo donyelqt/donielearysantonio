@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { MdOutlineClose } from "react-icons/md";
 import { BsGithub } from "react-icons/bs";
 import { SiFacebook } from "react-icons/si";
+import { FaInstagramSquare } from "react-icons/fa";
+import { SiGithub } from "react-icons/si";
 import { 
   SiInstagram,      
   SiLinkedin, 
@@ -262,7 +264,7 @@ function handleClick(e:any){
           <div className="flex flex-items center gap-4">
          <motion.a href="https://github.com/donyelqt" target="_blank">
             <span className="w-10 h-10 text-xl bg-textBlack rounded-full inline-flex items-center justify-center hover:text-textCyan cursor-pointer hover:-translate-y-2 transition-all duration-300">
-              <BsGithub />
+              <SiGithub />
             </span>
          </motion.a>
          <motion.a href="https://www.facebook.com/donielearys.antonio" target="_blank">

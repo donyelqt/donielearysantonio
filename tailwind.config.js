@@ -35,7 +35,7 @@ module.exports = {
         textCyan: "#00FFFF",
         textPink: "F08",
         textLight: "#ccd6f6",
-        textDark: "#fff",
+        textDark: "#ffffff",
         textDark1: "#8892b0",
         textBlack: "#000",
         textWhite: "#ffffff",

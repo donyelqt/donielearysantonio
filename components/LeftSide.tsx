@@ -1,5 +1,7 @@
 import { BsGithub } from "react-icons/bs";
 import { SiFacebook } from "react-icons/si";
+import { FaInstagramSquare } from "react-icons/fa";
+import { SiGithub } from "react-icons/si";
 import { 
   SiInstagram,      
   SiLinkedin, 
@@ -14,7 +16,7 @@ const LeftSide = () => {
       <div className="flex flex-col gap-4">
          <a href="https://github.com/donyelqt" target="_blank">
             <span className="w-10 h-10 text-xl bg-textBlack rounded-full inline-flex items-center justify-center hover:text-textCyan cursor-pointer hover:-translate-y-2 transition-all duration-300">
-              <BsGithub />
+              <SiGithub />
             </span>
          </a>
          <a href="https://www.facebook.com/donielearys.antonio" target="_blank">
