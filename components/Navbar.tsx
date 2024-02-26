@@ -258,7 +258,7 @@ function handleClick(e:any){
             transition={{ delay: 0.6, ease: "easeIn" }}
             className="w-32 h-10 rounded-md text-textCyan text-[13px] border border-textCyan hover:bg-hoverColor duration-300"
           >
-            Resume
+            📁 Resume
             </motion.button>
           </a>
           <div className="flex flex-items center gap-4">
