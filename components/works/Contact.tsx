@@ -13,7 +13,7 @@ const Contact = () => {
       </p>
       <a href="mailto:arysantonio363@gmail.com">
         <button className="w-40 h-14 border border-textCyan mt-6 font-titleFont text-sm text-textCyan tracking-wider rounded-md hover:bg-hoverColor duration-300">
-        ✉ Say Hello!
+        💌 Say Hello!
         </button>
       </a>
       <p className="text-textWhite text-sm font-bodyFont">Built and Designed by <span className="text-textCyan">Doniele Arys Antonio</span></p>

@@ -131,7 +131,7 @@ function handleClick(e:any){
             transition={{ delay: 0.5 }}
             className="px-4 py-2 rounded-md text-textCyan text-[13px] border border-textCyan hover:bg-hoverColor duration-300"
           >
-            Resume
+            📁 Resume
           </motion.button>
          </a>
         </div>

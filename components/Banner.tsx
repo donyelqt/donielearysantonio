@@ -43,9 +43,9 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.9 }}
       >
       <motion.button
-        className="w-52 h-14 text-sm font-titleFont border border-textCyan rounded-md text-textCyan tracking-wide hover:bg-hoverColor duration-300"
+        className="w-52 h-14 text-md font-titleFont border border-textCyan rounded-md text-textCyan tracking-wide hover:bg-hoverColor duration-300"
       >
-        ✉ Say Hello!
+        💌 Say Hello!
       </motion.button>
      </motion.a>
     </section>
