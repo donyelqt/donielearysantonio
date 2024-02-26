@@ -32,7 +32,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}  
         className="text-base md:max-w-[600px] text-textDark font-medium"     
       >
-        I am a student computer scientist and software developer based in Baguio City, Philippines. 
+        I am a student computer scientist and freelance software engineer based in Baguio City, Philippines. 
         I am highly interested in full-stack web development, software engineering, data science, artificial intelligence, machine learning, and many more. 
         Bill Gates, Mark Zuckerberg, Larry Page, Sergey Brin, Elon Musks, and Jeff Bezos success in the tech industry inspired and influenced me to do programming.{""}
       </motion.p>
