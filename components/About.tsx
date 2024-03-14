@@ -33,7 +33,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={javascript} 
                 alt="javascript"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Javascript
             </li>
@@ -42,7 +42,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={typescript} 
                 alt="typescript"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Typescript
             </li>
@@ -51,7 +51,7 @@ const About = () => {
               <Image className="rounded-lg h-full object-cover" 
                 src={react} 
                 alt="react"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               ReactJS
             </li>
@@ -60,7 +60,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={nextjs} 
                 alt="nextjs"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               NextJS
             </li>
@@ -69,7 +69,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={html} 
                 alt="html"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Html5
             </li>
@@ -78,7 +78,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={css3} 
                 alt="css"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Css3
             </li>
@@ -87,7 +87,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={csharp} 
                 alt="csharp"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               C#
             </li>
@@ -96,7 +96,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={java} 
                 alt="java"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Java
             </li>
@@ -105,7 +105,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={python} 
                 alt="python"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Python
             </li>
@@ -114,7 +114,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={cplus2} 
                 alt="cplus2"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               C++
             </li>
@@ -123,7 +123,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={nodejs} 
                 alt="nodejs"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               NodeJS
             </li>
@@ -132,7 +132,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={tailwindcss} 
                 alt="tailwindcss"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Tailwind CSS
             </li>
@@ -141,7 +141,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={supabase} 
                 alt="supabase"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               SupaBase
             </li>
@@ -150,7 +150,7 @@ const About = () => {
                 <Image className="rounded-lg h-full object-cover" 
                 src={postgresql} 
                 alt="postgresql"
-                style={{ height: "50px", width: "50px" }} />
+                style={{ height: "40px", width: "40px" }} />
               </span>
               PostgreSQL
             </li>
