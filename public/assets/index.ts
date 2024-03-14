@@ -4,5 +4,20 @@ import logo from "./images/logo3.png"
 import profileImg from "./images/profileImg.png"
 import netflixbydonieleImg from "./images/netflixbydonieleImg.png"
 import donieleprof from "./images/donieleprof.png"
+import html from "./images/html.png"
+import javascript from "./images/javascript.png"
+import typescript from "./images/typescript.png"
+import react from "./images/react.png"
+import nextjs from "./images/nextjs.png"
+import css3 from "./images/css3.png"
+import csharp from "./images/csharp.png"
+import java from "./images/java.png"
+import python from "./images/python.png"
+import cplus2 from "./images/cplus2.png"
+import nodejs from "./images/nodejs.png"
+import tailwindcss from "./images/tailwindcss.png"
+import supabase from "./images/supabase.png"
+import postgresql from "./images/PostgreSQL.png"
 
-export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof };
+export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
+html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, supabase, postgresql };

@@ -2,8 +2,10 @@ import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillCloud } from "react-icons/ai";
 import { AiFillCode } from "react-icons/ai";
-import { profileImg } from "@/public/assets";
+import { cplus2, csharp, css3, html, java, javascript, nextjs, nodejs, postgresql, profileImg, python, react, supabase, tailwindcss, typescript } from "@/public/assets";
 import { donieleprof } from "@/public/assets"
+import SectionTitle1 from "./SectionTitle1"
+import css from "styled-jsx/css";
 
 
 const About = () => {
@@ -23,88 +25,132 @@ const About = () => {
           <p>
             Here are the <span className="text-textCyan">technologies</span> I have played with.  I am currently exploring more technologies to <span className="text-textCyan">develop innovative ideas</span> and to <span className="text-textCyan">learn more. </span>
           </p>
+          <br/>
+          <SectionTitle1 title="TECHNOLOGY STACK" titleNO="< />" />
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-6">
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={javascript} 
+                alt="javascript"
+                style={{ height: "50px", width: "50px" }} />
               </span>
-              JavaScript ES7+
+              Javascript
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={typescript} 
+                alt="typescript"
+                style={{ height: "50px", width: "50px" }} />
               </span>
-              TypeScript
+              Typescript
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+              <Image className="rounded-lg h-full object-cover" 
+                src={react} 
+                alt="react"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               ReactJS
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={nextjs} 
+                alt="nextjs"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               NextJS
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={html} 
+                alt="html"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               Html5
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={css3} 
+                alt="css"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               Css3
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={csharp} 
+                alt="csharp"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               C#
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={java} 
+                alt="java"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               Java
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={python} 
+                alt="python"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               Python
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={cplus2} 
+                alt="cplus2"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               C++
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={nodejs} 
+                alt="nodejs"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               NodeJS
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+                <Image className="rounded-lg h-full object-cover" 
+                src={tailwindcss} 
+                alt="tailwindcss"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               Tailwind CSS
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={supabase} 
+                alt="supabase"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               SupaBase
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textCyan">
-                <AiFillCloud />
+              <span className="">
+                <Image className="rounded-lg h-full object-cover" 
+                src={postgresql} 
+                alt="postgresql"
+                style={{ height: "50px", width: "50px" }} />
               </span>
               PostgreSQL
             </li>
