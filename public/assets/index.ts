@@ -17,7 +17,7 @@ import cplus2 from "./images/cplus2.png"
 import nodejs from "./images/nodejs.png"
 import tailwindcss from "./images/tailwindcss.png"
 import supabase from "./images/supabase.png"
-import postgresql from "./images/PostgreSQL.png"
+import postgresql from "./images/postgresql.png"
 
 export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
 html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, supabase, postgresql };
