@@ -3,6 +3,7 @@ import SectionTitle from "./SectionTitle";
 import { AiFillCloud } from "react-icons/ai";
 import { AiFillCode } from "react-icons/ai";
 import { profileImg } from "@/public/assets";
+import { donieleprof } from "@/public/assets"
 
 
 const About = () => {
@@ -216,11 +217,11 @@ const About = () => {
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <Image 
                 className="rounded-lg h-full object-cover" 
-                src={profileImg} 
-                alt="profileImg"
+                src={donieleprof} 
+                alt="donieleprof"
                 style={{ height: "350px", width: "350px" }}
               />
-              <div className="hidden lgl:inline-block absolute w-full h-full bg-textLight/5 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="hidden lgl:inline-block absolute w-full h-full bg-textDark/0 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
         </div>
