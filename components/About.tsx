@@ -221,7 +221,7 @@ const About = () => {
                 alt="donieleprof"
                 style={{ height: "350px", width: "350px" }}
               />
-              <div className="hidden lgl:inline-block absolute w-full h-full bg-textDark/0 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="hidden lgl:inline-block absolute w-full h-full bg-textlight/5 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
         </div>
