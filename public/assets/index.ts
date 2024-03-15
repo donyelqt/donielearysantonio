@@ -18,6 +18,8 @@ import nodejs from "./images/nodejs.png"
 import tailwindcss from "./images/tailwindcss.png"
 import supabase from "./images/supabase.png"
 import postgresql from "./images/postgresql.png"
+import prisma from "./images/prisma.png"
+import scss from "./images/scss.png"
 
 export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
-html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, supabase, postgresql };
+html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, supabase, postgresql, prisma, scss };
