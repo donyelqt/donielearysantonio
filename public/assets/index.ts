@@ -20,6 +20,9 @@ import supabase from "./images/supabase.png"
 import postgresql from "./images/postgresql.png"
 import prisma from "./images/prisma.png"
 import scss from "./images/scss.png"
+import ucgastrobaguiomockup from "./images/ucgastrobaguiomockup.png"
+import ucgastroconsultmockup from "./images/ucgastroconsultmockup.png"
 
 export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
-html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, supabase, postgresql, prisma, scss };
+html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, 
+supabase, postgresql, prisma, scss, ucgastrobaguiomockup, ucgastroconsultmockup };
