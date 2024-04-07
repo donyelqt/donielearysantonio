@@ -154,7 +154,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a 
             className="w-full xl:w-1/2 h-auto relative group" 
-            href="https://doniele.pages.dev/" 
+            href="https://ucgastrobaguio.vercel.app/" 
             target="_blank"
           >
           <div>
@@ -179,13 +179,13 @@ const Projects = () => {
           </ul>
           <div className="text-2xl flex gap-4 ">
             <a className="hover:text-textCyan duration-300" 
-               href="https://github.com/donyelqt/doniele" 
+               href="" 
                target="_blank"
             >
               <BsGithub />
             </a>
             <a className="hover:text-textCyan duration-300" 
-               href="https://doniele.pages.dev/" 
+               href="https://ucgastrobaguio.vercel.app/" 
                target="_blank"
             >
               <RxOpenInNewWindow />
@@ -199,7 +199,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a 
             className="w-full xl:w-1/2 h-auto relative group" 
-            href="https://donieleai.pages.dev/" 
+            href="https://ucgastrobaguio-consultation.vercel.app/" 
             target="_blank"
           >
           <div>
@@ -224,13 +224,13 @@ const Projects = () => {
           </ul>
           <div className="text-2xl flex gap-4 ">
             <a className="hover:text-textCyan duration-300" 
-               href="https://github.com/donyelqt/DonieleAI" 
+               href="" 
                target="_blank"
             >
               <BsGithub />
             </a>
             <a className="hover:text-textCyan duration-300" 
-               href="https://donieleai.pages.dev/" 
+               href="https://ucgastrobaguio-consultation.vercel.app/" 
                target="_blank"
             >
               <RxOpenInNewWindow />
