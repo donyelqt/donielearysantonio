@@ -26,8 +26,8 @@ const UniversityOfTheCordilleras = () => {
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
-          </span>{""}      
-          Currently leading a development team of 3 members for our technopreneurship project proposal and successfully getting my ideas approved to develop a website application called the UC GastroBaguio web app community for all hospitals based in Baguio City, Philippines, for gastroenteritis.
+          </span>{""} 
+          Currently leading a development team of 3 members for our technopreneurship project and am the only one handling the development of the web app. I successfully got my ideas approved to develop a website application called the UC GastroBaguio web app community for all hospitals based in Baguio City, Philippines, for gastroenteritis, and it is almost done in development.
         </li>
       </ul>
     </motion.div>
