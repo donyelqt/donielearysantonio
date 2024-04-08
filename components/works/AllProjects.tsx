@@ -31,6 +31,18 @@ const AllProjects = () => {
               listItem={["HTML5", "CSS3", "JavaScript ES7+"]}  
               link="https://donieleai.pages.dev/"         
             />
+            <ProjectsCard 
+              title="UC GastroBaguio"
+              des="A university healthcare website application for the hospitals based in Baguio City, Philippines, to solve the problems in gastroenteritis cases in Baguio City."
+              listItem={["ReactJS", "NextJS", "SCSS"]}  
+              link="https://ucgastrobaguio.vercel.app/"         
+            />
+            <ProjectsCard 
+              title="UC GastroBaguio - Consultation"
+              des="A full-stack univ healthcare web app and the first online platform of UC for hospitals that you can use to schedule your consultation for health-related services in hospitals in Baguio City quickly and efficiently."
+              listItem={["NextJS", "Tailwind CSS", "NodeJS"]}  
+              link="https://ucgastrobaguio-consultation.vercel.app/"         
+            />
         </div>
     </div>
   );

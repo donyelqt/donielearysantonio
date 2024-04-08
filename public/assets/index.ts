@@ -22,7 +22,11 @@ import prisma from "./images/prisma.png"
 import scss from "./images/scss.png"
 import ucgastrobaguiomockup from "./images/ucgastrobaguiomockup.png"
 import ucgastroconsultmockup from "./images/ucgastroconsultmockup.png"
+import netflixbydonielemockup from "./images/netflixbydonielemockup.png"
+import donieleaimockup from "./images/donieleaimockup.png"
+import donielemockup from "./images/donielemockup.png"
 
 export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
 html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, 
-supabase, postgresql, prisma, scss, ucgastrobaguiomockup, ucgastroconsultmockup };
+supabase, postgresql, prisma, scss, ucgastrobaguiomockup, ucgastroconsultmockup,
+ netflixbydonielemockup, donieleaimockup, donielemockup };

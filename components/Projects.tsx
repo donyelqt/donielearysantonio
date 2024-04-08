@@ -3,7 +3,7 @@ import Image from "next/image";
 import { donieleAI, netflixbydonieleImg } from "@/public/assets";
 import { BsGithub } from "react-icons/bs";
 import { RxOpenInNewWindow } from "react-icons/rx";
-import { portfolioUniversityProject, ucgastrobaguiomockup, ucgastroconsultmockup } from "@/public/assets";
+import { portfolioUniversityProject, ucgastrobaguiomockup, ucgastroconsultmockup, netflixbydonielemockup, donieleaimockup, donielemockup } from "@/public/assets";
 
 const Projects = () => {
   return (
@@ -19,9 +19,9 @@ const Projects = () => {
             target="_blank"
           >
           <div>
-            <Image className="w-full h-full object-contain"
-            src={netflixbydonieleImg}
-            alt="netflixbydonieleImg"
+            <Image className="w-full h-[375px] object-contain"
+            src={netflixbydonielemockup}
+            alt="netflixbydonielemockup"
             />
           </div>
           </a>
@@ -68,9 +68,9 @@ const Projects = () => {
             target="_blank"
           >
           <div>
-            <Image className="w-full h-full object-contain"
-            src={portfolioUniversityProject}
-            alt="portfolioUniversityProject"
+            <Image className="w-full h-[375px] object-contain"
+            src={donielemockup}
+            alt="donielemockup"
             />
           </div>
           </a>
@@ -114,8 +114,8 @@ const Projects = () => {
           >
           <div>
             <Image className="w-full h-full object-contain"
-            src={donieleAI}
-            alt="donieleAI"
+            src={donieleaimockup}
+            alt="donieleaimockup"
             />
           </div>
           </a>
