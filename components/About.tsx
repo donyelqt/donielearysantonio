@@ -230,7 +230,7 @@ const About = () => {
               <span className="text-textCyan">
                 <AiFillCloud />
               </span>
-              Bootsrap 5
+              Bootstrap 5
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
