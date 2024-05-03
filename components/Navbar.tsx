@@ -251,7 +251,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>    
           </ul>
-          <a href="" target="_blank">
+          <a href="/assets/Doniele Arys Antonio - Software Engineer.pdf" target="_blank">
             <motion.button 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
