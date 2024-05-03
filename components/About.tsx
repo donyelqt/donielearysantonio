@@ -176,12 +176,12 @@ const About = () => {
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
-              </span>
-              <Image className="rounded-lg h-full object-cover" 
+                <Image className="rounded-lg h-full object-cover" 
                 src={github} 
                 alt="github"
                 style={{ height: "40px", width: "40px" }} />
+              </span>
+              Github
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
