@@ -3,7 +3,8 @@ import SectionTitle from "./SectionTitle";
 import { AiFillCloud } from "react-icons/ai";
 import { AiFillCode } from "react-icons/ai";
 import { cplus2, csharp, css3, html, java, javascript, nextjs, 
-  nodejs, postgresql, prisma, profileImg, python, react, scss, supabase, tailwindcss, typescript, git} from "@/public/assets";
+  nodejs, postgresql, prisma, profileImg, python, react, scss, supabase, tailwindcss, typescript, git,
+  github} from "@/public/assets";
 import { donieleprof } from "@/public/assets"
 import SectionTitle1 from "./SectionTitle1"
 import css from "styled-jsx/css";
@@ -177,7 +178,10 @@ const About = () => {
               <span className="text-textCyan">
                 <AiFillCloud />
               </span>
-              REST API
+              <Image className="rounded-lg h-full object-cover" 
+                src={github} 
+                alt="github"
+                style={{ height: "40px", width: "40px" }} />
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
@@ -265,6 +269,12 @@ const About = () => {
                 <AiFillCloud />
               </span>
               C
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textCyan">
+                <AiFillCloud />
+              </span>
+              REST API
             </li>
           </ul>
         </div>
