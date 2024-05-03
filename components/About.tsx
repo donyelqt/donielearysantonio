@@ -2,7 +2,8 @@ import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillCloud } from "react-icons/ai";
 import { AiFillCode } from "react-icons/ai";
-import { cplus2, csharp, css3, html, java, javascript, nextjs, nodejs, postgresql, prisma, profileImg, python, react, scss, supabase, tailwindcss, typescript } from "@/public/assets";
+import { cplus2, csharp, css3, html, java, javascript, nextjs, 
+  nodejs, postgresql, prisma, profileImg, python, react, scss, supabase, tailwindcss, typescript, git} from "@/public/assets";
 import { donieleprof } from "@/public/assets"
 import SectionTitle1 from "./SectionTitle1"
 import css from "styled-jsx/css";
@@ -180,7 +181,10 @@ const About = () => {
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+                <Image className="rounded-lg h-full object-cover" 
+                src={git} 
+                alt="git"
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Git
             </li>

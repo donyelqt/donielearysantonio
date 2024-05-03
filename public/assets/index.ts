@@ -25,8 +25,9 @@ import ucgastroconsultmockup from "./images/ucgastroconsultmockup.png"
 import netflixbydonielemockup from "./images/netflixbydonielemockup.png"
 import donieleaimockup from "./images/donieleaimockup.png"
 import donielemockup from "./images/donielemockup.png"
+import git from "./images/git.png"
 
 export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
 html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, 
 supabase, postgresql, prisma, scss, ucgastrobaguiomockup, ucgastroconsultmockup,
- netflixbydonielemockup, donieleaimockup, donielemockup };
+ netflixbydonielemockup, donieleaimockup, donielemockup, git};
