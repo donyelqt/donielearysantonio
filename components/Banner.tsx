@@ -23,7 +23,8 @@ const Banner = () => {
       >
         Doniele Arys Antonio. 🧑🏻‍💻🚀👾{" "} 
         <span className="text-textBlack mt-2 lgl:mt-4">
-          I create and innovate software.
+          I create and innovate software system
+          
         </span>
       </motion.h1>
       <motion.p
