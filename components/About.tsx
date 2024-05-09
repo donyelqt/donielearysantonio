@@ -5,7 +5,8 @@ import { AiFillCode } from "react-icons/ai";
 import { cplus2, csharp, css3, html, java, javascript, nextjs, 
   nodejs, postgresql, prisma, profileImg, python, react, scss, supabase, tailwindcss, typescript, git,
   github,
-  vercel} from "@/public/assets";
+  vercel,
+  bootstrap} from "@/public/assets";
 import { donieleprof } from "@/public/assets"
 import SectionTitle1 from "./SectionTitle1"
 import css from "styled-jsx/css";
@@ -204,9 +205,12 @@ const About = () => {
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+               <Image className="rounded-lg h-full object-cover" 
+                src={bootstrap} 
+                alt="bootstrap"
+                style={{ height: "40px", width: "40px" }} />
               </span>
-              NextAuth.js
+              Bootstrap 5
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
@@ -242,7 +246,7 @@ const About = () => {
               <span className="text-textCyan">
                 <AiFillCloud />
               </span>
-              Bootstrap 5
+              NextAuth.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
