@@ -6,7 +6,7 @@ import { cplus2, csharp, css3, html, java, javascript, nextjs,
   nodejs, postgresql, prisma, profileImg, python, react, scss, supabase, tailwindcss, typescript, git,
   github,
   vercel,
-  bootstrap} from "@/public/assets";
+  bootstrap, firebase} from "@/public/assets";
 import { donieleprof } from "@/public/assets"
 import SectionTitle1 from "./SectionTitle1"
 import css from "styled-jsx/css";
@@ -215,8 +215,8 @@ const About = () => {
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
                <Image className="rounded-lg h-full object-cover" 
-                src={bootstrap} 
-                alt="bootstrap"
+                src={firebase} 
+                alt="firebase"
                 style={{ height: "40px", width: "40px" }} />
               </span>
               Firebase
