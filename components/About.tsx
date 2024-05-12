@@ -214,9 +214,12 @@ const About = () => {
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+               <Image className="rounded-lg h-full object-cover" 
+                src={bootstrap} 
+                alt="bootstrap"
+                style={{ height: "40px", width: "40px" }} />
               </span>
-              Framer Motion
+              Firebase
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
@@ -228,7 +231,7 @@ const About = () => {
               <span className="text-textCyan">
                 <AiFillCloud />
               </span>
-              Firebase
+              Framer Motion
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
