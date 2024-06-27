@@ -30,8 +30,9 @@ import github from "./images/github.png"
 import vercel from "./images/vercel.png"
 import bootstrap from "./images/bootstrap.png"
 import firebase from "./images/firebase.png"
+import kalilinux from "./images/kalilinux.png"
 
 export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
 html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, 
 supabase, postgresql, prisma, scss, ucgastrobaguiomockup, ucgastroconsultmockup,
- netflixbydonielemockup, donieleaimockup, donielemockup, git, github, vercel, bootstrap, firebase}
+ netflixbydonielemockup, donieleaimockup, donielemockup, git, github, vercel, bootstrap, firebase, kalilinux}

@@ -223,9 +223,12 @@ const About = () => {
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+               <Image className="rounded-lg h-full object-cover" 
+                src={firebase} 
+                alt="firebase"
+                style={{ height: "40px", width: "40px" }} />
               </span>
-              Luicide.dev
+              Kali Linux
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textCyan">
@@ -286,6 +289,12 @@ const About = () => {
                 <AiFillCloud />
               </span>
               REST API
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textCyan">
+                <AiFillCloud />
+              </span>
+              Luicide.dev
             </li>
           </ul>
         </div>
