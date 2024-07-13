@@ -22,13 +22,13 @@ const Hack4Gov = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Developed a visually stunning and fully responsive portfolio website and full-stack web app using HTML5, CSS3, and JavaScript ES7+.
+          Collaborated effectively with a diverse team during the DICT HackForGov3 2024 Capture the Flag (CTF) competition, demonstrating strong teamwork and problem-solving skills to tackle complex cybersecurity challenges.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          I developed my personal website and a full-stack website application using React-based technologies.
+          Showcased adaptability and a commitment to continuous learning by successfully upskilling in cybersecurity, applying these new skills alongside my software development expertise to contribute significantly to the team's performance.
         </li>
       </ul>
     </motion.div>
