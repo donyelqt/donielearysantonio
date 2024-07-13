@@ -3,16 +3,19 @@ import SectionTitle from "./SectionTitle";
 import Freelance from "./works/Freelance";
 import UniversityOfTheCordilleras from "./works/UniversityOfTheCordilleras";
 import PhinmaUniversityOfPangasinan from "./works/PhinmaUniversityOfPangasinan";
+import Hack4Gov from "./works/Hack4Gov";
 
 const Experience = () => {
     const [workFreelance, setWorkFreelance] = useState(true);
     const [workUniversityOfTheCordilleras, setWorkUniversityOfTheCordilleras] = useState(false);
     const [workPhinmaUniversityOfPangasinan, setWorkPhinmaUniversityOfPangasinan] = useState(false);
+    const [workHack4Gov, setWorkHack4Gov] = useState(false);
 
     const handleFreelance = () => {
         setWorkFreelance(true);
         setWorkUniversityOfTheCordilleras(false);
         setWorkPhinmaUniversityOfPangasinan(false);
+        setWorkHack4Gov(false);
     };
 
     const handleUniversrityOfTheCordilleras = () => {
@@ -54,7 +57,7 @@ const Experience = () => {
             </li>
             <li 
               
-              className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#003153] py-3 text-sm cursor-pointer duration-300 px-8 font-medium"
+              className={`${workPhinmaUniversityOfPangasinan ?"border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#003153] py-3 text-sm cursor-pointer duration-300 px-8 font-medium"
             >
               DICT HackForGov3 2024
             </li>
