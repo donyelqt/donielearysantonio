@@ -12,7 +12,7 @@ const Hack4Gov = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        DICT HackForGov 2024 <span className="text-textCyan tracking-wide">CTF Player of University of the Cordilleras</span>
+        DICT HackForGov 2024 <span className="text-textCyan tracking-wide">CTF Player | @UC Baguio</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         2023 - Present
