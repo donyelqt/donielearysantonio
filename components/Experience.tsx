@@ -37,7 +37,8 @@ const Experience = () => {
       setWorkUniversityOfTheCordilleras(false);
       setWorkPhinmaUniversityOfPangasinan(false);
       setWorkHack4Gov(true);
-  };
+    };
+
   return (
     <section 
       id="experience" 

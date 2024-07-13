@@ -12,7 +12,7 @@ const Hack4Gov = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        DICT HackForGov 2024 <span className="text-textCyan tracking-wide">CTF Player | @UC Baguio Representatives</span>
+        DICT HackForGov 2024 <span className="text-textCyan tracking-wide">&apos;CTF Player | @UC Baguio Representatives&apos;</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         June 26, 2024
@@ -28,7 +28,7 @@ const Hack4Gov = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Showcased adaptability and a commitment to continuous learning by successfully upskilling in cybersecurity, applying these new skills alongside my software development/engineering expertise to contribute significantly to the teams performance.
+          Showcased adaptability and a commitment to continuous learning by successfully upskilling in cybersecurity, applying these new skills alongside my software development/engineering expertise to contribute significantly to the team&apos;s performance.
         </li>
       </ul>
     </motion.div>
