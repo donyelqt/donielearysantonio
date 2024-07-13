@@ -80,6 +80,7 @@ const Experience = () => {
         {workFreelance && <Freelance />}
         {workUniversityOfTheCordilleras && <UniversityOfTheCordilleras />}
         {workPhinmaUniversityOfPangasinan && <PhinmaUniversityOfPangasinan />}
+        {workHack4Gov && <Hack4Gov />}
       </div>
     </section>
   );
