@@ -65,8 +65,8 @@ const Experience = () => {
               PHINMA Upang
             </li>
             <li 
-              
-              className={`${workPhinmaUniversityOfPangasinan ?"border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#003153] py-3 text-sm cursor-pointer duration-300 px-8 font-medium"
+              onClick={handleHack4Gov} 
+              className={`${workHack4Gov ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-[#003153] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
             >
               DICT HackForGov3 2024
             </li>
