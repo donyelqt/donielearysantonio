@@ -36,7 +36,7 @@ const Experience = () => {
       setWorkFreelance(false);
       setWorkUniversityOfTheCordilleras(false);
       setWorkPhinmaUniversityOfPangasinan(false);
-      setWorkHack4Gov(true)
+      setWorkHack4Gov(true);
   };
   return (
     <section 
