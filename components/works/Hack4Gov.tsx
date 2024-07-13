@@ -22,7 +22,7 @@ const Hack4Gov = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Collaborated effectively with a diverse team during the DICT HackForGov3 2024 Capture the Flag (CTF) competition, demonstrating strong teamwork and problem-solving skills to tackle complex cybersecurity challenges.
+          Collaborated effectively with a diverse team during the DICT HackForGov3 2024 Capture the Flag competition, demonstrating strong teamwork and problem-solving skills to tackle complex cybersecurity challenges.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textCyan mt-1">
