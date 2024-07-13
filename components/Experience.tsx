@@ -56,7 +56,7 @@ const Experience = () => {
               
               className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#003153] py-3 text-sm cursor-pointer duration-300 px-8 font-medium"
             >
-              in progress...
+              DICT HackForGov3 2024
             </li>
             <li 
               
