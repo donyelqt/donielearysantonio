@@ -22,13 +22,22 @@ const Experience = () => {
         setWorkFreelance(false);
         setWorkUniversityOfTheCordilleras(true);
         setWorkPhinmaUniversityOfPangasinan(false);
+        setWorkHack4Gov(false);
     };
 
     const handlePhinmaUniversityOfPangasinan = () => {
         setWorkFreelance(false);
         setWorkUniversityOfTheCordilleras(false);
         setWorkPhinmaUniversityOfPangasinan(true);
+        setWorkHack4Gov(false)
     };
+
+    const handleHack4Gov = () => {
+      setWorkFreelance(false);
+      setWorkUniversityOfTheCordilleras(false);
+      setWorkPhinmaUniversityOfPangasinan(false);
+      setWorkHack4Gov(true)
+  };
   return (
     <section 
       id="experience" 
