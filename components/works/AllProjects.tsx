@@ -40,7 +40,7 @@ const AllProjects = () => {
             <ProjectsCard 
               title="UC GastroBaguio - Consultation"
               des="A full-stack univ healthcare web app and the first online platform of UC for hospitals that you can use to schedule your consultation for health-related services in hospitals in Baguio City quickly and efficiently."
-              listItem={["NextJS", "Tailwind CSS", "NodeJS"]}  
+              listItem={["NextJS", "Tailwind CSS", "NodeJS", "Strapi"]}  
               link="https://ucgastrobaguio-consultation.vercel.app/"         
             />
         </div>

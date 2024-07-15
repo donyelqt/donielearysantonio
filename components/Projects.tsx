@@ -221,6 +221,7 @@ const Projects = () => {
             <li>NextJS</li>
             <li>Tailwind CSS</li>
             <li>NodeJS</li>
+            <li>Strapi</li>
           </ul>
           <div className="text-2xl flex gap-4 ">
             <a className="hover:text-textCyan duration-300" 
