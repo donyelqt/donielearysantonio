@@ -28,7 +28,7 @@ const About = () => {
             A highly motivated <span className="text-textCyan">18-year-old </span> eagerness to learn and improve skills in the growing tech industry and to adapt to every change in <span className="text-textCyan">technologies and sciences.</span>
           </p>
           <p>
-            I also currently learning about <span className="text-textCyan">data science, artificial intelligence, machine learning, cybersecurity</span> through <span className="text-textCyan">CTF challenges.</span>
+            I also currently learning about <span className="text-textCyan">data science, artificial intelligence, machine learning, </span>and <span className="text-textCyan">cybersecurity</span> through <span className="text-textCyan">CTF challenges.</span>
           </p>
           <p>
             Here are the <span className="text-textCyan">technologies</span> I have played with.  I am currently exploring more technologies to <span className="text-textCyan">develop innovative ideas</span> and to <span className="text-textCyan">learn more. </span>
