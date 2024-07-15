@@ -21,9 +21,9 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.7 }} 
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col text-textWhite"
       >
-        Doniele Arys Antonio. 🧑🏻‍💻🚀👾{" "} 
+        Doniele Arys Antonio.{" "} 
         <span className="text-textBlack mt-2 lgl:mt-4">
-          I create and innovate software solutions.
+          React & Mobile Developer 🧑🏻‍💻🚀👾
 
         </span>
       </motion.h1>
