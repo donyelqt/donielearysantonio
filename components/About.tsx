@@ -26,9 +26,9 @@ const About = () => {
             Hello, I am <span className="text-textCyan">Doniele Arys Antonio,</span> currently <span className="text-textCyan">focusing on software development. </span>
             I am currently a <span className="text-textCyan">student computer scientist</span> in the center of excellence in ITE at the <span className="text-textCyan">University of the Cordilleras. </span> 
             A highly motivated <span className="text-textCyan">18-year-old </span> eagerness to learn and improve skills in the growing tech industry and to adapt to every change in <span className="text-textCyan">technologies and sciences.</span>
-            <p>
-              I also currently learning about <span className="text-textCyan">cybersecurity</span> through <span className="text-textCyan">CTC challenges.</span>
-            </p>
+          </p>
+          <p>
+            I also currently learning about <span className="text-textCyan">cybersecurity</span> through <span className="text-textCyan">CTC challenges.</span>
           </p>
           <p>
             Here are the <span className="text-textCyan">technologies</span> I have played with.  I am currently exploring more technologies to <span className="text-textCyan">develop innovative ideas</span> and to <span className="text-textCyan">learn more. </span>
