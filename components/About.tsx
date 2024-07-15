@@ -24,7 +24,7 @@ const About = () => {
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
             Hello, I am <span className="text-textCyan">Doniele Arys Antonio,</span> currently <span className="text-textCyan">focusing on software development. </span>
-            I am currently a <span className="text-textCyan">student computer scientist</span> in the center of excellence in ITE at the <span className="text-textCyan">University of the Cordilleras. </span> 
+            I am currently a 1st year <span className="text-textCyan">student computer scientist</span> in the center of excellence in ITE at the <span className="text-textCyan">University of the Cordilleras. </span> 
             A highly motivated <span className="text-textCyan">18-year-old </span> eagerness to learn and improve skills in the growing tech industry and to adapt to every change in <span className="text-textCyan">technologies and sciences.</span>
           </p>
           <p>
