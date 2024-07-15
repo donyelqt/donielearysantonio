@@ -32,9 +32,8 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}  
         className="text-base md:max-w-[600px] text-textDark font-medium"     
       >
-        I am a student computer scientist and freelance software engineer based in Baguio City, Philippines. 
-        I am highly interested in software engineering, data science, artificial intelligence, machine learning, and cybersecurity 
-        Bill Gates, Mark Zuckerberg, Larry Page, Sergey Brin, Elon Musks, and Jeff Bezos success in the tech industry inspired and influenced me to do programming.{""}
+       Hi! I am Doniele Arys Antonio, a student computer scientist and freelance software engineer based in Baguio City, Philippines. I love exploring software engineering, data science, artificial intelligence, machine learning, and cybersecurity. 
+       The success stories of Bill Gates, Mark Zuckerberg, Larry Page, Sergey Brin, Elon Musk, and Jeff Bezos have greatly inspired me to pursue programming and aim high in my career. {""}
       </motion.p>
       <motion.a
         href="mailto:arysantonio363@gmail.com"
