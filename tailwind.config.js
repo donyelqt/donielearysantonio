@@ -44,7 +44,7 @@ module.exports = {
         hoverColor: "rgba(100,255,218,0.1)",
       },
       backgroundImage: {
-        bodyGradient: "linear-gradient(to bottom, #002147, #100c08)",
+        bodyGradient: "linear-gradient(to bottom, #002147, #080808)",
       },
     },
   },
