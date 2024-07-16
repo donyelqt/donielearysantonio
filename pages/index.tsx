@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo2.ico" />
       </Head>
-      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight
+      <main className="w-full h-screen font-bodyFont bg-bodyGradient text-textLight
       overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
         <Navbar />
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">

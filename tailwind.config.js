@@ -42,6 +42,9 @@ module.exports = {
         textMblack: "#353935",
         hoverColor: "rgba(100,255,218,0.1)",
       },
+      backgroundImage: {
+        bodyGradient: "linear-gradient(to bottom, #002147, #000)",
+      },
     },
   },
   plugins: [require("tailwind-scrollbar")],
