@@ -4,7 +4,7 @@ const Banner = () => {
   return ( 
     <section 
       id="home" 
-      className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
+      className="justify-center items-center max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
     >
       
       <motion.h3 
@@ -19,7 +19,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }} 
         animate={{ y: 0, opacity: 1 }} 
         transition={{ duration: 0.5, delay: 0.7 }} 
-        className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col text-textWhite"
+        className="justify-center items-center text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col text-textWhite"
       >
         Doniele Arys Antonio.{" "} 
         <span className="text-textBlack mt-2 lgl:mt-4">
@@ -30,7 +30,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }} 
         animate={{ y: 0, opacity: 1 }} 
         transition={{ duration: 0.5, delay: 0.8 }}  
-        className="text-base md:max-w-[600px] text-textDark font-medium"     
+        className="text-center text-base md:max-w-[600px] text-textDark font-medium"     
       >
        Hi! I am Doniele Arys Antonio, a student computer scientist and freelance software engineer based in Baguio City, Philippines. I love exploring software engineering, data science, artificial intelligence, machine learning, and cybersecurity. 
        The success stories of Bill Gates, Mark Zuckerberg, Larry Page, Sergey Brin, Elon Musk, and Jeff Bezos have greatly inspired me to pursue programming and aim high in my career. {""}
