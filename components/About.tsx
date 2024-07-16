@@ -28,7 +28,7 @@ const About = () => {
             A highly motivated <span className="text-textCyan">18-year-old </span> eagerness to learn and improve skills in the growing tech industry and to adapt to every change in <span className="text-textCyan">technologies and sciences.</span>
           </p>
           <p>
-            My journey as a developer started at a very young age. When I was a kid, I used to use software apps to hack wifi in my neighborhood. When I entered college, I took programming seriously and became a self-taught developer.
+            My journey as a developer started at a <span className="text-textCyan">very young age</span>. When I was a kid, I used to use software apps to <span className="text-textCyan">hack wifi </span>in my neighborhood. When I entered college, I took <span className="text-textCyan">programming seriously</span> and became a <span className="text-textCyan">self-taught developer</span>.
           </p>
           <p>
             I also currently learning about <span className="text-textCyan">data science, artificial intelligence, machine learning, </span>and <span className="text-textCyan">cybersecurity</span> through <span className="text-textCyan">CTF challenges.</span>
