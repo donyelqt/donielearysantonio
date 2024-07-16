@@ -22,7 +22,7 @@ const Banner = () => {
         className="justify-center items-center text-center text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col text-textWhite"
       >
         Doniele Arys Antonio.{" "} 
-        <span className="text-center text-textBlack mt-2 lgl:mt-4">
+        <span className="text-center text-textSpace mt-2 lgl:mt-4">
           React & Mobile Developer. 🧑🏻‍💻🚀👾
         </span>
       </motion.h1>

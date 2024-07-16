@@ -40,10 +40,11 @@ module.exports = {
         textBlack: "#000",
         textWhite: "#ffffff",
         textMblack: "#353935",
+        textSpace: "#000",
         hoverColor: "rgba(100,255,218,0.1)",
       },
       backgroundImage: {
-        bodyGradient: "linear-gradient(to bottom, #002147, #000)",
+        bodyGradient: "linear-gradient(to bottom, #002147, #100c08)",
       },
     },
   },
