@@ -31,7 +31,7 @@ const About = () => {
             My journey as a <span className="text-textCyan">developer</span> started at a <span className="text-textCyan">very young age</span>. When I was a kid, I used to use software apps to <span className="text-textCyan">hack wifi </span>in my neighborhood. When I entered college, I took <span className="text-textCyan">programming seriously</span> and became a <span className="text-textCyan">self-taught developer</span>.
           </p>
           <p>
-            I also currently learning about <span className="text-textCyan">data science, artificial intelligence, machine learning, </span>and <span className="text-textCyan">cybersecurity</span> through <span className="text-textCyan">CTF challenges.</span>
+            I am also currently learning about <span className="text-textCyan">data science, artificial intelligence, machine learning, </span>and <span className="text-textCyan">cybersecurity</span> through <span className="text-textCyan">CTF challenges.</span>
           </p>
           <p>
             Here are the <span className="text-textCyan">technologies</span> I have played with.  I am currently exploring more technologies to <span className="text-textCyan">develop innovative ideas</span> and to <span className="text-textCyan">learn more. </span>
