@@ -12,7 +12,7 @@ const Freelance = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Developer <span className="text-textCyan tracking-wide">(Freelance)</span>
+        Frontend - Developer <span className="text-textCyan tracking-wide">(Freelance)</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         2023 - Present
@@ -22,13 +22,7 @@ const Freelance = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Developed a visually stunning and fully responsive portfolio website and full-stack web app using HTML5, CSS3, and JavaScript ES7+.
-        </li>
-        <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textCyan mt-1">
-            <AiFillThunderbolt />
-          </span>{""}
-          I developed my personal website and a full-stack website application using React-based technologies.
+            Developed and designed a visually stunning and fully responsive website application utilizing react-based technologies and deployed in Vercel  
         </li>
       </ul>
     </motion.div>
