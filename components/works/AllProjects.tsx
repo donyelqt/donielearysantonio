@@ -14,7 +14,7 @@ const AllProjects = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
             <ProjectsCard 
-              title="Netflix Clone by Doniele"
+              title="Netflix Clone"
               des="A full-stack website application Netflix clone utilized by React, Tailwind CSS, NextJS, Prisma, Supabase, NextAuth, and deployed in Vercel."
               listItem={["React", "Tailwind CSS", "NextJS", "Prisma", "Supabase", "NextAuth", "Vercel"]}  
               link="https://netflixbydoniele.vercel.app/"         
