@@ -27,7 +27,7 @@ const UniversityOfTheCordilleras = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""} 
-          Currently leading a development team of 3 members for our technopreneurship project and am the only one handling the development of the web app. I successfully got my ideas approved to develop a website application called the UC GastroBaguio web app community for all hospitals based in Baguio City, Philippines, for gastroenteritis, and it is almost done in development.
+          I lead a small team of three for our technopreneurship project, and I handle all the web app development. We proposed and developed the UC GastroBaguio web app, a community platform for hospitals in Baguio City, Philippines, focusing on solving gastroenteritis cases.
         </li>
       </ul>
     </motion.div>
