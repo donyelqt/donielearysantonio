@@ -22,7 +22,7 @@ const Freelance = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-            Developed and designed a visually stunning and fully responsive website application utilizing react-based technologies and deployed in Vercel  
+            Developed and designed a visually stunning and fully responsive website application utilizing react-based technologies and deployed in Vercel.  
         </li>
       </ul>
     </motion.div>
