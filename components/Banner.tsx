@@ -19,11 +19,11 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }} 
         animate={{ y: 0, opacity: 1 }} 
         transition={{ duration: 0.5, delay: 0.7 }} 
-        className="justify-center items-center text-center text-2xl lgl:text-5xl font-titleFont font-semibold flex flex-col text-textWhite"
+        className="justify-center items-center text-center text-3xl lgl:text-5xl font-titleFont font-semibold flex flex-col text-textWhite"
       >
-        Doniele Arys Antonio.{" "} 
+        Doniele Arys Antonio. 🧑🏻‍💻🚀👾{" "} 
         <span className="text-center text-textSpace mt-2 lgl:mt-4 typewriter">
-          React & Mobile Developer. 🧑🏻‍💻🚀👾
+          React & Mobile Developer.
         </span> 
       </motion.h1>
       <motion.p
