@@ -11,7 +11,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }} 
         animate={{ y: 0, opacity: 1 }} 
         transition={{ duration: 0.5, delay: 0.6 }} 
-        className="text-2xl font-titleFont tracking-wide text-textCyan"
+        className="text-xl font-titleFont tracking-wide text-textCyan"
       >
         Hello, World! 🧑🏻‍💻🚀👾
       </motion.h3>
