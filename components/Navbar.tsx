@@ -57,7 +57,7 @@ function handleClick(e:any){
             <Link 
               href="#home" 
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textPurple cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link"
             >
              <motion.li 
                initial={{ y: -10, opacity: 0}} 
@@ -153,7 +153,7 @@ function handleClick(e:any){
               <motion.div initial={{ x: 20, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.1 }} 
-                className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-gradient-to-tl from-slate-900 via-purple-900 to-slate-900 flex flex-col items-center px-4 py-10 relative" // remove bg-[#002147]
+                className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-gradient-to-tl from-slate-900 via-blue-900 to-slate-900 flex flex-col items-center px-4 py-10 relative" // remove bg-[#002147]
               >
                 <MdOutlineClose 
                   onClick={() => setShowMenu(false)} 
