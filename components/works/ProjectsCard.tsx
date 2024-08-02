@@ -11,7 +11,7 @@ interface Props{
 const ProjectsCard = ({ title, des, listItem, link }: Props) => { // remove bg-[#003153]
   return (
     <a href={link} target="_blank"> 
-        <div className="w-full h-80 rounded-lg bg-gradient-to-tl from-slate-900 via-purple-950 to-slate-900 p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group">
+        <div className="w-full h-80 rounded-lg bg-gradient-to-tl from-slate-900 via-blue-950 to-slate-900 p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group">
         <div className="flex justify-between items-center">
           <FaRegFolder className="text-4xl text-textCyan" />
           <RxOpenInNewWindow className="text-4xl hover:text-textCyan" />
