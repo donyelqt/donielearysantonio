@@ -40,9 +40,9 @@ function handleClick(e:any){
      setShowMenu(false);
   }
 }
-// remove shadow-navbarShadow and bg-bodyColor
+// remove bg-bodyColor2
   return ( 
-    <div className="w-full h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor2 shadow-navbarShadow
+    <div className="w-full h-20 lg:h-[12vh] sticky top-0 z-50 shadow-navbarShadow
     px-10">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div 
@@ -153,7 +153,7 @@ function handleClick(e:any){
               <motion.div initial={{ x: 20, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.1 }} 
-                className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#002147] flex flex-col items-center px-4 py-10 relative"
+                className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-gradient-to-tl from-slate-900 via-purple-900 to-slate-900 flex flex-col items-center px-4 py-10 relative" // remove bg-[#002147]
               >
                 <MdOutlineClose 
                   onClick={() => setShowMenu(false)} 
