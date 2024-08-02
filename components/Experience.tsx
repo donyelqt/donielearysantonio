@@ -49,31 +49,31 @@ const Experience = () => {
         <ul className="md:w-40 flex flex-col">
             <li 
               onClick={handleFreelance} 
-              className={`${workFreelance ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-[#003153] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              className={`${workFreelance ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-purple-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
             >
               FREELANCE
             </li>
             <li 
               onClick={handleUniversrityOfTheCordilleras} 
-              className={`${workUniversityOfTheCordilleras ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-[#003153] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              className={`${workUniversityOfTheCordilleras ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-purple-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
             >
               UNIVERSITY OF THE CORDILLERAS
             </li>
             <li 
               onClick={handlePhinmaUniversityOfPangasinan} 
-              className={`${workPhinmaUniversityOfPangasinan ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-[#003153] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              className={`${workPhinmaUniversityOfPangasinan ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-purple-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
             >
               PHINMA Upang
             </li>
             <li 
               onClick={handleHack4Gov} 
-              className={`${workHack4Gov ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-[#003153] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              className={`${workHack4Gov ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-purple-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
             >
               DICT HackForGov3 2024
             </li>
             <li 
               
-              className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#003153] py-3 text-sm cursor-pointer duration-300 px-8 font-medium"
+              className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-purple-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium" // remove hover:bg-[#003153]
             >
               internship soon...
             </li>
