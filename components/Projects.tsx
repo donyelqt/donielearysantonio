@@ -1,6 +1,6 @@
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
-import { donieleAI, netflixbydonieleImg } from "@/public/assets";
+import { donieleAI, edenmobile, netflixbydonieleImg } from "@/public/assets";
 import { BsGithub } from "react-icons/bs";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import { portfolioUniversityProject, ucgastrobaguiomockup, ucgastroconsultmockup, netflixbydonielemockup, donieleaimockup, donielemockup } from "@/public/assets";
@@ -250,7 +250,7 @@ const Projects = () => {
           >
           <div>
             <Image className="w-full h-[375px] object-contain"
-            src={EdenMobile}
+            src={edenmobile}
             alt="EdenMobile"
             />
           </div>
