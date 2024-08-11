@@ -250,8 +250,8 @@ const Projects = () => {
           >
           <div>
             <Image className="w-full h-[375px] object-contain"
-            src={ucgastroconsultmockup}
-            alt="ucgastroconsultmockup"
+            src={EdenMobile}
+            alt="EdenMobile"
             />
           </div>
           </a>
@@ -264,10 +264,8 @@ const Projects = () => {
             A <span className="text-textCyan">full-stack university healthcare website application</span> and the <span className="text-textCyan">first online platform of UC for hospitals </span> that you can use to <span className="text-textCyan">schedule your consultation for health-related services</span> in hospitals in Baguio City <span className="text-textCyan">quickly and efficiently.</span>
           </p>
           <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-            <li>NextJS</li>
-            <li>Tailwind CSS</li>
-            <li>NodeJS</li>
-            <li>Strapi</li>
+            <li>Figma</li>
+            <li>Blender</li>
           </ul>
           <div className="text-2xl flex gap-4 ">
             <a className="hover:text-textCyan duration-300" 
