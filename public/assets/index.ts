@@ -31,11 +31,11 @@ import vercel from "./images/vercel.png"
 import bootstrap from "./images/bootstrap.png"
 import firebase from "./images/firebase.png"
 import kalilinux from "./images/kalilinux.png"
-import edenmobile from './images/edenmobile.png'
 import edengreenhouse from './images/edengreenhouse.png'
+import edensoft from "./images/edensoft.png"
 
 export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
 html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, 
 supabase, postgresql, prisma, scss, ucgastrobaguiomockup, ucgastroconsultmockup,
  netflixbydonielemockup, donieleaimockup, donielemockup, git, github, vercel, 
- bootstrap, firebase, kalilinux, edenmobile, edengreenhouse }
+ bootstrap, firebase, kalilinux, edensoft, edengreenhouse }
