@@ -1,6 +1,6 @@
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
-import { donieleAI, edenmobile, netflixbydonieleImg } from "@/public/assets";
+import { donieleAI, edengreenhouse, edenmobile, netflixbydonieleImg } from "@/public/assets";
 import { BsGithub } from "react-icons/bs";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import { portfolioUniversityProject, ucgastrobaguiomockup, ucgastroconsultmockup, netflixbydonielemockup, donieleaimockup, donielemockup } from "@/public/assets";
@@ -303,9 +303,9 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             Featured Projects
           </p>
-          <h3 className="text-2xl font-bold">Eden: Software Model</h3>
+          <h3 className="text-2xl font-bold">Eden: Hardware Model</h3>
           <p className="bg-[#080808] text-sm md:text-base p-2 md:p-6 rounded-md">
-            A <span className="text-textCyan">mobile application</span> smart controller prototype for our <span className="text-textCyan">hardware model version eden </span> designed to <span className="text-textCyan">support farmers</span>, <span className="text-textCyan">governments</span>, and <span className="text-textCyan">individuals</span> in achieving <span className="text-textCyan">sustainable</span>, <span className="text-textCyan">efficient</span>, and <span className="text-textCyan">successful crop production.</span> 
+            Eden's prototype hardware model is an advanced <span className="text-textCyan">greenhouse hardware model engineered</span> to <span className="text-textCyan">revolutionize agricultural practices</span> by enabling <span className="text-textCyan">sustainable</span> and <span className="text-textCyan">efficient crop production</span>. Designed to cater to the needs of farmers, governments, and individuals, Eden integrates cutting-edge technology to <span className="text-textCyan">optimize the growing environment for a wide variety of crops.</span>
           </p>
           <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
             <li>Figma</li>
