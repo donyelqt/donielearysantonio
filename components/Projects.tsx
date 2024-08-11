@@ -251,7 +251,7 @@ const Projects = () => {
           <div>
             <Image className="w-full h-[375px] object-contain"
             src={edenmobile}
-            alt="EdenMobile"
+            alt="edenmobile"
             />
           </div>
           </a>
@@ -259,9 +259,9 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             Featured Projects
           </p>
-          <h3 className="text-2xl font-bold">Eden</h3>
+          <h3 className="text-2xl font-bold">Eden: Software Model</h3>
           <p className="bg-[#080808] text-sm md:text-base p-2 md:p-6 rounded-md">
-            A <span className="text-textCyan">full-stack university healthcare website application</span> and the <span className="text-textCyan">first online platform of UC for hospitals </span> that you can use to <span className="text-textCyan">schedule your consultation for health-related services</span> in hospitals in Baguio City <span className="text-textCyan">quickly and efficiently.</span>
+            A <span className="text-textCyan">mobile application</span> smart controller prototype for our <span className="text-textCyan">hardware model version eden </span> designed to <span className="text-textCyan">support farmers</span>, <span className="text-textCyan">governments</span>, and <span className="text-textCyan">individuals</span> in achieving <span className="text-textCyan">sustainable</span>, <span className="text-textCyan">efficient</span>, and <span className="text-textCyan">successful crop production.</span> 
           </p>
           <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
             <li>Figma</li>
@@ -275,7 +275,51 @@ const Projects = () => {
               <BsGithub />
             </a>
             <a className="hover:text-textCyan duration-300" 
-               href="https://ucgastrobaguio-consultation.vercel.app/" 
+               href="" 
+               target="_blank"
+            >
+              <RxOpenInNewWindow />
+            </a>
+          </div>
+        </div>
+       </div>
+      </div>
+      {/* Project Seven */}
+      <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="flex flex-col xl:flex-row gap-6">
+          <a 
+            className="w-full xl:w-1/2 h-auto relative group" 
+            href="" 
+            target="_blank"
+          >
+          <div>
+            <Image className="w-full h-[375px] object-contain"
+            src={edengreenhouse}
+            alt="edengreenhouse"
+            />
+          </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+          <p className="font-titleFont text-textCyan text-sm tracking-wide">
+            Featured Projects
+          </p>
+          <h3 className="text-2xl font-bold">Eden: Software Model</h3>
+          <p className="bg-[#080808] text-sm md:text-base p-2 md:p-6 rounded-md">
+            A <span className="text-textCyan">mobile application</span> smart controller prototype for our <span className="text-textCyan">hardware model version eden </span> designed to <span className="text-textCyan">support farmers</span>, <span className="text-textCyan">governments</span>, and <span className="text-textCyan">individuals</span> in achieving <span className="text-textCyan">sustainable</span>, <span className="text-textCyan">efficient</span>, and <span className="text-textCyan">successful crop production.</span> 
+          </p>
+          <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <li>Figma</li>
+            <li>Blender</li>
+          </ul>
+          <div className="text-2xl flex gap-4 ">
+            <a className="hover:text-textCyan duration-300" 
+               href="" 
+               target="_blank"
+            >
+              <BsGithub />
+            </a>
+            <a className="hover:text-textCyan duration-300" 
+               href="" 
                target="_blank"
             >
               <RxOpenInNewWindow />
