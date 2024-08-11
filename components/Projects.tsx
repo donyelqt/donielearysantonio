@@ -251,7 +251,7 @@ const Projects = () => {
           <div>
             <Image className="w-full h-[375px] object-contain"
             src={edensoft}
-            alt="edensoft"
+            alt="edensofts"
             />
           </div>
           </a>
