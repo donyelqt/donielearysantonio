@@ -31,6 +31,7 @@ import vercel from "./images/vercel.png"
 import bootstrap from "./images/bootstrap.png"
 import firebase from "./images/firebase.png"
 import kalilinux from "./images/kalilinux.png"
+import EdenMobile from "./images/EdenMonbile.png"
 
 export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
 html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, 
