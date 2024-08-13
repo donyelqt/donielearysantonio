@@ -23,7 +23,7 @@ const Banner = () => {
       >
         Doniele Arys Antonio.{" "} 
         <span className="text-center text-textSpace mt-2 lgl:mt-4 typewriter">
-          React & Mobile Developer.
+          Software Engineer 💻
         </span> 
       </motion.h1>
       <motion.p
