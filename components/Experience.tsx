@@ -4,6 +4,7 @@ import Freelance from "./works/Freelance";
 import UniversityOfTheCordilleras from "./works/UniversityOfTheCordilleras";
 import PhinmaUniversityOfPangasinan from "./works/PhinmaUniversityOfPangasinan";
 import Hack4Gov from "./works/Hack4Gov";
+import PeraPinoy from "./works/PeraPinoy";
 
 const Experience = () => {
     const [workFreelance, setWorkFreelance] = useState(true);
