@@ -40,7 +40,7 @@ const PeraPinoy = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Implement and integrate PeraPinoyGPT, an AI-powered chatbot utilizing Google AI APIs, to provide personalized financial advice and support and enhance the user experience for our Filipino users.
+          Implement and integrate PeraPinoyGPT, an AI-powered chatbot utilizing Google AI/Gemini APIs, to provide personalized financial advice and support and enhance the user experience for our Filipino users.
         </li>
       </ul>
     </motion.div>
