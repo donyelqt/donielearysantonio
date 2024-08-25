@@ -28,7 +28,7 @@ const PeraPinoy = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Implement a visually stunning Philippine-inspired theme for the frontend for a better UI/UX experience for Filipino users.
+          Implement a visually stunning Philippine-inspired theme for the frontend for a better UI/UX experience and engagement for Filipino users.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textCyan mt-1">
