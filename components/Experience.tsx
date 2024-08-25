@@ -10,12 +10,14 @@ const Experience = () => {
     const [workUniversityOfTheCordilleras, setWorkUniversityOfTheCordilleras] = useState(false);
     const [workPhinmaUniversityOfPangasinan, setWorkPhinmaUniversityOfPangasinan] = useState(false);
     const [workHack4Gov, setWorkHack4Gov] = useState(false);
+    const [workPeraPinoy, setWorkPeraPinoy] = useState(false);
 
     const handleFreelance = () => {
         setWorkFreelance(true);
         setWorkUniversityOfTheCordilleras(false);
         setWorkPhinmaUniversityOfPangasinan(false);
         setWorkHack4Gov(false);
+        setWorkPeraPinoy(false);
     };
 
     const handleUniversrityOfTheCordilleras = () => {
@@ -38,6 +40,8 @@ const Experience = () => {
       setWorkPhinmaUniversityOfPangasinan(false);
       setWorkHack4Gov(true);
     };
+
+    const
 
   return (
     <section 
