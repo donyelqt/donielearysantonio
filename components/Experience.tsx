@@ -102,6 +102,7 @@ const Experience = () => {
         {workUniversityOfTheCordilleras && <UniversityOfTheCordilleras />}
         {workPhinmaUniversityOfPangasinan && <PhinmaUniversityOfPangasinan />}
         {workHack4Gov && <Hack4Gov />}
+        {workPeraPinoy && <PeraPinoy />}
       </div>
     </section>
   );
