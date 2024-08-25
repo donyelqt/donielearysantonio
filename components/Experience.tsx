@@ -25,13 +25,15 @@ const Experience = () => {
         setWorkUniversityOfTheCordilleras(true);
         setWorkPhinmaUniversityOfPangasinan(false);
         setWorkHack4Gov(false);
+        setWorkPeraPinoy(false);
     };
 
     const handlePhinmaUniversityOfPangasinan = () => {
         setWorkFreelance(false);
         setWorkUniversityOfTheCordilleras(false);
         setWorkPhinmaUniversityOfPangasinan(true);
-        setWorkHack4Gov(false)
+        setWorkHack4Gov(false);
+        setWorkPeraPinoy(false);
     };
 
     const handleHack4Gov = () => {
@@ -39,9 +41,16 @@ const Experience = () => {
       setWorkUniversityOfTheCordilleras(false);
       setWorkPhinmaUniversityOfPangasinan(false);
       setWorkHack4Gov(true);
+      setWorkPeraPinoy(false);
     };
 
-    const
+    const handlePeraPinoy = () => {
+      setWorkFreelance(false);
+      setWorkUniversityOfTheCordilleras(false);
+      setWorkPhinmaUniversityOfPangasinan(false);
+      setWorkHack4Gov(false);
+      setWorkPeraPinoy(true);
+    }
 
   return (
     <section 
@@ -71,6 +80,12 @@ const Experience = () => {
             </li>
             <li 
               onClick={handleHack4Gov} 
+              className={`${workHack4Gov ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            >
+              DICT HackForGov3 2024
+            </li>
+            <li 
+              onClick={handlePeraPinoy} 
               className={`${workHack4Gov ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
             >
               DICT HackForGov3 2024
