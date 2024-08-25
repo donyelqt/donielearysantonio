@@ -86,9 +86,9 @@ const Experience = () => {
             </li>
             <li 
               onClick={handlePeraPinoy} 
-              className={`${workHack4Gov ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+              className={`${workPeraPinoy ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
             >
-              DICT HackForGov3 2024
+              PeraPinoy!
             </li>
             <li 
               
