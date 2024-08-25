@@ -7,96 +7,103 @@ import Hack4Gov from "./works/Hack4Gov";
 import PeraPinoy from "./works/PeraPinoy";
 
 const Experience = () => {
-    const [workFreelance, setWorkFreelance] = useState(true);
-    const [workUniversityOfTheCordilleras, setWorkUniversityOfTheCordilleras] = useState(false);
-    const [workPhinmaUniversityOfPangasinan, setWorkPhinmaUniversityOfPangasinan] = useState(false);
-    const [workHack4Gov, setWorkHack4Gov] = useState(false);
-    const [workPeraPinoy, setWorkPeraPinoy] = useState(false);
+  const [workPeraPinoy, setWorkPeraPinoy] = useState(true);
+  const [workFreelance, setWorkFreelance] = useState(false);
+  const [workUniversityOfTheCordilleras, setWorkUniversityOfTheCordilleras] = useState(false);
+  const [workPhinmaUniversityOfPangasinan, setWorkPhinmaUniversityOfPangasinan] = useState(false);
+  const [workHack4Gov, setWorkHack4Gov] = useState(false);
+  
 
-    const handleFreelance = () => {
-        setWorkFreelance(true);
-        setWorkUniversityOfTheCordilleras(false);
-        setWorkPhinmaUniversityOfPangasinan(false);
-        setWorkHack4Gov(false);
-        setWorkPeraPinoy(false);
-    };
+  const handlePeraPinoy = () => {
+    setWorkPeraPinoy(true);
+    setWorkFreelance(false);
+    setWorkUniversityOfTheCordilleras(false);
+    setWorkPhinmaUniversityOfPangasinan(false);
+    setWorkHack4Gov(false);
+    
+  }
 
-    const handleUniversrityOfTheCordilleras = () => {
-        setWorkFreelance(false);
-        setWorkUniversityOfTheCordilleras(true);
-        setWorkPhinmaUniversityOfPangasinan(false);
-        setWorkHack4Gov(false);
-        setWorkPeraPinoy(false);
-    };
+  const handleFreelance = () => {
+    setWorkPeraPinoy(false);
+    setWorkFreelance(true);
+    setWorkUniversityOfTheCordilleras(false);
+    setWorkPhinmaUniversityOfPangasinan(false);
+    setWorkHack4Gov(false);
+    
+  };
 
-    const handlePhinmaUniversityOfPangasinan = () => {
-        setWorkFreelance(false);
-        setWorkUniversityOfTheCordilleras(false);
-        setWorkPhinmaUniversityOfPangasinan(true);
-        setWorkHack4Gov(false);
-        setWorkPeraPinoy(false);
-    };
+  const handleUniversrityOfTheCordilleras = () => {
+    setWorkPeraPinoy(false);
+    setWorkFreelance(false);
+    setWorkUniversityOfTheCordilleras(true);
+    setWorkPhinmaUniversityOfPangasinan(false);
+    setWorkHack4Gov(false);
+    
+  };
 
-    const handleHack4Gov = () => {
-      setWorkFreelance(false);
-      setWorkUniversityOfTheCordilleras(false);
-      setWorkPhinmaUniversityOfPangasinan(false);
-      setWorkHack4Gov(true);
-      setWorkPeraPinoy(false);
-    };
+  const handlePhinmaUniversityOfPangasinan = () => {
+    setWorkPeraPinoy(false);
+    setWorkFreelance(false);
+    setWorkUniversityOfTheCordilleras(false);
+    setWorkPhinmaUniversityOfPangasinan(true);
+    setWorkHack4Gov(false);
+  };
 
-    const handlePeraPinoy = () => {
-      setWorkFreelance(false);
-      setWorkUniversityOfTheCordilleras(false);
-      setWorkPhinmaUniversityOfPangasinan(false);
-      setWorkHack4Gov(false);
-      setWorkPeraPinoy(true);
-    }
+  const handleHack4Gov = () => {
+    setWorkPeraPinoy(false);
+    setWorkFreelance(false);
+    setWorkUniversityOfTheCordilleras(false);
+    setWorkPhinmaUniversityOfPangasinan(false);
+    setWorkHack4Gov(true);
+    
+  };
+
+  
 
   return (
-    <section 
-      id="experience" 
+    <section
+      id="experience"
       className="max-w-containerxs mx-auto py-100 lgl:py-40 px-4"
     >
-      <SectionTitle title="EXPERIENCE" titleNO="< >"/>
+      <SectionTitle title="EXPERIENCE" titleNO="< >" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-40 flex flex-col">
-            <li 
-              onClick={handleFreelance} 
-              className={`${workFreelance ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
-            >
-              FREELANCE
-            </li>
-            <li 
-              onClick={handleUniversrityOfTheCordilleras} 
-              className={`${workUniversityOfTheCordilleras ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
-            >
-              UNIVERSITY OF THE CORDILLERAS
-            </li>
-            <li 
-              onClick={handlePhinmaUniversityOfPangasinan} 
-              className={`${workPhinmaUniversityOfPangasinan ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
-            >
-              PHINMA Upang
-            </li>
-            <li 
-              onClick={handleHack4Gov} 
-              className={`${workHack4Gov ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
-            >
-              DICT HackForGov3 2024
-            </li>
-            <li 
-              onClick={handlePeraPinoy} 
-              className={`${workPeraPinoy ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
-            >
-              PeraPinoy!
-            </li>
-            <li 
-              
-              className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium" // remove hover:bg-[#003153]
-            >
-              internship soon...
-            </li>
+          <li
+            onClick={handlePeraPinoy}
+            className={`${workPeraPinoy ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            PeraPinoy!
+          </li>
+          <li
+            onClick={handleFreelance}
+            className={`${workFreelance ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            FREELANCE
+          </li>
+          <li
+            onClick={handleUniversrityOfTheCordilleras}
+            className={`${workUniversityOfTheCordilleras ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            UNIVERSITY OF THE CORDILLERAS
+          </li>
+          <li
+            onClick={handlePhinmaUniversityOfPangasinan}
+            className={`${workPhinmaUniversityOfPangasinan ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            PHINMA Upang
+          </li>
+          <li
+            onClick={handleHack4Gov}
+            className={`${workHack4Gov ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            DICT HackForGov3 2024
+          </li>
+          <li
+
+            className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium" // remove hover:bg-[#003153]
+          >
+            internship soon...
+          </li>
         </ul>
         {workFreelance && <Freelance />}
         {workUniversityOfTheCordilleras && <UniversityOfTheCordilleras />}

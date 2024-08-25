@@ -12,23 +12,35 @@ const PeraPinoy = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        DICT HackForGov 2024 <span className="text-textCyan tracking-wide">CTF Player | UC Baguio Representatives</span>
+      Founder | CTO | Lead Developer <span className="text-textCyan tracking-wide">@PeraPinoy!</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        June 26, 2024
+        January 2024 - Present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Collaborated effectively with a diverse team during the DICT HackForGov3 2024 Capture the Flag competition, demonstrating strong teamwork and problem-solving skills to tackle complex cybersecurity challenges.
+          Implement Clerk Auth for easy to log in with Facebook, Github, and Google.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Showcased adaptability and a commitment to continuous learning by successfully upskilling in cybersecurity, applying these new skills alongside my software development/engineering expertise to contribute significantly to the team&apos;s performance.
+          Develop a visually stunning Philippine-inspired theme for the frontend for a better UI/UX experience for Filipino users.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textCyan mt-1">
+            <AiFillThunderbolt />
+          </span>{""}
+          Implement Neon Console for managing our PostgreSQL database and Drizzle ORM for type-safe, efficient database queries, ensuring seamless performance and scalability.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textCyan mt-1">
+            <AiFillThunderbolt />
+          </span>{""}
+          Implement and integrate PeraPinoyGPT, an AI-powered chatbot utilizing Google APIs, to provide personalized financial advice and support and enhance the user experience for our Filipino users.
         </li>
       </ul>
     </motion.div>
