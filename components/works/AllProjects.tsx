@@ -43,6 +43,18 @@ const AllProjects = () => {
               listItem={["NextJS", "Tailwind CSS", "NodeJS", "Strapi"]}  
               link="https://ucgastrobaguio-consultation.vercel.app/"         
             />
+            <ProjectsCard 
+              title="Eden: Software Model"
+              des="A mobile application smart controller prototype for our hardware model version eden designed to support farmers, governments, and individuals in achieving sustainable, efficient, and successful crop production."
+              listItem={["Figma", "Blender"]}  
+              link=""         
+            />
+            <ProjectsCard 
+              title="Eden: Hardware Model"
+              des="Eden prototype hardware model is an advanced greenhouse hardware model engineered to revolutionize agricultural practices by enabling sustainable and efficient crop production. Designed to cater to the needs of farmers, governments, and individuals, Eden integrates cutting-edge technology to optimize the growing environment for a wide variety of crops."
+              listItem={["Figma", "Blender"]}  
+              link=""         
+            />
         </div>
     </div>
   );
