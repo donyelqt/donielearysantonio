@@ -36,7 +36,7 @@ const Banner = () => {
        The success stories of Bill Gates, Mark Zuckerberg, Larry Page, Sergey Brin, Elon Musk, and Jeff Bezos have greatly inspired me to pursue programming and aim high in my career. {""}
       </motion.p>
       <motion.a
-        href="mailto:arysantonio363@gmail.com"
+        href="mailto:arysantonio123@gmail.com"
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.9 }}
