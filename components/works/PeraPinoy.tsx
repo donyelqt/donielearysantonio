@@ -15,7 +15,7 @@ const PeraPinoy = () => {
       Founder | CTO | Lead Developer <span className="text-textCyan tracking-wide">@PeraPinoy!</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        January 2024 - Present
+        July 2024 - Present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
