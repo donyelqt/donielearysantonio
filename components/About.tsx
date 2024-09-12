@@ -24,11 +24,11 @@ const About = () => {
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
             Hello, I am <span className="text-textCyan">Doniele Arys Antonio,</span> currently <span className="text-textCyan">focusing on software development. </span>
-            I am currently a 1st year <span className="text-textCyan">student computer scientist</span> in the center of excellence in ITE at the <span className="text-textCyan">University of the Cordilleras. </span> 
-            A highly motivated <span className="text-textCyan">18-year-old </span> eagerness to learn and improve skills in the growing tech industry and to adapt to every change in <span className="text-textCyan">technologies and sciences.</span>
+            I am currently a 2nd year <span className="text-textCyan">student computer scientist</span> in the center of excellence in ITE at the <span className="text-textCyan">University of the Cordilleras. </span> 
+            A highly motivated <span className="text-textCyan">19-year-old </span> eagerness to learn and improve skills in the growing tech industry and to adapt to every change in <span className="text-textCyan">technologies and sciences.</span>
           </p>
           <p>
-            My journey as a <span className="text-textCyan">developer</span> started at a <span className="text-textCyan">very young age</span>. When I was a kid, I used to use software apps to <span className="text-textCyan">hack wifi </span>in my neighborhood. When I entered college, I took <span className="text-textCyan">programming seriously</span> and became a <span className="text-textCyan">self-taught developer</span>.
+            My journey as a <span className="text-textCyan">developer</span> started at a <span className="text-textCyan">very young age</span>. When I was a kid, I used to use software apps to <span className="text-textCyan">hack wifi </span>in my neighborhood. When I entered college, I took <span className="text-textCyan">programming seriously</span> and became a <span className="text-textCyan">self-taught developer since 18.</span>.
           </p>
           <p>
             I am also currently learning about <span className="text-textCyan">data science, artificial intelligence, machine learning, </span>and <span className="text-textCyan">cybersecurity</span> through <span className="text-textCyan">CTF challenges.</span>
