@@ -22,7 +22,7 @@ const PeraPinoy = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Implement Clerk Auth for easy to log in with Facebook, Github, and Google.
+          Implement Clerk Auth for easy to log in with Apple ID, Github, and Google.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textCyan mt-1">
@@ -40,7 +40,7 @@ const PeraPinoy = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Implement and integrate PeraPinoyGPT, an AI-powered chatbot utilizing Google AI/Gemini APIs, to provide personalized financial advice and support and enhance the user experience for our Filipino users.
+          Implement and integrate PeraPinoyGPT, an AI-powered chatbot utilizing Google AI/Gemini APIs and SDKs, to provide personalized financial advice and support and enhance the user experience for our Filipino users.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textCyan mt-1">
