@@ -43,7 +43,7 @@ function handleClick(e:any){
 // remove bg-bodyColor2
   return ( 
     <div className="w-full h-20 lg:h-[12vh] sticky top-0 z-50 shadow-navbarShadow
-    px-10">
+    px-10 transition duration-300 ease-in-out backdrop-filter backdrop-blur-md">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div 
           initial={{opacity:0}} 
