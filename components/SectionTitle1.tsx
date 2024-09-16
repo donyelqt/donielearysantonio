@@ -5,7 +5,7 @@ interface Props{
 
 const SectionTitle1 = ({title, titleNO}: Props) => {
   return (
-    <h2 className="font-titleFont text-2xl font-semibold flex items-center">
+    <h2 className="font-titleFont text-4xl text-slate-300 font-semibold flex items-center">
         <span className="text-base md:text-lg text-textCyan mr-2">
           {titleNO}
         </span>
