@@ -39,7 +39,7 @@ const About = () => {
           </p>
           <br/>
           <SectionTitle1 title="TECHNOLOGY STACK" titleNO="< />" />
-          <ul className="max-w-[850px] text-sm font-titleFont grid grid-cols-5 gap-5 mt-6">
+          <ul className="max-w-[850px] text-sm font-titleFont grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-5 mt-6">
             <li className="flex items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover" 
