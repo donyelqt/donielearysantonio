@@ -27,7 +27,7 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
-            Featured Projects
+            
           </p>
           <h3 className="text-2xl font-bold">Netflix Clone</h3>
           <p className="bg-[#080808] text-sm md:text-base p-2 md:p-6 rounded-md">
@@ -76,7 +76,7 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
-            Featured Projects
+            
           </p>
           <h3 className="text-2xl font-bold">Full - Stack Portfolio University Project</h3>
           <p className="bg-[#080808] text-sm md:text-base p-2 md:p-6 rounded-md">
@@ -121,7 +121,7 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
-            Featured Projects
+            
           </p>
           <h3 className="text-2xl font-bold">DonieleAI Image Generator</h3>
           <p className="bg-[#080808] text-sm md:text-base p-2 md:p-6 rounded-md">
@@ -166,7 +166,7 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
-            Featured Projects
+            
           </p>
           <h3 className="text-2xl font-bold">UC GastroBaguio</h3>
           <p className="bg-[#080808] text-sm md:text-base p-2 md:p-6 rounded-md">
@@ -211,7 +211,7 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
-            Featured Projects
+            
           </p>
           <h3 className="text-2xl font-bold">UC GastroBaguio - Consultation</h3>
           <p className="bg-[#080808] text-sm md:text-base p-2 md:p-6 rounded-md">
@@ -257,7 +257,7 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
-            Featured Projects
+            
           </p>
           <h3 className="text-2xl font-bold">Eden: Software Model</h3>
           <p className="bg-[#080808] text-sm md:text-base p-2 md:p-6 rounded-md">
@@ -301,7 +301,7 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
-            Featured Projects
+            
           </p>
           <h3 className="text-2xl font-bold">Eden: Hardware Model</h3>
           <p className="bg-[#080808] text-sm md:text-base p-2 md:p-6 rounded-md">

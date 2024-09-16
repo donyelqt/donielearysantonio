@@ -37,7 +37,7 @@ export default function Home() {
             <About />
             <Experience />
             <Projects />
-            <AllProjects />
+            {/*<AllProjects />*/}
             <Contact />
             <Footer />            
           </div>
