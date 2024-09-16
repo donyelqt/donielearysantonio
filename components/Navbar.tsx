@@ -293,9 +293,9 @@ function handleClick(e:any){
       animate={{ opacity: 1 }}
       transition={{ delay: 1.2, ease: "easeIn" }}
       className="text-sm w-72 tracking-widest text-textCyan text-center mt-4"
-      href="mailto:arysantonio363@gmail.com"
+      href="mailto:arysantonio123@gmail.com"
       >
-        <p>arysantonio363@gmail</p>
+        <p>arysantonio123@gmail</p>
       </motion.a>
                 </div>
               </motion.div>

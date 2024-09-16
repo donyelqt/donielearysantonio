@@ -11,7 +11,7 @@ const Contact = () => {
       <p className="max-w-[600px] text-center text-textDark">
         Have innovative ideas on your mind? Feel free to contact me! Lets bring your innovative ideas to life!
       </p>
-      <a href="mailto:arysantonio363@gmail.com">
+      <a href="mailto:arysantonio123@gmail.com">
         <button className="w-40 h-14 border border-textCyan mt-6 font-titleFont text-sm text-textCyan tracking-wider rounded-md hover:bg-hoverColor duration-300">
         💌 Say Hello!
         </button>
