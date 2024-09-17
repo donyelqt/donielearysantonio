@@ -78,7 +78,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-2xl font-bold">Full - Stack Portfolio University Project</h3>
+          <h3 className="text-2xl font-bold"><span className="text-2xl text-textCyan">02.</span> Full - Stack Portfolio University Project</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-md">
             A <span className="text-textCyan">fully responsive</span> and <span className="text-textCyan">full-stack portfolio website</span> with <span className="text-textCyan">admin login authorization</span> allows you to see your Facebook Messenger messages, SMS messages, and Gmail messages for my university project purposes.
           </p>
