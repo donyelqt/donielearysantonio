@@ -29,7 +29,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-xl md:text-2xl font-bold text-left"><span className="text-2xl text-textCyan">01.</span> Netflix Clone</h3>
+          <h3 className="text-xl md:text-2xl font-bold text-left"><span className="text-xl md:text-2xl text-textCyan">01.</span> Netflix Clone</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-3xl">
             A <span className="text-textCyan">full-stack website application</span> Netflix clone utilized by React, Tailwind CSS, NextJS, Prisma, Supabase, NextAuth, and deployed in Vercel.
           </p>
@@ -78,7 +78,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-xl md:text-2xl font-bold"><span className="text-2xl text-textCyan">02.</span> Full - Stack Portfolio University Project</h3>
+          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">02.</span> Full - Stack Portfolio University Project</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-3xl">
             A <span className="text-textCyan">fully responsive</span> and <span className="text-textCyan">full-stack portfolio website</span> with <span className="text-textCyan">admin login authorization</span> allows you to see your Facebook Messenger messages, SMS messages, and Gmail messages for my university project purposes.
           </p>
@@ -123,7 +123,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-xl md:text-2xl font-bold"><span className="text-2xl text-textCyan">03.</span> DonieleAI Image Generator</h3>
+          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">03.</span> DonieleAI Image Generator</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-3xl">
             A simple <span className="text-textCyan">AI image generator</span> is utilized by HTML5, CSS3, JavaScript ES7+, and the OpenAI API.
           </p>
@@ -168,7 +168,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-xl md:text-2xl font-bold"><span className="text-2xl text-textCyan">04.</span> UC GastroBaguio</h3>
+          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">04.</span> UC GastroBaguio</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-3xl">
             A <span className="text-textCyan">university healthcare website application</span> for the hospitals based in Baguio City, Philippines, to solve the problems in <span className="text-textCyan">gastroenteritis cases</span> in Baguio City.
           </p>
@@ -213,7 +213,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-xl md:text-2xl font-bold"><span className="text-2xl text-textCyan">05.</span> UC GastroBaguio - Consultation</h3>
+          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">05.</span> UC GastroBaguio - Consultation</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-3xl">
             A <span className="text-textCyan">full-stack university healthcare website application</span> and the <span className="text-textCyan">first online platform of UC for hospitals </span> that you can use to <span className="text-textCyan">schedule your consultation for health-related services</span> in hospitals in Baguio City <span className="text-textCyan">quickly and efficiently.</span>
           </p>
@@ -259,7 +259,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-xl md:text-2xl font-bold"><span className="text-2xl text-textCyan">06.</span> Eden: Software Model</h3>
+          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">06.</span> Eden: Software Model</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-3xl">
             A <span className="text-textCyan">mobile application</span> smart controller prototype for our <span className="text-textCyan">hardware model version eden </span> designed to <span className="text-textCyan">support farmers</span>, <span className="text-textCyan">governments</span>, and <span className="text-textCyan">individuals</span> in achieving <span className="text-textCyan">sustainable</span>, <span className="text-textCyan">efficient</span>, and <span className="text-textCyan">successful crop production.</span> 
           </p>
@@ -303,7 +303,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-xl md:text-2xl font-bold"><span className="text-2xl text-textCyan">07.</span> Eden: Hardware Model</h3>
+          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">07.</span> Eden: Hardware Model</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-3xl">
             Eden prototype hardware model is an advanced <span className="text-textCyan">greenhouse hardware model engineered</span> to <span className="text-textCyan">revolutionize agricultural practices</span> by enabling <span className="text-textCyan">sustainable</span> and <span className="text-textCyan">efficient crop production</span>. Designed to cater to the needs of farmers, governments, and individuals, Eden integrates cutting-edge technology to <span className="text-textCyan">optimize the growing environment for a wide variety of crops.</span>
           </p>
