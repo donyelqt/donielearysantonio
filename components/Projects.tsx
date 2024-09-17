@@ -29,7 +29,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-2xl font-bold">Netflix Clone</h3>
+          <h3 className="text-2xl font-bold"><span className="text-2xl text-textCyan">01.</span> Netflix Clone</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-md">
             A <span className="text-textCyan">full-stack website application</span> Netflix clone utilized by React, Tailwind CSS, NextJS, Prisma, Supabase, NextAuth, and deployed in Vercel.
           </p>
