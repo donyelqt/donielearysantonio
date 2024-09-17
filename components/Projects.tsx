@@ -303,7 +303,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-2xl font-bold">Eden: Hardware Model</h3>
+          <h3 className="text-2xl font-bold"><span className="text-2xl text-textCyan">07.</span> Eden: Hardware Model</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-md">
             Eden prototype hardware model is an advanced <span className="text-textCyan">greenhouse hardware model engineered</span> to <span className="text-textCyan">revolutionize agricultural practices</span> by enabling <span className="text-textCyan">sustainable</span> and <span className="text-textCyan">efficient crop production</span>. Designed to cater to the needs of farmers, governments, and individuals, Eden integrates cutting-edge technology to <span className="text-textCyan">optimize the growing environment for a wide variety of crops.</span>
           </p>
