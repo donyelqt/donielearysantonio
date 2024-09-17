@@ -25,7 +25,7 @@ const Projects = () => {
             />
           </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
@@ -74,7 +74,7 @@ const Projects = () => {
             />
           </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
@@ -119,7 +119,7 @@ const Projects = () => {
             />
           </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
@@ -164,7 +164,7 @@ const Projects = () => {
             />
           </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
@@ -209,7 +209,7 @@ const Projects = () => {
             />
           </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
@@ -255,7 +255,7 @@ const Projects = () => {
             />
           </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
@@ -299,7 +299,7 @@ const Projects = () => {
             />
           </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
