@@ -119,12 +119,12 @@ const Projects = () => {
             />
           </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
           <h3 className="text-2xl font-bold"><span className="text-2xl text-textCyan">03.</span> DonieleAI Image Generator</h3>
-          <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-md">
+          <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-3xl">
             A simple <span className="text-textCyan">AI image generator</span> is utilized by HTML5, CSS3, JavaScript ES7+, and the OpenAI API.
           </p>
           <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
