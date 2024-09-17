@@ -25,12 +25,12 @@ const Projects = () => {
             />
           </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-right xl:-ml-16 z-10">
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-2xl font-bold"><span className="text-2xl text-textCyan">01.</span> Netflix Clone</h3>
-          <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-md">
+          <h3 className="text-2xl font-bold text-left"><span className="text-2xl text-textCyan">01.</span> Netflix Clone</h3>
+          <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-3xl">
             A <span className="text-textCyan">full-stack website application</span> Netflix clone utilized by React, Tailwind CSS, NextJS, Prisma, Supabase, NextAuth, and deployed in Vercel.
           </p>
           <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
