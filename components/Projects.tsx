@@ -259,7 +259,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-2xl font-bold">Eden: Software Model</h3>
+          <h3 className="text-2xl font-bold"><span className="text-2xl text-textCyan">06.</span> Eden: Software Model</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-md">
             A <span className="text-textCyan">mobile application</span> smart controller prototype for our <span className="text-textCyan">hardware model version eden </span> designed to <span className="text-textCyan">support farmers</span>, <span className="text-textCyan">governments</span>, and <span className="text-textCyan">individuals</span> in achieving <span className="text-textCyan">sustainable</span>, <span className="text-textCyan">efficient</span>, and <span className="text-textCyan">successful crop production.</span> 
           </p>
