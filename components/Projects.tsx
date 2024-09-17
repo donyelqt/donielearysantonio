@@ -168,7 +168,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-2xl font-bold">UC GastroBaguio</h3>
+          <h3 className="text-2xl font-bold"><span className="text-2xl text-textCyan">04.</span> UC GastroBaguio</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-md">
             A <span className="text-textCyan">university healthcare website application</span> for the hospitals based in Baguio City, Philippines, to solve the problems in <span className="text-textCyan">gastroenteritis cases</span> in Baguio City.
           </p>
@@ -213,7 +213,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-2xl font-bold">UC GastroBaguio - Consultation</h3>
+          <h3 className="text-2xl font-bold"><span clas>05.</span> UC GastroBaguio - Consultation</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-md">
             A <span className="text-textCyan">full-stack university healthcare website application</span> and the <span className="text-textCyan">first online platform of UC for hospitals </span> that you can use to <span className="text-textCyan">schedule your consultation for health-related services</span> in hospitals in Baguio City <span className="text-textCyan">quickly and efficiently.</span>
           </p>
