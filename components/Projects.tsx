@@ -123,7 +123,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-2xl font-bold">DonieleAI Image Generator</h3>
+          <h3 className="text-2xl font-bold"><span className="text-2xl text-textCyan">03.</span> DonieleAI Image Generator</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-2 md:p-6 rounded-md">
             A simple <span className="text-textCyan">AI image generator</span> is utilized by HTML5, CSS3, JavaScript ES7+, and the OpenAI API.
           </p>
