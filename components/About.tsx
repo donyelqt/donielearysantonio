@@ -308,14 +308,14 @@ const About = () => {
         </div>
         <div className="w-full lgl:w-1/3 h-100 relative group">
           <div className=" w-full h-100 -left-6 -top-0 rounded-lg">
-            <div className="w-full h-full relative z-20 pl-6 lgl:pl-6">
+            <div className="w-full h-full relative z-20 pl-0 lgl:pl-0">
               <Image 
                 className="rounded-2xl h-full object-cover" 
                 src={donieleprof} 
                 alt="donieleprof"
                 style={{ height: "350px", width: "350px" }}
               />
-              <div className="hidden lgl:inline-block absolute w-full h-full bg-black/20 rounded-2xl top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="hidden lgl:inline-block absolute w-full h-full bg-textLight/5 rounded-2xl top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
         </div>
