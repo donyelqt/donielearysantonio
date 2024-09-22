@@ -46,7 +46,7 @@ const PeraPinoy = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Implement all the features, including the dashboard with LineChart, budget and expense tracking, forecasting, expense alert, savings reward system, and a PeraPinoyGPT.
+          Implement all the features, including the dashboard with LineChart, budget and expense tracking, commodity forecasting, expense alert, savings reward system, and a PeraPinoyGPT.
         </li>
       </ul>
     </motion.div>
