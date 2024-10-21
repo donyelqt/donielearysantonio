@@ -1,6 +1,8 @@
-const CompetitionsAndAwards = () => {
+const CompetitionsandAwards = () => {
     return (
-      <section className="container mx-auto px-4 py-8">
+      <section 
+      id="competitions"
+      className="container mx-auto px-4 py-8">
         <div className="relative wrap overflow-hidden">
           {/* Vertical timeline line */}
           <div className="border-2 absolute border-opacity-20 border-gray-700 h-full left-1/2"></div>
@@ -51,5 +53,5 @@ const CompetitionsAndAwards = () => {
     );
   };
   
-  export default CompetitionsAndAwards;
+  export default CompetitionsandAwards;
   
