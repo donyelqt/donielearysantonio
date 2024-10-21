@@ -17,7 +17,7 @@ const CompetitionsandAwards = () => {
                         <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
                     </div>
                     <div className="order-1 bg-gray-400 rounded-2xl shadow-xl w-5/12 px-6 py-4">
-                        <h3 className="mb-3 font-bold text-gray-800 text-xl">Hack4Gov4 2024</h3>
+                        <h3 className="mb-3 font-bold text-gray-800 text-xl">Hack4Gov4 2024 - UC Representative</h3>
                         <p className="text-gray-700 leading-tight">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisi commodo, aliquet velit ac, dapibus elit.
                         </p>
@@ -41,7 +41,7 @@ const CompetitionsandAwards = () => {
                 {/* Timeline event 3 */}
                 <div className="mb-8 flex justify-between items-center w-full right-timeline">
                     <div className="order-1 w-5/12"></div>
-                    <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-14 h-14 rounded-full">
+                    <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-14 h-14 border-2 rounded-full">
                         <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
                     </div>
                     <div className="order-1 bg-gray-400 rounded-2xl shadow-xl w-5/12 px-6 py-4">
