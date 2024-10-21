@@ -97,6 +97,20 @@ function handleClick(e:any){
             </Link>
             <Link 
               className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              href="#competitions"
+              onClick={handleScroll}
+            >
+              <motion.li
+                initial={{ y: -10, opacity: 0}} 
+                animate={{ y: 0, opacity: 1 }} 
+                transition={{ duration: 0.3 }}
+            >
+                <span className="text-textCyan">03.</span>
+                Competitions and Awards
+             </motion.li>
+            </Link>
+            <Link 
+              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#project"
               onClick={handleScroll}
             >
@@ -105,7 +119,7 @@ function handleClick(e:any){
                 animate={{ y: 0, opacity: 1 }} 
                 transition={{ duration: 0.4 }}
             >
-                <span className="text-textCyan">03.</span>
+                <span className="text-textCyan">04.</span>
                 Project
              </motion.li>
             </Link>
@@ -119,7 +133,7 @@ function handleClick(e:any){
                 animate={{ y: 0, opacity: 1 }} 
                 transition={{ duration: 0.5 }}
             >
-                <span className="text-textCyan">04.</span>
+                <span className="text-textCyan">05.</span>
                 Contact
              </motion.li>
             </Link>    
@@ -212,6 +226,24 @@ function handleClick(e:any){
             >
                 <span className="text-textCyan">02.</span>
                 Experience
+             </motion.li>
+            </Link>
+            <Link 
+              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              href="#competitions"
+              onClick={handleScroll}
+            >
+              <motion.li
+                initial={{ y: 20, opacity: 0}} 
+                animate={{ y: 0, opacity: 1 }} 
+                transition={{ 
+                  duration: 0.4,
+                  delay: 0.3,
+                  ease: "easeIn"
+                }}
+            >
+                <span className="text-textCyan">03.</span>
+                Competitions and Awards
              </motion.li>
             </Link>
             <Link 
