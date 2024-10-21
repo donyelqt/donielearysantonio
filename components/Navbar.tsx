@@ -106,7 +106,7 @@ function handleClick(e:any){
                 transition={{ duration: 0.3 }}
             >
                 <span className="text-textCyan">03.</span>
-                Competitions and Awards
+                Competitions
              </motion.li>
             </Link>
             <Link 
@@ -243,7 +243,7 @@ function handleClick(e:any){
                 }}
             >
                 <span className="text-textCyan">03.</span>
-                Competitions and Awards
+                Competitions
              </motion.li>
             </Link>
             <Link 
