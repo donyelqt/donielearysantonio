@@ -1,11 +1,12 @@
 import SectionTitle from "./SectionTitle";
+import SectionTitle1 from "./SectionTitle1";
 
 const CompetitionsandAwards = () => {
   return (
     <section
       id="competitions"
-      className="container mx-auto px-4 sm:px-8 md:px-16 py-16 md:py-32">
-      <SectionTitle title="COMPETITIONS AND AWARDS" titleNO="< >" />
+      className="container mx-auto px-4 sm:px-8 md:px-20 py-16 md:py-32">
+      <SectionTitle1 title="COMPETITIONS / AWARDS" titleNO="< >" />
       <div className="relative wrap overflow-hidden">
         {/* Vertical timeline line */}
         <div className="border-2-2 absolute border-opacity-20 border-white h-full border left-1/2"></div>
