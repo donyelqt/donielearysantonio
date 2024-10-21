@@ -9,7 +9,7 @@ const CompetitionsandAwards = () => {
       <SectionTitle1 title="COMPETITIONS / AWARDS" titleNO="< >" />
       <div className="relative wrap overflow-hidden">
         {/* Vertical timeline line */}
-        <div className="border-2-2 absolute border-opacity-20 border-white h-full border left-1/2"></div>
+        <div className="border-2 absolute border-opacity-20 border-white h-full  left-1/2"></div>
 
         {/* Timeline event 1 */}
         <div className="mb-8 flex flex-col md:flex-row justify-between items-center w-full right-timeline">
