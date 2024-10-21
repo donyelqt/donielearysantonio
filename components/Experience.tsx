@@ -71,7 +71,7 @@ const Experience = () => {
     setWorkFreelance(false);
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
-    setWorkHack4Gov(true);
+    setWorkHack4Gov(false);
     setWorkPhilippineStartupChallenge(true);
     
   };
