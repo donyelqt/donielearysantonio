@@ -16,7 +16,7 @@ const CompetitionsandAwards = () => {
           <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 md:w-14 md:h-14 border-2 rounded-full">
             <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
           </div>
-          <div className="order-1 bg-gray-400 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
+          <div className="order-1 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
             <h3 className="mb-3 font-bold text-gray-800 text-lg md:text-xl">
               Hack4Gov4 2024 - UC Representative
             </h3>
@@ -33,7 +33,7 @@ const CompetitionsandAwards = () => {
           <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 md:w-14 md:h-14 border-2 rounded-full">
             <h1 className="mx-auto font-semibold text-lg text-white">2</h1>
           </div>
-          <div className="order-1 bg-gray-400 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
+          <div className="order-1 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
             <h3 className="mb-3 font-bold text-gray-800 text-lg md:text-xl">
               Startup Ignited 6 - Isango Pitching Competition
             </h3>
@@ -50,7 +50,7 @@ const CompetitionsandAwards = () => {
           <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 md:w-14 md:h-14 border-2 rounded-full">
             <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
           </div>
-          <div className="order-1 bg-gray-400 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
+          <div className="order-1 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
             <h3 className="mb-3 font-bold text-gray-800 text-lg md:text-xl">
               Philippine Startup Challenge 9 Semi Finalist
             </h3>
