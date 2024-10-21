@@ -52,6 +52,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(true);
     setWorkHack4Gov(false);
+    setWorkPhilippineStartupChallenge(false);
   };
 
   const handleHack4Gov = () => {
@@ -60,8 +61,20 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(true);
+    setWorkPhilippineStartupChallenge(false);
     
   };
+
+  const handlePhilippineStartupChallenge = () => {
+    setWorkPeraPinoy(false);
+    setWorkFreelance(false);
+    setWorkUniversityOfTheCordilleras(false);
+    setWorkPhinmaUniversityOfPangasinan(false);
+    setWorkHack4Gov(true);
+    setWorkPhilippineStartupChallenge(true);
+    
+  };
+
 
   
 
