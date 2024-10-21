@@ -12,6 +12,8 @@ const Experience = () => {
   const [workUniversityOfTheCordilleras, setWorkUniversityOfTheCordilleras] = useState(false);
   const [workPhinmaUniversityOfPangasinan, setWorkPhinmaUniversityOfPangasinan] = useState(false);
   const [workHack4Gov, setWorkHack4Gov] = useState(false);
+  const [workPhilippineStartupChallenge, setWorkPhilippineStartupChallenge] = useState(false);
+
   
 
   const handlePeraPinoy = () => {
@@ -20,6 +22,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
+    setWorkPhilippineStartupChallenge(false);
     
   }
 
@@ -29,6 +32,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
+    setWorkPhilippineStartupChallenge(false);
     
   };
 
@@ -38,6 +42,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(true);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
+    setWorkPhilippineStartupChallenge(false);
     
   };
 
