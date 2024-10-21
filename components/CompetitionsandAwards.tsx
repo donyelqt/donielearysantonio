@@ -7,7 +7,7 @@ const CompetitionsandAwards = () => {
             id="competitions"
             className="container mx-auto px-4 sm:px-8 md:px-20 py-16 md:py-32">
             <SectionTitle1 title="COMPETITIONS / AWARDS" titleNO="< >" />
-            <div className="relative wrap overflow-hidden">
+            <div className="relative mt-2 wrap overflow-hidden">
                 {/* Vertical timeline line */}
                 <div className="border-2 absolute border-opacity-20 border-white h-full  left-1/2"></div>
 
@@ -19,7 +19,7 @@ const CompetitionsandAwards = () => {
                     </div>
                     <div className="order-1 mt-5 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
                         <h3 className="font-bold text-center text-gray-800 text-lg md:text-xl">
-                            Hack4Gov4 CTF 2024 - UC Representative
+                            Hack4Gov3 CTF 2024 - UC Representative
                         </h3>
                         <p className="text-gray-700 leading-tight">
 
