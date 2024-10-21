@@ -31,7 +31,7 @@ const CompetitionsandAwards = () => {
                         <h1 className="mx-auto font-semibold text-lg text-white">2</h1>
                     </div>
                     <div className="order-1 bg-gray-400 rounded-2xl shadow-xl w-5/12 px-6 py-4">
-                        <h3 className="mb-3 font-bold text-gray-800 text-xl">Philippine Startup Challenge 9</h3>
+                        <h3 className="mb-3 font-bold text-gray-800 text-xl">Startup Ignited 6 - Isango Pitching Competition</h3>
                         <p className="text-gray-700 leading-tight">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisi commodo, aliquet velit ac, dapibus elit.
                         </p>
@@ -45,7 +45,7 @@ const CompetitionsandAwards = () => {
                         <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
                     </div>
                     <div className="order-1 bg-gray-400 rounded-2xl shadow-xl w-5/12 px-6 py-4">
-                        <h3 className="mb-3 font-bold text-gray-800 text-xl">Event Title</h3>
+                        <h3 className="mb-3 font-bold text-gray-800 text-xl">Philippine Startup Challenge 9 Semi Finalist</h3>
                         <p className="text-gray-700 leading-tight">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisi commodo, aliquet velit ac, dapibus elit.
                         </p>
