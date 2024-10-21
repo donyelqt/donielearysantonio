@@ -5,6 +5,7 @@ import UniversityOfTheCordilleras from "./works/UniversityOfTheCordilleras";
 import PhinmaUniversityOfPangasinan from "./works/PhinmaUniversityOfPangasinan";
 import Hack4Gov from "./works/Hack4Gov";
 import PeraPinoy from "./works/PeraPinoy";
+import PhilippineStartupChallenge from "./works/PhilippineStartupChallenge";
 
 const Experience = () => {
   const [workPeraPinoy, setWorkPeraPinoy] = useState(true);
@@ -128,7 +129,7 @@ const Experience = () => {
         {workPhinmaUniversityOfPangasinan && <PhinmaUniversityOfPangasinan />}
         {workHack4Gov && <Hack4Gov />}
         {workPeraPinoy && <PeraPinoy />}
-        {}
+        {workPhilippineStartupChallenge && <PhilippineStartupChallenge />}
       </div>
     </section>
   );
