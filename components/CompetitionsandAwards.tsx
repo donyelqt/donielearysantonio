@@ -18,12 +18,11 @@ const CompetitionsandAwards = () => {
             <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
           </div>
           <div className="order-1 mt-5 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
-            <h3 className="mb-3 font-bold text-gray-800 text-lg md:text-xl">
+            <h3 className="font-bold text-gray-800 text-lg md:text-xl">
               Hack4Gov4 2024 - UC Representative
             </h3>
             <p className="text-gray-700 leading-tight">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum in nisi commodo, aliquet velit ac, dapibus elit.
+              
             </p>
           </div>
         </div>
@@ -35,12 +34,11 @@ const CompetitionsandAwards = () => {
             <h1 className="mx-auto font-semibold text-lg text-white">2</h1>
           </div>
           <div className="order-1 mt-5 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
-            <h3 className="mb-3 font-bold text-gray-800 text-lg md:text-xl">
+            <h3 className="font-bold text-gray-800 text-lg md:text-xl">
               Startup Ignited 6 - Isango Pitching Competition
             </h3>
             <p className="text-gray-700 leading-tight">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum in nisi commodo, aliquet velit ac, dapibus elit.
+              
             </p>
           </div>
         </div>
@@ -52,12 +50,11 @@ const CompetitionsandAwards = () => {
             <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
           </div>
           <div className="order-1 mt-5 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
-            <h3 className="mb-3 font-bold text-gray-800 text-lg md:text-xl">
+            <h3 className="font-bold text-gray-800 text-lg md:text-xl">
               Philippine Startup Challenge 9 Semi Finalist
             </h3>
             <p className="text-gray-700 leading-tight">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum in nisi commodo, aliquet velit ac, dapibus elit.
+              
             </p>
           </div>
         </div>
