@@ -117,8 +117,8 @@ const Experience = () => {
             DICT HackForGov3 2024
           </li>
           <li
-
-            className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium" // remove hover:bg-[#003153]
+            onClick={handlePhilippineStartupChallenge}
+            className={`${workPhilippineStartupChallenge ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`} // remove hover:bg-[#003153]
           >
             internship soon...
           </li>
@@ -128,6 +128,7 @@ const Experience = () => {
         {workPhinmaUniversityOfPangasinan && <PhinmaUniversityOfPangasinan />}
         {workHack4Gov && <Hack4Gov />}
         {workPeraPinoy && <PeraPinoy />}
+        {}
       </div>
     </section>
   );
