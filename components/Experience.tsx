@@ -121,7 +121,7 @@ const Experience = () => {
             onClick={handlePhilippineStartupChallenge}
             className={`${workPhilippineStartupChallenge ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`} // remove hover:bg-[#003153]
           >
-            internship soon...
+            UNLAD Foundation
           </li>
         </ul>
         {workFreelance && <Freelance />}
