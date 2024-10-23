@@ -15,7 +15,7 @@ const PhilippineStartupChallenge = () => {
       Hacker <span className="text-textCyan tracking-wide">@Philippine Startup Challenge 9 </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        July 2024 - Present
+        Oct 2024
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
