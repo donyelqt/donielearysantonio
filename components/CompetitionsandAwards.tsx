@@ -35,7 +35,7 @@ const CompetitionsandAwards = () => {
                     </div>
                     <div className="order-1 mt-5 bg-gray-800 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6 relative">
                         {/* Right-facing arrow for event 2 */}
-                        <div className="absolute -right-4 md:-right-6 lg:-right-10 top-1/2 transform -translate-y-1/2 border-r-[8px] md:border-r-[10px] border-r-transparent border-t-[8px] md:border-t-[10px] border-t-transparent border-l-[8px] md:border-l-[10px] border-l-gray-800 border-b-[8px] md:border-b-[10px] border-b-transparent"></div>
+                        <div className="absolute -right-4 md:-right-6 lg:-right-10 top-1/2 transform -translate-y-1/2 border-r-[8px] md:border-r-[10px] border-r-transparent border-t-[8px] md:border-t-[10px] border-t-transparent border-l-[8px] md:border-l-[10px] border-l-white border-b-[8px] md:border-b-[10px] border-b-transparent"></div>
                         <h3 className="text-center font-bold text-slate-300 text-lg md:text-xl">
                             Philippine Startup Challenge 9 Orientation & Mock Pitching
                         </h3>
@@ -51,7 +51,7 @@ const CompetitionsandAwards = () => {
                     </div>
                     <div className="order-1 mt-5 bg-gray-800 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6 relative">
                         {/* Left-facing arrow for event 3 */}
-                        <div className="absolute -left-4 md:-left-6 lg:-left-10 top-1/2 transform -translate-y-1/2 border-l-[8px] md:border-l-[10px] border-l-transparent border-t-[8px] md:border-t-[10px] border-t-transparent border-r-[8px] md:border-r-[10px] border-r-gray-800 border-b-[8px] md:border-b-[10px] border-b-transparent"></div>
+                        <div className="absolute -left-4 md:-left-6 lg:-left-10 top-1/2 transform -translate-y-1/2 border-l-[8px] md:border-l-[10px] border-l-transparent border-t-[8px] md:border-t-[10px] border-t-transparent border-r-[8px] md:border-r-[10px] border-r-white border-b-[8px] md:border-b-[10px] border-b-transparent"></div>
                         <h3 className="text-center font-bold text-slate-300 text-lg md:text-xl">
                             Startup Ignited 6 - Isango Pitching Competition
                         </h3>
@@ -67,7 +67,7 @@ const CompetitionsandAwards = () => {
                     </div>
                     <div className="order-1 mt-5 bg-gray-800 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6 relative">
                         {/* Right-facing arrow for event 4 */}
-                        <div className="absolute -right-4 md:-right-6 lg:-right-10 top-1/2 transform -translate-y-1/2 border-r-[8px] md:border-r-[10px] border-r-transparent border-t-[8px] md:border-t-[10px] border-t-transparent border-l-[8px] md:border-l-[10px] border-l-gray-800 border-b-[8px] md:border-b-[10px] border-b-transparent"></div>
+                        <div className="absolute -right-4 md:-right-6 lg:-right-10 top-1/2 transform -translate-y-1/2 border-r-[8px] md:border-r-[10px] border-r-transparent border-t-[8px] md:border-t-[10px] border-t-transparent border-l-[8px] md:border-l-[10px] border-l-white border-b-[8px] md:border-b-[10px] border-b-transparent"></div>
                         <h3 className="text-center font-bold text-slate-300 text-lg md:text-xl">
                             Philippine Startup Challenge 9 Semi Finalist
                         </h3>
