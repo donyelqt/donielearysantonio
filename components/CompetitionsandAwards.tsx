@@ -17,8 +17,8 @@ const CompetitionsandAwards = () => {
                     <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 md:w-14 md:h-14 border-2 rounded-full">
                         <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
                     </div>
-                    <div className="order-1 mt-5 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
-                        <h3 className="font-bold text-center text-gray-800 text-lg md:text-xl">
+                    <div className="order-1 mt-5 bg-gray-800 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
+                        <h3 className="font-bold text-center text-slate-300 text-lg md:text-xl">
                             Hack4Gov3 CTF 2024 - UC Representative
                         </h3>
                         <p className="text-gray-700 leading-tight">
@@ -33,8 +33,8 @@ const CompetitionsandAwards = () => {
                     <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 md:w-14 md:h-14 border-2 rounded-full">
                         <h1 className="mx-auto font-semibold text-lg text-white">2</h1>
                     </div>
-                    <div className="order-1 mt-5 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
-                        <h3 className="text-center font-bold text-gray-800 text-lg md:text-xl">
+                    <div className="order-1 mt-5 bg-gray-800 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
+                        <h3 className="text-center font-bold text-slate-300 text-lg md:text-xl">
                             Philippine Startup Challenge 9 Orientation & Mock Pitching
                         </h3>
                         <p className="text-gray-700 leading-tight">
@@ -49,8 +49,8 @@ const CompetitionsandAwards = () => {
                     <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 md:w-14 md:h-14 border-2 rounded-full">
                         <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
                     </div>
-                    <div className="order-1 mt-5 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
-                        <h3 className="text-center font-bold text-gray-800 text-lg md:text-xl">
+                    <div className="order-1 mt-5 bg-gray-800 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
+                        <h3 className="text-center font-bold text-slate-300 text-lg md:text-xl">
                             Startup Ignited 6 - Isango Pitching Competition
                         </h3>
                         <p className="text-gray-700 leading-tight">
@@ -65,8 +65,8 @@ const CompetitionsandAwards = () => {
                     <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-12 h-12 md:w-14 md:h-14 border-2 rounded-full">
                         <h1 className="mx-auto font-semibold text-lg text-white">4</h1>
                     </div>
-                    <div className="order-1 mt-5 bg-slate-300 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
-                        <h3 className="text-center font-bold text-gray-800 text-lg md:text-xl">
+                    <div className="order-1 mt-5 bg-gray-800 rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6">
+                        <h3 className="text-center font-bold text-slate-300 text-lg md:text-xl">
                             Philippine Startup Challenge 9 Semi Finalist
                         </h3>
                         <p className="text-gray-700 leading-tight">
