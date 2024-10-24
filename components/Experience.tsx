@@ -5,7 +5,7 @@ import UniversityOfTheCordilleras from "./works/UniversityOfTheCordilleras";
 import PhinmaUniversityOfPangasinan from "./works/PhinmaUniversityOfPangasinan";
 import Hack4Gov from "./works/Hack4Gov";
 import PeraPinoy from "./works/PeraPinoy";
-import PhilippineStartupChallenge from "./works/UNLADFoundation";
+import UNLADFoundation from "./works/UNLADFoundation";
 
 const Experience = () => {
   const [workPeraPinoy, setWorkPeraPinoy] = useState(true);
@@ -13,7 +13,7 @@ const Experience = () => {
   const [workUniversityOfTheCordilleras, setWorkUniversityOfTheCordilleras] = useState(false);
   const [workPhinmaUniversityOfPangasinan, setWorkPhinmaUniversityOfPangasinan] = useState(false);
   const [workHack4Gov, setWorkHack4Gov] = useState(false);
-  const [workPhilippineStartupChallenge, setWorkPhilippineStartupChallenge] = useState(false);
+  const [workUNLADFoundation, setWorkUNLADFoundation] = useState(false);
 
   
 
@@ -23,7 +23,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
-    setWorkPhilippineStartupChallenge(false);
+    setWorkUNLADFoundation(false);
     
   }
 
@@ -33,7 +33,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
-    setWorkPhilippineStartupChallenge(false);
+    setWorkUNLADFoundation(false);
     
   };
 
@@ -43,7 +43,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(true);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
-    setWorkPhilippineStartupChallenge(false);
+    setWorkUNLADFoundation(false);
     
   };
 
@@ -53,7 +53,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(true);
     setWorkHack4Gov(false);
-    setWorkPhilippineStartupChallenge(false);
+    setWorkUNLADFoundation(false);
   };
 
   const handleHack4Gov = () => {
@@ -62,17 +62,17 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(true);
-    setWorkPhilippineStartupChallenge(false);
+    setWorkUNLADFoundation(false);
     
   };
 
-  const handlePhilippineStartupChallenge = () => {
+  const handleUNLADFoundation = () => {
     setWorkPeraPinoy(false);
     setWorkFreelance(false);
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
-    setWorkPhilippineStartupChallenge(true);
+    setWorkUNLADFoundation(true);
     
   };
 
@@ -118,8 +118,8 @@ const Experience = () => {
             DICT HackForGov3 2024
           </li>
           <li
-            onClick={handlePhilippineStartupChallenge}
-            className={`${workPhilippineStartupChallenge ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`} // remove hover:bg-[#003153]
+            onClick={handleUNLADFoundation}
+            className={`${workUNLADFoundation ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`} // remove hover:bg-[#003153]
           >
             UNLAD Foundation
           </li>
@@ -129,7 +129,7 @@ const Experience = () => {
         {workPhinmaUniversityOfPangasinan && <PhinmaUniversityOfPangasinan />}
         {workHack4Gov && <Hack4Gov />}
         {workPeraPinoy && <PeraPinoy />}
-        {workPhilippineStartupChallenge && <PhilippineStartupChallenge />}
+        {workUNLADFoundation && <UNLADFoundation />}
       </div>
     </section>
   );

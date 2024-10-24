@@ -3,7 +3,7 @@ import { TiArrowForwardOutline } from "react-icons/ti";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { AiFillCode } from "react-icons/ai";
 
-const PhilippineStartupChallenge = () => {
+const UNLADFoundation = () => {
   return (
     <motion.div 
       initial={{ opacity: 0 }} 
@@ -53,4 +53,4 @@ const PhilippineStartupChallenge = () => {
   );
 };
 
-export default PhilippineStartupChallenge;
+export default UNLADFoundation;
