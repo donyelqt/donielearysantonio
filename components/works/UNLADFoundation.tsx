@@ -12,7 +12,7 @@ const PhilippineStartupChallenge = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-      Hacker <span className="text-textCyan tracking-wide">@Philippine Startup Challenge 9 </span>
+      Software Engineer Intern <span className="text-textCyan tracking-wide">@UNLAD Foundation </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         Oct 2024
