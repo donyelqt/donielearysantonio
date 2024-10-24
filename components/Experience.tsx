@@ -103,7 +103,7 @@ const Experience = () => {
             onClick={handleUniversrityOfTheCordilleras}
             className={`${workUniversityOfTheCordilleras ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
-            UNIVERSITY OF THE CORDILLERAS
+            University of the Cordilleras
           </li>
           <li
             onClick={handlePhinmaUniversityOfPangasinan}
@@ -115,7 +115,7 @@ const Experience = () => {
             onClick={handleHack4Gov}
             className={`${workHack4Gov ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
-            DICT HackForGov3 2024
+            DICT Hack4Gov3 2024
           </li>
           <li
             onClick={handleUNLADFoundation}
