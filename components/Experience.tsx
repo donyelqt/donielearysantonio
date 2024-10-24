@@ -91,13 +91,13 @@ const Experience = () => {
             onClick={handlePeraPinoy}
             className={`${workPeraPinoy ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
-            PERAPINOY!
+            PeraPinoy!
           </li>
           <li
             onClick={handleFreelance}
             className={`${workFreelance ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
-            FREELANCE
+            Freelance
           </li>
           <li
             onClick={handleUniversrityOfTheCordilleras}
