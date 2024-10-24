@@ -138,7 +138,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>    
           </ul>
-         <a href="/assets/Doniele Arys A. Antonio - Software Engineer.pdf" target="_blank">
+         <a href="/assets/Doniele Arys A. Antonio CV - Software Engineer.pdf" target="_blank">
          <motion.button
             initial={{ opacity: 0}} 
             animate={{ opacity: 1 }} 
@@ -283,7 +283,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>    
           </ul>
-          <a href="/assets/Doniele Arys A. Antonio - Software Engineer.pdf" target="_blank">
+          <a href="/assets/Doniele Arys A. Antonio CV - Software Engineer.pdf" target="_blank">
             <motion.button 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
