@@ -40,7 +40,7 @@ const CompetitionsandAwards = () => {
                         {/* Right-facing arrow for event 2 */}
                         <div className="absolute -right-4 md:-right-6 lg:-right-10 top-1/2 transform -translate-y-1/2 border-r-[8px] md:border-r-[10px] border-r-transparent border-t-[8px] md:border-t-[10px] border-t-transparent border-l-[8px] md:border-l-[10px] border-l-white border-b-[8px] md:border-b-[10px] border-b-transparent"></div>
                         <h3 className=" mb-3 text-center font-bold text-textCyan text-lg md:text-xl">
-                            Philippine Startup Challenge 9 Orientation & Mock Pitching
+                            Philippine Startup Challenge 9 Orientation & Mock Pitching hosted by UC inTTO
                         </h3>
                         <p className="text-gray-400 text-sm text-center leading-tight">
                             Crafting....
@@ -51,7 +51,7 @@ const CompetitionsandAwards = () => {
                 {/* Timeline event 3 */}
                 <div className="mb-8 flex flex-col md:flex-row justify-between items-center w-full right-timeline">
                     <div className="order-1 w-full md:w-5/12"></div>
-                    <div className="z-20 flex items-center order-1 bg-blue-800 shadow-xl w-12 h-12 md:w-16 md:h-16 border-4 rounded-full">
+                    <div className="z-20 flex items-center order-1 bg-indigo-900 shadow-xl w-12 h-12 md:w-16 md:h-16 border-4 rounded-full">
                         <h1 className="mx-auto font-semibold text-lg text-textCyan">3</h1>
                     </div>
                     <div className="order-1 mt-5 bg-textBlack rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6 relative">
