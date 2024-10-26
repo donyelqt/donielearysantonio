@@ -1,4 +1,3 @@
-import SectionTitle from "./SectionTitle";
 import SectionTitle1 from "./SectionTitle1";
 
 const CompetitionsandAwards = () => {
