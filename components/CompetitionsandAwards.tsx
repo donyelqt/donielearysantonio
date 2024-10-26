@@ -23,7 +23,11 @@ const CompetitionsandAwards = () => {
                         <h3 className="font-bold text-center text-slate-300 text-lg md:text-xl">
                             Hack4Gov3 CTF 2024 - UC Representative
                         </h3>
-                        <p className="text-gray-700 leading-tight"></p>
+                        <p className="text-gray-500 leading-tight">
+                            Showcased adaptability and a commitment to continuous learning by successfully upskilling in
+                            cybersecurity, applying these new skills alongside my software development/engineering expertise to
+                            contribute significantly to the team's performance.
+                        </p>
                     </div>
                 </div>
 
@@ -55,7 +59,12 @@ const CompetitionsandAwards = () => {
                         <h3 className="mb-3 text-center font-bold text-slate-300 text-lg md:text-xl">
                             Startup Ignited 6 - Isango Pitching Competition
                         </h3>
-                        <p className="text-gray-700 leading-tight"></p>
+                        <p className="text-gray-500 leading-tight">
+                            Pitch our startup to the various tech industry expert judges, gain valuable insights, and also be given a
+                            chance by a former developer at IBM and a cybersecurity expert to reach out to our team for a 1-on-1
+                            mentorship after we pitch our startup to the judges and gain those learnings to apply and prepare for the
+                            Philippine Startup Challenge 9.
+                        </p>
                     </div>
                 </div>
 
