@@ -83,7 +83,7 @@ const CompetitionsandAwards = () => {
                             Philippine Startup Challenge 9 Semi Finalist
                         </h3>
                         <p className="text-gray-400 text-center leading-tight">
-                            Lead a diverse team including Hipster, Hustler, and me as a hacker and spearhead the development of
+                            Lead a diverse team including Hipster, Hustler, and me as a Hacker and spearhead the development of
                             our MVP fintech app named PeraPinoy to secure a spot as a PSC 9 CAR Semifinalist and pitch our
                             startup to the judges.
                         </p>
