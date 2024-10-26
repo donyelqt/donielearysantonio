@@ -109,7 +109,7 @@ const Experience = () => {
             onClick={handlePhinmaUniversityOfPangasinan}
             className={`${workPhinmaUniversityOfPangasinan ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
-            PHINMA University of Pangasinan
+            PHINMA Upang
           </li>
           <li
             onClick={handleHack4Gov}
