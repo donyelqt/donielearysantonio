@@ -43,7 +43,9 @@ const CompetitionsandAwards = () => {
                         <h3 className=" mb-3 text-center font-bold text-slate-300 text-lg md:text-xl">
                             Philippine Startup Challenge 9 Orientation & Mock Pitching
                         </h3>
-                        <p className="text-gray-400 text-center leading-tight"></p>
+                        <p className="text-gray-400 text-center leading-tight">
+                            Crafting....
+                        </p>
                     </div>
                 </div>
 
