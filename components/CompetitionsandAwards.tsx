@@ -23,7 +23,7 @@ const CompetitionsandAwards = () => {
                         <h3 className="mb-3 font-bold text-center text-slate-300 text-lg md:text-xl">
                             Hack4Gov3 CTF 2024 - UC Representative
                         </h3>
-                        <p className="text-gray-400 text-center leading-tight">
+                        <p className="text-gray-400 text-sm text-center leading-tight">
                             Showcased adaptability and a commitment to continuous learning by successfully upskilling in
                             cybersecurity, applying these new skills alongside my software development/engineering expertise to
                             contribute significantly to the teams performance.
@@ -43,7 +43,7 @@ const CompetitionsandAwards = () => {
                         <h3 className=" mb-3 text-center font-bold text-slate-300 text-lg md:text-xl">
                             Philippine Startup Challenge 9 Orientation & Mock Pitching
                         </h3>
-                        <p className="text-gray-400 text-center leading-tight">
+                        <p className="text-gray-400 text-sm text-center leading-tight">
                             Crafting....
                         </p>
                     </div>
@@ -61,7 +61,7 @@ const CompetitionsandAwards = () => {
                         <h3 className="mb-3 text-center font-bold text-slate-300 text-lg md:text-xl">
                             Startup Ignited 6 - Isango Pitching Competition
                         </h3>
-                        <p className="text-gray-400 text-center leading-tight">
+                        <p className="text-gray-400 text-sm text-center leading-tight">
                             Pitch our startup to the various tech industry expert judges, gain valuable insights, and also be given a
                             chance by a former developer at IBM and a cybersecurity expert to reach out to our team for a 1-on-1
                             mentorship after we pitch our startup to the judges and gain those learnings to apply and prepare for the
@@ -82,7 +82,7 @@ const CompetitionsandAwards = () => {
                         <h3 className="mb-3 text-center font-bold text-slate-300 text-lg md:text-xl">
                             Philippine Startup Challenge 9 Semi Finalist
                         </h3>
-                        <p className="text-gray-400 text-center leading-tight">
+                        <p className="text-gray-400 text-sm text-center leading-tight">
                             Lead a diverse team including Hipster, Hustler, and me as a Hacker and spearhead the development of
                             our MVP fintech app named PeraPinoy to secure a spot as a PSC 9 CAR Semifinalist and pitch our
                             startup to the judges.
