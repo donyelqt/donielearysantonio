@@ -26,7 +26,7 @@ const CompetitionsandAwards = () => {
                         <p className="text-gray-400 text-center leading-tight">
                             Showcased adaptability and a commitment to continuous learning by successfully upskilling in
                             cybersecurity, applying these new skills alongside my software development/engineering expertise to
-                            contribute significantly to the team's performance.
+                            contribute significantly to the teams performance.
                         </p>
                     </div>
                 </div>
