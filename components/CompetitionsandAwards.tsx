@@ -43,7 +43,7 @@ const CompetitionsandAwards = () => {
                             Philippine Startup Challenge 9 Orientation & Mock Pitching hosted by UC inTTO
                         </h3>
                         <p className="text-gray-400 text-sm text-center leading-tight">
-                            Crafting....
+                            Pitch our startup to the UC inTTO, gain valuable insights, and attract the UC inTTOs Tech Transfer Associate to volunteer to mentor our team for the upcoming Philippine Startup Challenge 9.
                         </p>
                     </div>
                 </div>
