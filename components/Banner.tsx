@@ -32,7 +32,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}  
         className="text-center text-base md:max-w-[600px] text-textDark font-medium"     
       >
-       Hi! I am Doniele Arys Antonio, a student computer scientist and freelance software engineer based in Baguio City, Philippines. I love exploring software engineering, data science, artificial intelligence, machine learning, and cybersecurity. 
+       Hi! I am Doniele Arys Antonio, a student computer scientist and software engineer based in Baguio City, Philippines. I love exploring software engineering, data science, artificial intelligence, machine learning, and cybersecurity. 
        The success stories of Bill Gates, Mark Zuckerberg, Larry Page, Sergey Brin, Elon Musk, and Jeff Bezos have greatly inspired me to pursue programming and aim high in my career. {""}
       </motion.p>
       <motion.a
