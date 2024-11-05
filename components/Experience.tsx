@@ -53,7 +53,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(true);
     setWorkHack4Gov(false);
-    setWorkUNLADFoundation(false);
+    setWorkTrifectaSolutionsInc(false);
   };
 
   const handleHack4Gov = () => {
@@ -62,7 +62,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(true);
-    setWorkUNLADFoundation(false);
+    setWorkTrifectaSolutionsInc(false);
     
   };
 
@@ -72,7 +72,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
-    setWorkUNLADFoundation(true);
+    setWorkTrifectaSolutionsInc(true);
     
   };
 
@@ -119,7 +119,7 @@ const Experience = () => {
           </li>
           <li
             onClick={handleUNLADFoundation}
-            className={`${workUNLADFoundation ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`} // remove hover:bg-[#003153]
+            className={`${workTrifectaSolutionsInc ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`} // remove hover:bg-[#003153]
           >
             Trifecta Solutions Inc.
           </li>
@@ -129,7 +129,7 @@ const Experience = () => {
         {workPhinmaUniversityOfPangasinan && <PhinmaUniversityOfPangasinan />}
         {workHack4Gov && <Hack4Gov />}
         {workPeraPinoy && <PeraPinoy />}
-        {workUNLADFoundation && <UNLADFoundation />}
+        {workTrifectaSolutionsInc && <TrifectaSolutionsInc />}
       </div>
     </section>
   );
