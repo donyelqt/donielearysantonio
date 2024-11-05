@@ -3,7 +3,7 @@ import { TiArrowForwardOutline } from "react-icons/ti";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { AiFillCode } from "react-icons/ai";
 
-const UNLADFoundation = () => {
+const TrifectaSolutionsInc = () => {
   return (
     <motion.div 
       initial={{ opacity: 0 }} 
@@ -30,4 +30,4 @@ const UNLADFoundation = () => {
   );
 };
 
-export default UNLADFoundation;
+export default TrifectaSolutionsInc;

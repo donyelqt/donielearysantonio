@@ -5,7 +5,7 @@ import UniversityOfTheCordilleras from "./works/UniversityOfTheCordilleras";
 import PhinmaUniversityOfPangasinan from "./works/PhinmaUniversityOfPangasinan";
 import Hack4Gov from "./works/Hack4Gov";
 import PeraPinoy from "./works/PeraPinoy";
-import UNLADFoundation from "./works/UNLADFoundation";
+import TrifectaSolutionsInc from "./works/TrifectaSolutionsInc";
 
 const Experience = () => {
   const [workPeraPinoy, setWorkPeraPinoy] = useState(true);
@@ -13,7 +13,7 @@ const Experience = () => {
   const [workUniversityOfTheCordilleras, setWorkUniversityOfTheCordilleras] = useState(false);
   const [workPhinmaUniversityOfPangasinan, setWorkPhinmaUniversityOfPangasinan] = useState(false);
   const [workHack4Gov, setWorkHack4Gov] = useState(false);
-  const [workUNLADFoundation, setWorkUNLADFoundation] = useState(false);
+  const [workTrifectaSolutionsInc, setWorkTrifectaSolutionsInc] = useState(false);
 
   
 
@@ -23,7 +23,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
-    setWorkUNLADFoundation(false);
+    setWorkTrifectaSolutionsInc(false);
     
   }
 
@@ -33,7 +33,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
-    setWorkUNLADFoundation(false);
+    setWorkTrifectaSolutionsInc(false);
     
   };
 
@@ -43,7 +43,7 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(true);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
-    setWorkUNLADFoundation(false);
+    setWorkTrifectaSolutionsInc(false);
     
   };
 
