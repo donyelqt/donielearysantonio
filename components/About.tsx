@@ -242,6 +242,12 @@ const About = () => {
               <span className="text-textCyan">
                 <AiFillCloud />
               </span>
+              Flutter
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textCyan">
+                <AiFillCloud />
+              </span>
               Framer Motion
             </li>
             <li className="flex items-center gap-2">
