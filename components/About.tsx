@@ -262,67 +262,78 @@ const About = () => {
             </li>
             <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+                <AiFillCloud className="rounded-lg h-full object-cover"
+                  style={{ height: "40px", width: "40px" }} />
               </span>
               Framer Motion
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+                <AiFillCloud className="rounded-lg h-full object-cover"
+                  style={{ height: "40px", width: "40px" }} />
               </span>
               MySQL
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+              <AiFillCloud className="rounded-lg h-full object-cover" 
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Shadcn UI
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+              <AiFillCloud className="rounded-lg h-full object-cover" 
+                style={{ height: "40px", width: "40px" }} />
               </span>
               NextAuth.js
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+              <AiFillCloud className="rounded-lg h-full object-cover" 
+                style={{ height: "40px", width: "40px" }} />
               </span>
               MongoDB
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+              <AiFillCloud className="rounded-lg h-full object-cover" 
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Cloudflare
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+              <AiFillCloud className="rounded-lg h-full object-cover" 
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Resend
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+              <AiFillCloud className="rounded-lg h-full object-cover" 
+                style={{ height: "40px", width: "40px" }} />
               </span>
-              React Native
+              ReactNative
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+              <AiFillCloud className="rounded-lg h-full object-cover" 
+                style={{ height: "40px", width: "40px" }} />
               </span>
               C
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+              <AiFillCloud className="rounded-lg h-full object-cover" 
+                style={{ height: "40px", width: "40px" }} />
               </span>
               REST API
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <AiFillCloud />
+              <AiFillCloud className="rounded-lg h-full object-cover" 
+                style={{ height: "40px", width: "40px" }} />
               </span>
               Luicide.dev
             </li>
