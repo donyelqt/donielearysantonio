@@ -30,6 +30,12 @@ const TrifectaSolutionsInc = () => {
           </span>{""}
           The Agile workshop gave me valuable insights, especially on how iterative processes and collaboration boost productivity and flexibility.
         </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textCyan mt-1">
+            <AiFillThunderbolt />
+          </span>{""}
+          I am currently handling and developing Raksha: War Odyssey, a board strategy game. My position involved getting the design and working out technical development and design to craft something of richness for the strategic experience of the players.
+        </li>
 
       </ul>
     </motion.div>
