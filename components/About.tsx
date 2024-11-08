@@ -107,7 +107,7 @@ const About = () => {
               </span>
               C#
             </li>
-            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={java}
@@ -116,7 +116,7 @@ const About = () => {
               </span>
               Java
             </li>
-            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={python}
@@ -125,7 +125,7 @@ const About = () => {
               </span>
               Python
             </li>
-            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={cplus2}
@@ -134,7 +134,7 @@ const About = () => {
               </span>
               C++
             </li>
-            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={nodejs}
@@ -170,7 +170,7 @@ const About = () => {
               </span>
               PostgreSQL
             </li>
-            <li className="flex bg-textBlack p-2 text-white rounded-xl  items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={prisma}
