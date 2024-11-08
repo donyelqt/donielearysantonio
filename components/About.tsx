@@ -143,16 +143,16 @@ const About = () => {
               </span>
               NodeJS
             </li>
-            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={tailwindcss}
                   alt="tailwindcss"
                   style={{ height: "40px", width: "40px" }} />
               </span>
-              Tailwind CSS
+              Tailwind
             </li>
-            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48  items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48  items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={supabase}
@@ -161,7 +161,7 @@ const About = () => {
               </span>
               SupaBase
             </li>
-            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={postgresql}
@@ -170,7 +170,7 @@ const About = () => {
               </span>
               PostgreSQL
             </li>
-            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={prisma}
@@ -179,7 +179,7 @@ const About = () => {
               </span>
               Prisma
             </li>
-            <li className="flex bg-textBlack p-2 text-white rounded-xl items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={scss}
@@ -188,7 +188,7 @@ const About = () => {
               </span>
               SCSS
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={github}
@@ -197,7 +197,7 @@ const About = () => {
               </span>
               Github
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={git}
@@ -206,16 +206,16 @@ const About = () => {
               </span>
               Git
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
-                <Image className="rounded-lg h-full object-cover"
+                <Image className="rounded-lg bg-white p-3 h-full object-cover"
                   src={vercel}
                   alt="vercel"
                   style={{ height: "40px", width: "40px" }} />
               </span>
               Vercel
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={bootstrap}
@@ -224,7 +224,7 @@ const About = () => {
               </span>
               Bootstrap 5
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={firebase}
@@ -233,7 +233,7 @@ const About = () => {
               </span>
               Firebase
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={kalilinux}
@@ -242,7 +242,7 @@ const About = () => {
               </span>
               Kali Linux
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={flutter}
@@ -251,7 +251,7 @@ const About = () => {
               </span>
               Flutter
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={dart}
@@ -260,7 +260,7 @@ const About = () => {
               </span>
               Dart
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <AiFillCloud />
               </span>
