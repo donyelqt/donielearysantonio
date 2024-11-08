@@ -44,7 +44,7 @@ const About = () => {
           <br />
           <SectionTitle1 title="TECHNOLOGY STACK" titleNO="< />" />
           <ul className="max-w-[850px] text-sm font-titleFont grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-5 mt-6">
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={javascript}
@@ -53,7 +53,7 @@ const About = () => {
               </span>
               Javascript
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={typescript}
@@ -62,7 +62,7 @@ const About = () => {
               </span>
               Typescript
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-black p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={react}
@@ -71,7 +71,7 @@ const About = () => {
               </span>
               ReactJS
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={nextjs}
@@ -80,7 +80,7 @@ const About = () => {
               </span>
               NextJS
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={html}
@@ -89,7 +89,7 @@ const About = () => {
               </span>
               Html5
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-white p-2 text-black rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={css3}
@@ -98,7 +98,7 @@ const About = () => {
               </span>
               Css3
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={csharp}
@@ -107,7 +107,7 @@ const About = () => {
               </span>
               C#
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={java}
@@ -116,7 +116,7 @@ const About = () => {
               </span>
               Java
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={python}
@@ -125,7 +125,7 @@ const About = () => {
               </span>
               Python
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={cplus2}
@@ -134,7 +134,7 @@ const About = () => {
               </span>
               C++
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={nodejs}
@@ -143,7 +143,7 @@ const About = () => {
               </span>
               NodeJS
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={tailwindcss}
@@ -152,7 +152,7 @@ const About = () => {
               </span>
               Tailwind CSS
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48  items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={supabase}
@@ -161,7 +161,7 @@ const About = () => {
               </span>
               SupaBase
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl w-48 items-center gap-2">
               <span className="">
                 <Image className="rounded-lg h-full object-cover"
                   src={postgresql}
@@ -170,7 +170,7 @@ const About = () => {
               </span>
               PostgreSQL
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl  items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={prisma}
@@ -179,7 +179,7 @@ const About = () => {
               </span>
               Prisma
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex bg-textBlack p-2 text-white rounded-xl items-center gap-2">
               <span className="text-textCyan">
                 <Image className="rounded-lg h-full object-cover"
                   src={scss}
