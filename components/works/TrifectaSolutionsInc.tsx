@@ -34,7 +34,7 @@ const TrifectaSolutionsInc = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          I am currently leading the development of Raksha: War Odyssey, a board strategy game. In my role, I am responsible for designing and developing the technical aspects of the game to enhance the players' strategic experience.
+          I am currently leading the development of Raksha: War Odyssey, a board strategy game. In my role, I am responsible for designing and developing the technical aspects of the game to enhance the players strategic experience.
         </li>
 
       </ul>
