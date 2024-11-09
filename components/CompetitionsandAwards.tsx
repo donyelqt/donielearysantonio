@@ -33,7 +33,7 @@ const CompetitionsandAwards = () => {
                 {/* Timeline event 2 */}
                 <div className="mb-8 flex flex-col md:flex-row-reverse justify-between items-center w-full left-timeline">
                     <div className="order-1 w-full md:w-5/12"></div>
-                    <div className="z-20 flex items-center order-1 bg-green-950 shadow-xl w-12 h-12 md:w-16 md:h-16 border-4 rounded-full">
+                    <div className="z-20 flex items-center order-1 bg-textBlack shadow-xl w-12 h-12 md:w-16 md:h-16 border-4 rounded-full">
                         <h1 className="mx-auto font-semibold text-lg text-textCyan">2</h1>
                     </div>
                     <div className="order-1 mt-5 bg-textBlack rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6 relative">
@@ -51,7 +51,7 @@ const CompetitionsandAwards = () => {
                 {/* Timeline event 3 */}
                 <div className="mb-8 flex flex-col md:flex-row justify-between items-center w-full right-timeline">
                     <div className="order-1 w-full md:w-5/12"></div>
-                    <div className="z-20 flex items-center order-1 bg-red-900 shadow-xl w-12 h-12 md:w-16 md:h-16 border-4 rounded-full">
+                    <div className="z-20 flex items-center order-1 bg-textBlack shadow-xl w-12 h-12 md:w-16 md:h-16 border-4 rounded-full">
                         <h1 className="mx-auto font-semibold text-lg text-textCyan">3</h1>
                     </div>
                     <div className="order-1 mt-5 bg-textBlack rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6 relative">
@@ -72,7 +72,7 @@ const CompetitionsandAwards = () => {
                 {/* Timeline event 4 */}
                 <div className="mb-8 flex flex-col md:flex-row-reverse justify-between items-center w-full left-timeline">
                     <div className="order-1 w-full md:w-5/12"></div>
-                    <div className="z-20 flex items-center order-1 bg-orange-500 shadow-xl w-12 h-12 md:w-16 md:h-16 border-4 rounded-full">
+                    <div className="z-20 flex items-center order-1 bg-textBlack shadow-xl w-12 h-12 md:w-16 md:h-16 border-4 rounded-full">
                         <h1 className="mx-auto font-semibold text-lg text-textCyan">4</h1>
                     </div>
                     <div className="order-1 mt-5 bg-textBlack rounded-2xl shadow-xl w-full md:w-5/12 px-4 py-4 sm:px-6 relative">
