@@ -6,6 +6,7 @@ import PhinmaUniversityOfPangasinan from "./works/PhinmaUniversityOfPangasinan";
 import Hack4Gov from "./works/Hack4Gov";
 import PeraPinoy from "./works/PeraPinoy";
 import TrifectaSolutionsInc from "./works/TrifectaSolutionsInc";
+import Illustrados from "./works/Illustrados";
 
 const Experience = () => {
   const [workPeraPinoy, setWorkPeraPinoy] = useState(true);
@@ -14,6 +15,8 @@ const Experience = () => {
   const [workPhinmaUniversityOfPangasinan, setWorkPhinmaUniversityOfPangasinan] = useState(false);
   const [workHack4Gov, setWorkHack4Gov] = useState(false);
   const [workTrifectaSolutionsInc, setWorkTrifectaSolutionsInc] = useState(false);
+  const [workIllustrados, setWorkIllustrados] = useState(false);
+  
 
   
 
@@ -24,6 +27,7 @@ const Experience = () => {
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(false);
+    setWorkIllustrados(false);
     
   }
 
@@ -118,6 +122,12 @@ const Experience = () => {
             DICT Hack4Gov3 2024
           </li>
           <li
+            onClick={handleIllustrados}
+            className={`${workIllustrados ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            Illustrados Creatives and Technology Inc.
+          </li>
+          <li
             onClick={handleUNLADFoundation}
             className={`${workTrifectaSolutionsInc ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`} // remove hover:bg-[#003153]
           >
@@ -130,6 +140,7 @@ const Experience = () => {
         {workHack4Gov && <Hack4Gov />}
         {workPeraPinoy && <PeraPinoy />}
         {workTrifectaSolutionsInc && <TrifectaSolutionsInc />}
+        {workIllustrados && <Illustrados />}
       </div>
     </section>
   );
