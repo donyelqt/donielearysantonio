@@ -38,7 +38,8 @@ const Experience = () => {
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(false);
-    
+    setWorkIllustrados(false);
+
   };
 
   const handleUniversrityOfTheCordilleras = () => {
@@ -48,7 +49,8 @@ const Experience = () => {
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(false);
-    
+    setWorkIllustrados(false);
+
   };
 
   const handlePhinmaUniversityOfPangasinan = () => {
@@ -58,6 +60,8 @@ const Experience = () => {
     setWorkPhinmaUniversityOfPangasinan(true);
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(false);
+    setWorkIllustrados(false);
+
   };
 
   const handleHack4Gov = () => {
@@ -67,7 +71,8 @@ const Experience = () => {
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(true);
     setWorkTrifectaSolutionsInc(false);
-    
+    setWorkIllustrados(false);
+
   };
 
   const handleUNLADFoundation = () => {
@@ -76,7 +81,8 @@ const Experience = () => {
     setWorkUniversityOfTheCordilleras(false);
     setWorkPhinmaUniversityOfPangasinan(false);
     setWorkHack4Gov(false);
-    setWorkTrifectaSolutionsInc(true);
+    setWorkTrifectaSolutionsInc(false);
+    setWorkIllustrados(true);
     
   };
 
