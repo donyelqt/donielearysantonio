@@ -75,7 +75,7 @@ const Experience = () => {
 
   };
 
-  const handleUNLADFoundation = () => {
+  const handleIllustrados = () => {
     setWorkPeraPinoy(false);
     setWorkFreelance(false);
     setWorkUniversityOfTheCordilleras(false);
@@ -83,6 +83,17 @@ const Experience = () => {
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(true);
+    
+  };
+
+  const handleUNLADFoundation = () => {
+    setWorkPeraPinoy(false);
+    setWorkFreelance(false);
+    setWorkUniversityOfTheCordilleras(false);
+    setWorkPhinmaUniversityOfPangasinan(false);
+    setWorkHack4Gov(false);
+    setWorkTrifectaSolutionsInc(true);
+    setWorkIllustrados(false);
     
   };
 
@@ -128,16 +139,16 @@ const Experience = () => {
             DICT Hack4Gov3 2024
           </li>
           <li
-            onClick={handleIllustrados}
-            className={`${workIllustrados ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Illustrados Creatives and Technology Inc.
-          </li>
-          <li
             onClick={handleUNLADFoundation}
             className={`${workTrifectaSolutionsInc ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`} // remove hover:bg-[#003153]
           >
             Trifecta Solutions Inc.
+          </li>
+          <li
+            onClick={handleIllustrados}
+            className={`${workIllustrados ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            Illustrados Creatives and Technology Inc.
           </li>
         </ul>
         {workFreelance && <Freelance />}
