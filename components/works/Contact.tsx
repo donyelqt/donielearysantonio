@@ -16,7 +16,7 @@ const Contact = () => {
         💌 Say Hello!
         </button>
       </a>
-      <p className="text-textWhite text-sm font-bodyFont">Built and Designed by <span className="text-textCyan">Doniele Arys Antonio</span></p>
+      <p className="text-textWhite text-sm font-bodyFont mt-8">Built and Designed by <span className="text-textCyan">Doniele Arys Antonio</span></p>
       <p className="text-sm text-textWhite font-bodyFont">All rights reserved. ©</p>
     </section>
   );
