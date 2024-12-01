@@ -103,11 +103,11 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="max-w-containerxs mx-auto py-100 lgl:py-40 px-4"
+      className="max-w-containerSmall mx-auto py-100 lgl:py-40 px-4"
     >
       <SectionTitle title="EXPERIENCE" titleNO="< >" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
-        <ul className="md:w-40 flex flex-col">
+        <ul className="md:w-80 flex flex-col">
           <li
             onClick={handlePeraPinoy}
             className={`${workPeraPinoy ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
