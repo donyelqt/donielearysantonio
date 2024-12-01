@@ -21,7 +21,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full bg-black lg:p-24 p-8 rounded-2xl flex flex-col gap-8"
+      className="w-full bg-black/65 lg:p-24 p-8 rounded-2xl flex flex-col gap-8"
     > {/*maxcontainer-small mx-auto py-10 lgl:py-32*/}
       <SectionTitle title="ABOUT ME" titleNO="< >" />
       <div className="flex flex-col lgl:flex-row gap-16">
