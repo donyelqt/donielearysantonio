@@ -327,8 +327,52 @@ const Projects = () => {
           </div>
         </div>
        </div>
+       {/* Project 8 */}
+      <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="flex flex-col xl:flex-row gap-6">
+          <a 
+            className="w-full xl:w-1/2 h-auto relative group" 
+            href="" 
+            target="_blank"
+          >
+          <div>
+            <Image className="w-full h-[375px] object-contain"
+            src={edengreenhouse}
+            alt="edengreenhouse"
+            />
+          </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-center text-right xl:-ml-16 z-10">
+          <p className="font-titleFont text-textCyan text-sm tracking-wide">
+            
+          </p>
+          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">08.</span>PeraPinoy! - Web App</h3>
+          <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
+            Eden prototype hardware model is an advanced <span className="text-textCyan">greenhouse hardware model engineered</span> to <span className="text-textCyan">revolutionize agricultural practices</span> by enabling <span className="text-textCyan">sustainable</span> and <span className="text-textCyan">efficient crop production</span>. Designed to cater to the needs of farmers, governments, and individuals, Eden integrates cutting-edge technology to <span className="text-textCyan">optimize the growing environment for a wide variety of crops.</span>
+          </p>
+          <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <li>Figma</li>
+            <li>Blender</li>
+          </ul>
+          <div className="text-2xl flex gap-4 ">
+            <a className="hover:text-textCyan duration-300" 
+               href="" 
+               target="_blank"
+            >
+              <BsGithub />
+            </a>
+            <a className="hover:text-textCyan duration-300" 
+               href="" 
+               target="_blank"
+            >
+              <RxOpenInNewWindow />
+            </a>
+          </div>
+        </div>
+       </div>
       </div>
-      </div>
+     </div>
+    </div>
     </section>
   );
 };
