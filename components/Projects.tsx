@@ -336,7 +336,7 @@ const Projects = () => {
             target="_blank"
           >
           <div>
-            <Image className="w-full h-[375px] object-contain"
+            <Image className="w-full h-[300px] object-contain"
             src={perapinoyweb}
             alt="perapinoyweb"
             />
@@ -351,11 +351,9 @@ const Projects = () => {
             Eden prototype hardware model is an advanced <span className="text-textCyan">greenhouse hardware model engineered</span> to <span className="text-textCyan">revolutionize agricultural practices</span> by enabling <span className="text-textCyan">sustainable</span> and <span className="text-textCyan">efficient crop production</span>. Designed to cater to the needs of farmers, governments, and individuals, Eden integrates cutting-edge technology to <span className="text-textCyan">optimize the growing environment for a wide variety of crops.</span>
           </p>
           <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-            <li>React</li>
-            <li>Tailwind</li>
             <li>NextJS</li>
             <li>PostgreSQL</li>
-            <li>Google Gemini AI APIs & SDKs</li>
+            <li>Google Gemini AI API</li>
             <li>Neon Console</li>
             <li>Drizzle ORM</li>
             <li>Clerk Auth</li>
