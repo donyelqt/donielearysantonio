@@ -22,6 +22,12 @@ const TrifectaSolutionsInc = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
+          I am currently leading the development of Raksha: War Odyssey, a board strategy game with web3 and blockchain for gamification tokens utilizing MongoDB, Express, React, Vite, Socket.io, NodeJS, and TypeScript.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textCyan mt-1">
+            <AiFillThunderbolt />
+          </span>{""}
           Gained hands-on experience in Agile development methodologies, including sprint planning, daily stand-ups, and retrospectives.
         </li>
         <li className="text-base flex gap-2 text-textDark">
@@ -29,12 +35,6 @@ const TrifectaSolutionsInc = () => {
             <AiFillThunderbolt />
           </span>{""}
           The Agile workshop gave me valuable insights, especially on how iterative processes and collaboration boost productivity and flexibility.
-        </li>
-        <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textCyan mt-1">
-            <AiFillThunderbolt />
-          </span>{""}
-          I am currently leading the development of Raksha: War Odyssey, a board strategy game with web3 and blockchain for gamification tokens. In my role, I am responsible for designing and developing the technical aspects of the game to enhance the players strategic experience.
         </li>
 
       </ul>
