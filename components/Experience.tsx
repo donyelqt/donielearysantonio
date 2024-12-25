@@ -8,6 +8,7 @@ import PeraPinoy from "./works/PeraPinoy";
 import TrifectaSolutionsInc from "./works/TrifectaSolutionsInc";
 import Illustrados from "./works/Illustrados";
 import UCinTTO from "./works/UCinTTO";
+import ParaPo from "./works/ParaPo";
 
 const Experience = () => {
   const [workPeraPinoy, setWorkPeraPinoy] = useState(true);
@@ -18,7 +19,7 @@ const Experience = () => {
   const [workTrifectaSolutionsInc, setWorkTrifectaSolutionsInc] = useState(false);
   const [workIllustrados, setWorkIllustrados] = useState(false);
   const [workUCinTTO, setUCinTTO] = useState(false);
-  
+  const [workParaPo, setParaPo] = useState(false);
 
   const handlePeraPinoy = () => {
     setWorkPeraPinoy(true);
@@ -29,6 +30,7 @@ const Experience = () => {
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
     setUCinTTO(false);
+    setParaPo(false);
   }
 
   const handleFreelance = () => {
@@ -40,6 +42,7 @@ const Experience = () => {
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
     setUCinTTO(false);
+    setParaPo(false);
   };
 
   const handleUniversrityOfTheCordilleras = () => {
@@ -51,6 +54,7 @@ const Experience = () => {
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
     setUCinTTO(false);
+    setParaPo(false);
   };
 
   const handlePhinmaUniversityOfPangasinan = () => {
@@ -62,6 +66,7 @@ const Experience = () => {
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
     setUCinTTO(false);
+    setParaPo(false);
   };
 
   const handleHack4Gov = () => {
@@ -73,6 +78,7 @@ const Experience = () => {
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
     setUCinTTO(false);
+    setParaPo(false);
   };
 
   const handleIllustrados = () => {
@@ -84,6 +90,7 @@ const Experience = () => {
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(true);
     setUCinTTO(false);
+    setParaPo(false);
   };
 
   const handleTrifectaSolutionsInc = () => {
@@ -95,6 +102,7 @@ const Experience = () => {
     setWorkTrifectaSolutionsInc(true);
     setWorkIllustrados(false);
     setUCinTTO(false);
+    setParaPo(false);
   };
 
   const handleUCinTTO = () => {
@@ -106,9 +114,20 @@ const Experience = () => {
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
     setUCinTTO(true);
-    
+    setParaPo(false);
   };
 
+  const handleParaPo = () => {
+    setWorkPeraPinoy(false);
+    setWorkFreelance(false);
+    setWorkUniversityOfTheCordilleras(false);
+    setWorkPhinmaUniversityOfPangasinan(false);
+    setWorkHack4Gov(false);
+    setWorkTrifectaSolutionsInc(false);
+    setWorkIllustrados(false);
+    setUCinTTO(false);
+    setParaPo(true);
+  };
   
 
   return (
@@ -167,6 +186,12 @@ const Experience = () => {
           >
             UC Innovation and Technology Transfer Office.
           </li>
+          <li
+            onClick={handleParaPo}
+            className={`${workParaPo ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            Para Po!
+          </li>
         </ul>
         {workFreelance && <Freelance />}
         {workUniversityOfTheCordilleras && <UniversityOfTheCordilleras />}
@@ -176,6 +201,7 @@ const Experience = () => {
         {workTrifectaSolutionsInc && <TrifectaSolutionsInc />}
         {workIllustrados && <Illustrados />}
         {workUCinTTO && <UCinTTO />}
+        {workParaPo && <ParaPo />}
       </div>
     </section>
   );
