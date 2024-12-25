@@ -57,7 +57,7 @@ function handleClick(e:any){
             <Link 
               href="#home" 
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link"
             >
              <motion.li 
                initial={{ y: -10, opacity: 0}} 
@@ -68,7 +68,7 @@ function handleClick(e:any){
              </motion.li>
             </Link> 
             <Link 
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#about"
               onClick={handleScroll}
             >
@@ -82,7 +82,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>
             <Link 
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#experience"
               onClick={handleScroll}
             >
@@ -96,7 +96,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>
             <Link 
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#competitions"
               onClick={handleScroll}
             >
@@ -110,7 +110,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>
             <Link 
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#project"
               onClick={handleScroll}
             >
@@ -124,7 +124,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>
             <Link 
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#contact"
               onClick={handleScroll}
             >
@@ -178,7 +178,7 @@ function handleClick(e:any){
             <Link 
               href="#home" 
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link"
             >
              <motion.li 
                initial={{ y: 20, opacity: 0}} 
@@ -193,7 +193,7 @@ function handleClick(e:any){
              </motion.li>
             </Link> 
             <Link 
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#about"
               onClick={handleScroll}
             >
@@ -211,7 +211,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>
             <Link 
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#experience"
               onClick={handleScroll}
             >
@@ -229,7 +229,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>
             <Link 
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#competitions"
               onClick={handleScroll}
             >
@@ -247,7 +247,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>
             <Link 
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#project"
               onClick={handleScroll}
             >
@@ -265,7 +265,7 @@ function handleClick(e:any){
              </motion.li>
             </Link>
             <Link 
-              className="flex items-center gap-1 font-medium text-textBlack hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#contact"
               onClick={handleScroll}
             >
