@@ -24,7 +24,6 @@ const ParaPo = () => {
           </span>{""}
           Become the new CTO & Lead Android Developer of startup navigation app in Baguio City, one of our startup university's incubator cohort 7 that is also a former Philippine Startup Challenge 8 Region CAR Champion and 4th place in Nationals.
         </li>
-        
 
       </ul>
     </motion.div>

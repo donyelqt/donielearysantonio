@@ -7,6 +7,7 @@ import Hack4Gov from "./works/Hack4Gov";
 import PeraPinoy from "./works/PeraPinoy";
 import TrifectaSolutionsInc from "./works/TrifectaSolutionsInc";
 import Illustrados from "./works/Illustrados";
+import UCinTTO from "./works/UCinTTO";
 
 const Experience = () => {
   const [workPeraPinoy, setWorkPeraPinoy] = useState(true);
@@ -16,8 +17,7 @@ const Experience = () => {
   const [workHack4Gov, setWorkHack4Gov] = useState(false);
   const [workTrifectaSolutionsInc, setWorkTrifectaSolutionsInc] = useState(false);
   const [workIllustrados, setWorkIllustrados] = useState(false);
-  
-
+  const [workUCinTTO, setUCinTTO] = useState(false);
   
 
   const handlePeraPinoy = () => {
@@ -28,7 +28,7 @@ const Experience = () => {
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
-    
+    setUCinTTO(false);
   }
 
   const handleFreelance = () => {
@@ -39,7 +39,7 @@ const Experience = () => {
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
-
+    setUCinTTO(false);
   };
 
   const handleUniversrityOfTheCordilleras = () => {
@@ -50,7 +50,7 @@ const Experience = () => {
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
-
+    setUCinTTO(false);
   };
 
   const handlePhinmaUniversityOfPangasinan = () => {
@@ -61,7 +61,7 @@ const Experience = () => {
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
-
+    setUCinTTO(false);
   };
 
   const handleHack4Gov = () => {
@@ -72,7 +72,7 @@ const Experience = () => {
     setWorkHack4Gov(true);
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(false);
-
+    setUCinTTO(false);
   };
 
   const handleIllustrados = () => {
@@ -83,10 +83,10 @@ const Experience = () => {
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(false);
     setWorkIllustrados(true);
-    
+    setUCinTTO(false);
   };
 
-  const handleUNLADFoundation = () => {
+  const handleTrifectaSolutionsInc = () => {
     setWorkPeraPinoy(false);
     setWorkFreelance(false);
     setWorkUniversityOfTheCordilleras(false);
@@ -94,9 +94,20 @@ const Experience = () => {
     setWorkHack4Gov(false);
     setWorkTrifectaSolutionsInc(true);
     setWorkIllustrados(false);
-    
+    setUCinTTO(false);
   };
 
+  const handleUCinTTO = () => {
+    setWorkPeraPinoy(false);
+    setWorkFreelance(false);
+    setWorkUniversityOfTheCordilleras(false);
+    setWorkPhinmaUniversityOfPangasinan(false);
+    setWorkHack4Gov(false);
+    setWorkTrifectaSolutionsInc(false);
+    setWorkIllustrados(false);
+    setUCinTTO(true);
+    
+  };
 
   
 
@@ -139,7 +150,7 @@ const Experience = () => {
             DICT Hack4Gov3 2024
           </li>
           <li
-            onClick={handleUNLADFoundation}
+            onClick={handleTrifectaSolutionsInc}
             className={`${workTrifectaSolutionsInc ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`} // remove hover:bg-[#003153]
           >
             Trifecta Solutions Inc.
@@ -150,6 +161,12 @@ const Experience = () => {
           >
             Illustrados Creatives and Technology Inc.
           </li>
+          <li
+            onClick={handleUCinTTO}
+            className={`${workUCinTTO ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            UC Innovation and Technology Transfer Office.
+          </li>
         </ul>
         {workFreelance && <Freelance />}
         {workUniversityOfTheCordilleras && <UniversityOfTheCordilleras />}
@@ -158,6 +175,7 @@ const Experience = () => {
         {workPeraPinoy && <PeraPinoy />}
         {workTrifectaSolutionsInc && <TrifectaSolutionsInc />}
         {workIllustrados && <Illustrados />}
+        {workUCinTTO && <UCinTTO />}
       </div>
     </section>
   );
