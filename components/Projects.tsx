@@ -384,7 +384,7 @@ const Projects = () => {
             target="_blank"
           >
           <div>
-            <Image className="w-full h-[300px] object-contain"
+            <Image className="w-full h-[350px] object-contain"
             src={parapoproj}
             alt="parapoproj"
             />
