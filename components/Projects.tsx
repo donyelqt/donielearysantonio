@@ -396,7 +396,7 @@ const Projects = () => {
           </p>
           <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">08.</span> Para Po! - Android Mobile App</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
-           PARA PO! is a jeepney-centric mobile navigation app that provides users with jeepney station locators, route display, and jeepney options! Not only that, but you can also create your own jeepney avatar for a more fun and more Filipino commuting experience!
+           Para Po! is a jeepney-centric mobile navigation app that provides users with jeepney station locators, route display, and jeepney options! Not only that, but you can also create your own jeepney avatar for a more fun and more Filipino commuting experience!
           </p>
           <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
             <li>Mapbox API</li>
