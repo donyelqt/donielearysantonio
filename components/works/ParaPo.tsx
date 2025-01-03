@@ -12,7 +12,7 @@ const ParaPo = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        CTO & Lead Android Developer <span className="text-textCyan tracking-wide">@Para Po! </span>
+        CTO & Lead Android Engineer <span className="text-textCyan tracking-wide">@Para Po! </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         Oct 2024 - Present
