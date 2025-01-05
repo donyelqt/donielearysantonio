@@ -22,13 +22,7 @@ const DataCampScholar = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Collaborated effectively with a diverse team during the DICT HackForGov3 2024 Capture the Flag competition, demonstrating strong teamwork and problem-solving skills to tackle complex cybersecurity challenges.
-        </li>
-        <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textCyan mt-1">
-            <AiFillThunderbolt />
-          </span>{""}
-          Showcased adaptability and a commitment to continuous learning by successfully upskilling in cybersecurity, applying these new skills alongside my software development/engineering expertise to contribute significantly to the team&apos;s performance.
+          Selected to be one of the DataCamp Scholars through Google Developer Groups on Campus at Polytechnic University of the Philippines to access 500+ courses and 110+ industry-aligned projects in data science, AI, and more.
         </li>
       </ul>
     </motion.div>
