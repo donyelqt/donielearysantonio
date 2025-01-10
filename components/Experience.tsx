@@ -20,6 +20,7 @@ const Experience = () => {
   const [workIllustrados, setWorkIllustrados] = useState(false);
   const [workUCinTTO, setUCinTTO] = useState(false);
   const [workParaPo, setParaPo] = useState(false);
+  const [workDataCamp, setDataCamp] = useState(false;)
 
   const handlePeraPinoy = () => {
     setWorkPeraPinoy(true);
@@ -31,6 +32,7 @@ const Experience = () => {
     setWorkIllustrados(false);
     setUCinTTO(false);
     setParaPo(false);
+    setDataCamp(false);
   }
 
   const handleFreelance = () => {
@@ -43,6 +45,8 @@ const Experience = () => {
     setWorkIllustrados(false);
     setUCinTTO(false);
     setParaPo(false);
+    setDataCamp(false);
+    setDataCamp(false);
   };
 
   const handleUniversrityOfTheCordilleras = () => {
@@ -55,6 +59,7 @@ const Experience = () => {
     setWorkIllustrados(false);
     setUCinTTO(false);
     setParaPo(false);
+    setDataCamp(false);
   };
 
   const handlePhinmaUniversityOfPangasinan = () => {
@@ -67,6 +72,7 @@ const Experience = () => {
     setWorkIllustrados(false);
     setUCinTTO(false);
     setParaPo(false);
+    setDataCamp(false);
   };
 
   const handleHack4Gov = () => {
@@ -79,6 +85,7 @@ const Experience = () => {
     setWorkIllustrados(false);
     setUCinTTO(false);
     setParaPo(false);
+    setDataCamp(false);
   };
 
   const handleIllustrados = () => {
@@ -91,6 +98,7 @@ const Experience = () => {
     setWorkIllustrados(true);
     setUCinTTO(false);
     setParaPo(false);
+    setDataCamp(false);
   };
 
   const handleTrifectaSolutionsInc = () => {
@@ -103,6 +111,7 @@ const Experience = () => {
     setWorkIllustrados(false);
     setUCinTTO(false);
     setParaPo(false);
+    setDataCamp(false);
   };
 
   const handleUCinTTO = () => {
@@ -115,6 +124,7 @@ const Experience = () => {
     setWorkIllustrados(false);
     setUCinTTO(true);
     setParaPo(false);
+    setDataCamp(false);
   };
 
   const handleParaPo = () => {
