@@ -20,7 +20,7 @@ const Experience = () => {
   const [workIllustrados, setWorkIllustrados] = useState(false);
   const [workUCinTTO, setUCinTTO] = useState(false);
   const [workParaPo, setParaPo] = useState(false);
-  const [workDataCamp, setDataCamp] = useState(false;)
+  const [workDataCamp, setDataCamp] = useState(false);
 
   const handlePeraPinoy = () => {
     setWorkPeraPinoy(true);
