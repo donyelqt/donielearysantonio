@@ -9,6 +9,7 @@ import TrifectaSolutionsInc from "./works/TrifectaSolutionsInc";
 import Illustrados from "./works/Illustrados";
 import UCinTTO from "./works/UCinTTO";
 import ParaPo from "./works/ParaPo";
+import DataCampScholar from "./works/DataCampScholar";
 
 const Experience = () => {
   const [workPeraPinoy, setWorkPeraPinoy] = useState(true);
@@ -232,6 +233,7 @@ const Experience = () => {
         {workIllustrados && <Illustrados />}
         {workUCinTTO && <UCinTTO />}
         {workParaPo && <ParaPo />}
+        {workDataCamp && <DataCampScholar />}
       </div>
     </section>
   );
