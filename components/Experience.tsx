@@ -137,6 +137,20 @@ const Experience = () => {
     setWorkIllustrados(false);
     setUCinTTO(false);
     setParaPo(true);
+    setDataCamp(false)
+  };
+
+  const handleDataCamp = () => {
+    setWorkPeraPinoy(false);
+    setWorkFreelance(false);
+    setWorkUniversityOfTheCordilleras(false);
+    setWorkPhinmaUniversityOfPangasinan(false);
+    setWorkHack4Gov(false);
+    setWorkTrifectaSolutionsInc(false);
+    setWorkIllustrados(false);
+    setUCinTTO(false);
+    setParaPo(false);
+    setDataCamp(true);
   };
   
 
