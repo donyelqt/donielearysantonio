@@ -394,7 +394,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">08.</span> Para Po! - Android Mobile App</h3>
+          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">09.</span> Para Po! - Android Mobile App</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
            Para Po! is a jeepney-centric mobile navigation app that provides users with jeepney station locators, route display, and jeepney options! Not only that, but you can also create your own jeepney avatar for a more fun and more Filipino commuting experience!
           </p>
@@ -441,7 +441,7 @@ const Projects = () => {
           <p className="font-titleFont text-textCyan text-sm tracking-wide">
             
           </p>
-          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">08.</span> Para Po! - Android Mobile App</h3>
+          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">10.</span> Para Po! - Android Mobile App</h3>
           <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
            Para Po! is a jeepney-centric mobile navigation app that provides users with jeepney station locators, route display, and jeepney options! Not only that, but you can also create your own jeepney avatar for a more fun and more Filipino commuting experience!
           </p>
