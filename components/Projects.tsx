@@ -441,7 +441,7 @@ const Projects = () => {
                 <p className="font-titleFont text-textCyan text-sm tracking-wide">
 
                 </p>
-                <h3 className="text-xl md:text-xl font-bold"><span className="text-xl md:text-xl text-textCyan">10.</span> Comparative Analysis of Shortest Path Algorithms (Research Project)</h3>
+                <h3 className="text-xl md:text-xl font-bold"><span className="text-xl md:text-xl text-textCyan">10.</span> Comparative Analysis of Shortest Path Algorithms</h3>
                 <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
                 Developed a Python-based framework to implement and analyze classical graph algorithms, including Dijkstra, Bellman-Ford, Floyd-Warshall, A*, and Johnson&apos;s algorithms.
                 </p>
