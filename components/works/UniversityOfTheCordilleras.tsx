@@ -33,7 +33,7 @@ const UniversityOfTheCordilleras = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""} 
-          Developed a Python-based framework to implement and analyze classical graph algorithms, including Dijkstra, Bellman-Ford, Floyd-Warshall, A*, and Johnson&apos;s algorithms. Generated random and specialized graphs (e.g., negative cycles) for testing, validated algorithm correctness, and compared performance across scalability metrics. Visualized execution time and memory usage trends using Matplotlib for graphs of varying sizes. Utilized Python's collections and queue for efficient data structure implementation, measured algorithmic complexity with tracemalloc and time for in-depth performance analysis, and designed heuristic functions for A* to optimize pathfinding. Improved understanding of algorithmic trade-offs and their application in real-world scenarios.
+          Developed a Python-based framework to implement and analyze classical graph algorithms, including Dijkstra, Bellman-Ford, Floyd-Warshall, A*, and Johnson&apos;s algorithms. Generated random and specialized graphs (e.g., negative cycles) for testing, validated algorithm correctness, and compared performance across scalability metrics. Visualized execution time and memory usage trends using Matplotlib for graphs of varying sizes. Utilized Python&apos;s collections and queue for efficient data structure implementation, measured algorithmic complexity with tracemalloc and time for in-depth performance analysis, and designed heuristic functions for A* to optimize pathfinding. Improved understanding of algorithmic trade-offs and their application in real-world scenarios.
         </li>
       </ul>
     </motion.div>
