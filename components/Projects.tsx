@@ -446,11 +446,11 @@ const Projects = () => {
                 Developed a Python-based framework to implement and analyze classical graph algorithms, including Dijkstra, Bellman-Ford, Floyd-Warshall, A*, and Johnson&apos;s algorithms.
                 </p>
                 <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                  <li>Mapbox API</li>
-                  <li>Firebase</li>
-                  <li>Kotlin</li>
-                  <li>Java</li>
-                  <li>Android</li>
+                  <li>Python</li>
+                  <li>Matplotlib</li>
+                  <li>tracemalloc</li>
+                  <li>PriorityQueue</li>
+                  <li>defaultdict</li>
                 </ul>
                 <div className="text-2xl flex gap-4 ">
                   <a className="hover:text-textCyan duration-300"
