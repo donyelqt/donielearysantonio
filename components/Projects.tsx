@@ -1,6 +1,6 @@
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
-import { donieleAI, edengreenhouse, edensoft, netflixbydonieleImg, parapoproj, perapinoyweb } from "@/public/assets";
+import { comparativeanalysis, donieleAI, edengreenhouse, edensoft, netflixbydonieleImg, parapoproj, perapinoyweb } from "@/public/assets";
 import { BsGithub } from "react-icons/bs";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import { portfolioUniversityProject, ucgastrobaguiomockup, ucgastroconsultmockup, netflixbydonielemockup, donieleaimockup, donielemockup } from "@/public/assets";
@@ -387,6 +387,53 @@ const Projects = () => {
             <Image className="w-full h-[350px] object-contain"
             src={parapoproj}
             alt="parapoproj"
+            />
+          </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-center text-right xl:-ml-16 z-10">
+          <p className="font-titleFont text-textCyan text-sm tracking-wide">
+            
+          </p>
+          <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">08.</span> Para Po! - Android Mobile App</h3>
+          <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
+           Para Po! is a jeepney-centric mobile navigation app that provides users with jeepney station locators, route display, and jeepney options! Not only that, but you can also create your own jeepney avatar for a more fun and more Filipino commuting experience!
+          </p>
+          <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <li>Mapbox API</li>
+            <li>Firebase</li>
+            <li>Kotlin</li>
+            <li>Java</li>
+            <li>Android</li>
+          </ul>
+          <div className="text-2xl flex gap-4 ">
+            <a className="hover:text-textCyan duration-300" 
+               href="" 
+               target="_blank"
+            >
+              <BsGithub />
+            </a>
+            <a className="hover:text-textCyan duration-300" 
+               href="" 
+               target="_blank"
+            >
+              <RxOpenInNewWindow />
+            </a>
+          </div>
+        </div>
+       </div>
+      </div>
+       {/* Project 10 */}
+       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="flex flex-col xl:flex-row gap-6">
+          <a 
+            className="w-full xl:w-1/2 h-auto relative group" 
+            href="" 
+            target="_blank"
+          >
+          <div className="bg-white py-8 px-4">
+            <Image className="w-full h-[350px] object-contain"
+            src={comparativeanalysis}
+            alt="comparativeanalysis"
             />
           </div>
           </a>
