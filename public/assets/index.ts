@@ -37,9 +37,11 @@ import flutter from "./images/flutter.png"
 import dart from "./images/dart.png"
 import perapinoyweb from "./images/perapinoyweb.png"
 import parapoproj from "./images/parapoproj.jpg"
+import comparativeanalysis from "./images/comparativeanalysis.png"
 
 export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
 html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, 
 supabase, postgresql, prisma, scss, ucgastrobaguiomockup, ucgastroconsultmockup,
  netflixbydonielemockup, donieleaimockup, donielemockup, git, github, vercel, 
- bootstrap, firebase, kalilinux, edensoft, edengreenhouse, flutter, dart, perapinoyweb, parapoproj }
+ bootstrap, firebase, kalilinux, edensoft, edengreenhouse, flutter, dart, perapinoyweb, parapoproj,
+comparativeanalysis }
