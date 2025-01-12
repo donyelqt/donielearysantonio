@@ -443,7 +443,7 @@ const Projects = () => {
                 </p>
                 <h3 className="text-xl md:text-xl font-bold"><span className="text-xl md:text-xl text-textCyan">10.</span> Comparative Analysis of Shortest Path Algorithms</h3>
                 <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
-                Developed a Python-based framework to implement and analyze classical graph algorithms, including Dijkstra, Bellman-Ford, Floyd-Warshall, A*, and Johnson&apos;s algorithms.
+                Led a research project in the Design and Analysis of Algorithms subject that conducts a detailed comparative analysis of five foundational shortest path algorithms: Dijkstra, Bellman-Ford, A*, Floyd-Warshall, and Johnson&apos;s algorithms. Developed a Python-based framework for implementing and analyzing those algorithms, putting emphasis on the performance, complexity, and their applicability across the different types of graphs to improve understanding of algorithmic trade-offs in real-world scenarios.
                 </p>
                 <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                   <li>Python</li>
