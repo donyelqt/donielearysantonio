@@ -441,9 +441,9 @@ const Projects = () => {
                 <p className="font-titleFont text-textCyan text-sm tracking-wide">
 
                 </p>
-                <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">10.</span> Research Title: A Comparative Performance Analysis of Shortest Path Algorithms: Dijkstra, Bellman-Ford, A, Floyd-Warshall, and Johnson's Algorithms*</h3>
+                <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">10.</span> Comparative Analysis of Shortest Path Algorithms</h3>
                 <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
-                Conducted a comprehensive analysis of Dijkstra, Bellman-Ford, A*, Floyd-Warshall, and Johnson's algorithms, focusing on performance, complexity, and applicability across different graph types. Evaluated time and space complexity, analyzed scalability with increasing graph sizes, and benchmarked efficiency across multiple programming languages. Provided data-driven recommendations for algorithm selection based on graph characteristics and practical application requirements.
+                Developed a Python-based framework to implement and analyze classical graph algorithms, including Dijkstra, Bellman-Ford, Floyd-Warshall, A*, and Johnson&apos;s algorithms.
                 </p>
                 <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                   <li>Mapbox API</li>

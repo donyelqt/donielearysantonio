@@ -29,6 +29,12 @@ const UniversityOfTheCordilleras = () => {
           </span>{""} 
           I lead a small team of three members for our technopreneurship project, and I handle all the web app development. We proposed and developed the UC GastroBaguio web app, a community platform for hospitals in Baguio City, Philippines, focusing on solving gastroenteritis cases.
         </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textCyan mt-1">
+            <AiFillThunderbolt />
+          </span>{""} 
+          Developed a Python-based framework to implement and analyze classical graph algorithms, including Dijkstra, Bellman-Ford, Floyd-Warshall, A*, and Johnson&apos;s algorithms. Generated random and specialized graphs (e.g., negative cycles) for testing, validated algorithm correctness, and compared performance across scalability metrics. Visualized execution time and memory usage trends using Matplotlib for graphs of varying sizes. Utilized Python's collections and queue for efficient data structure implementation, measured algorithmic complexity with tracemalloc and time for in-depth performance analysis, and designed heuristic functions for A* to optimize pathfinding. Improved understanding of algorithmic trade-offs and their application in real-world scenarios.
+        </li>
       </ul>
     </motion.div>
   );
