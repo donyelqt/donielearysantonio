@@ -424,12 +424,19 @@ const Projects = () => {
           </div>
           {/* Project 10 */}
           <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+            {/* Outer wrapper: 
+      - Flex column by default for small devices.
+      - Flex row for large screens (xl). 
+      - gap-28 sets the space between elements. */}
             <div className="flex flex-col xl:flex-row gap-6">
               <a
                 className="w-full xl:w-1/2 h-auto relative group"
                 href=""
                 target="_blank"
               >
+                {/* Image container:
+          - w-full ensures full width on small screens.
+          - xl:w-1/2 sets the width to 50% for larger screens. */}
                 <div className="bg-white py-8 px-4">
                   <Image className="w-full h-[350px] object-contain"
                     src={comparativeanalysis}
@@ -438,21 +445,34 @@ const Projects = () => {
                 </div>
               </a>
               <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-center text-right xl:-ml-16 z-10">
+                {/* Text container: 
+          - w-full ensures the text section takes full width on smaller screens.
+          - xl:w-1/2 sets 50% width for larger screens (side by side with image). 
+          - flex flex-col arranges text elements vertically on small devices. 
+          - text-right for right-aligned text on larger screens. */}
                 <p className="font-titleFont text-textCyan text-sm tracking-wide">
-
+                  {/* Optional Description */}
                 </p>
-                <h3 className="text-xl md:text-xl font-bold"><span className="text-xl md:text-xl text-textCyan">10.</span> Comparative Analysis of Shortest Path Algorithms</h3>
+                <h3 className="text-xl md:text-xl font-bold">
+                  {/* Title with dynamic size for responsiveness */}
+                  <span className="text-xl md:text-xl text-textCyan">10.</span> Comparative Analysis of Shortest Path Algorithms
+                </h3>
                 <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
-                Led a research project in the Design and Analysis of Algorithms subject that conducts a detailed comparative analysis of five foundational shortest path algorithms: Dijkstra, Bellman-Ford, A*, Floyd-Warshall, and Johnson&apos;s algorithms. Spearheaded and developed a Python-based framework for implementing and analyzing those algorithms, putting emphasis on the performance, complexity, and their applicability across the different types of graphs to improve understanding of algorithmic trade-offs in real-world scenarios.
+                  {/* Description */}
+                  Led a research project in the Design and Analysis of Algorithms subject that conducts a detailed comparative analysis of five foundational shortest path algorithms: Dijkstra, Bellman-Ford, A*, Floyd-Warshall, and Johnson&apos;s algorithms. Spearheaded and developed a Python-based framework for implementing and analyzing those algorithms, putting emphasis on the performance, complexity, and their applicability across the different types of graphs to improve understanding of algorithmic trade-offs in real-world scenarios.
                 </p>
                 <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                  {/* Tech stack list:
+            - text-xs for smaller text on small screens.
+            - md:text-sm increases the size on medium and larger screens. */}
                   <li>Python</li>
                   <li>Matplotlib</li>
                   <li>tracemalloc</li>
                   <li>PriorityQueue</li>
                   <li>defaultdict</li>
                 </ul>
-                <div className="text-2xl flex gap-4 ">
+                <div className="text-2xl flex gap-4">
+                  {/* Links to GitHub and external pages */}
                   <a className="hover:text-textCyan duration-300"
                     href=""
                     target="_blank"
