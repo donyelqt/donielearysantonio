@@ -437,7 +437,7 @@ const Projects = () => {
                 {/* Image container:
           - w-full ensures full width on small screens.
           - xl:w-1/2 sets the width to 50% for larger screens. */}
-                <div className="py-8 px-4">
+                <div className="bg-white py-8 px-4">
                   <Image className="w-full h-[350px] object-contain"
                     src={comparativeanalysis}
                     alt="comparativeanalysis"
