@@ -12,7 +12,7 @@ const DataCampScholar = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        DataCamp Scholar <span className="text-textCyan tracking-wide">@DataCamp</span>
+        Google Developer x DataCamp Scholar <span className="text-textCyan tracking-wide">@DataCamp</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         January 2025 - Present
