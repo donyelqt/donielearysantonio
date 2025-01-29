@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { introtopythondatacamp } from "@/public/assets";
 
 const Certifications = () => {
     return (
@@ -9,23 +10,25 @@ const Certifications = () => {
                     <h2 className="text-3xl font-bold text-center mb-8">Certifications</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {/* First Certification */}
-                        <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                        <div className="bg-black rounded-lg shadow-lg p-6 hover:shadow-lg transition-shadow duration-300">
                             <Image
-                                src="introtopythondatacamp"
-                                alt="Certified Web Developer"
-                                width={100}
-                                height={100}
-                                className="w-20 h-20 mx-auto mb-4"
+                                src={introtopythondatacamp}
+                                alt="Introduction to Python"
+                                width={300}
+                                height={300}
+                                className="mx-auto mb-4"
                             />
-                            <h3 className="text-xl font-semibold text-center">Certified Web Developer</h3>
-                            <p className="text-gray-600 text-center">Web Development Institute</p>
-                            <p className="text-sm text-gray-500 text-center mt-2">Issued: Jan 2023</p>
+                            <h3 className="text-xl text-white font-semibold text-center">Introduction to Python</h3>
+                            <div className="flex justify-between">
+                                <p className="text-sm text-gray-400 text-center">DataCamp</p>
+                                <p className="text-sm text-gray-400 text-center">Issued: Jan 2025</p>
+                            </div>
                         </div>
 
                         {/* Second Certification */}
                         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                             <Image
-                                src="/assets/aws-cert.png" // Replace with actual image path
+                                src="" // Replace with actual image path
                                 alt="AWS Certified Solutions Architect"
                                 width={100}
                                 height={100}
@@ -39,7 +42,7 @@ const Certifications = () => {
                         {/* Third Certification */}
                         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                             <Image
-                                src="/assets/google-data-analytics.png" // Replace with actual image path
+                                src="" // Replace with actual image path
                                 alt="Google Data Analytics Professional"
                                 width={100}
                                 height={100}
@@ -53,7 +56,7 @@ const Certifications = () => {
                         {/* Fourth Certification */}
                         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                             <Image
-                                src="/assets/scrum-master.png" // Replace with actual image path
+                                src="" // Replace with actual image path
                                 alt="Certified Scrum Master"
                                 width={100}
                                 height={100}
@@ -67,7 +70,7 @@ const Certifications = () => {
                         {/* Fifth Certification */}
                         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                             <Image
-                                src="/assets/azure-fundamentals.png" // Replace with actual image path
+                                src="" // Replace with actual image path
                                 alt="Microsoft Azure Fundamentals"
                                 width={100}
                                 height={100}
@@ -81,7 +84,7 @@ const Certifications = () => {
                         {/* Sixth Certification */}
                         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                             <Image
-                                src="/assets/ethical-hacker.png" // Replace with actual image path
+                                src="" // Replace with actual image path
                                 alt="Certified Ethical Hacker"
                                 width={100}
                                 height={100}
