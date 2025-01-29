@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
-import { introtopythondatacamp, understandingdatascience_datacamp } from "@/public/assets";
+import { introtopython_datacamp, understandingdatascience_datacamp } from "@/public/assets";
 
 const Certifications = () => {
     return (
@@ -13,7 +13,7 @@ const Certifications = () => {
                         {/* 1st Certification */}
                         <div className="bg-black rounded-lg shadow-lg p-6 transition-transform transform hover:scale-90 hover:shadow-lg duration-300">
                             <Image
-                                src={introtopythondatacamp}
+                                src={introtopython_datacamp}
                                 alt="Introduction to Python"
                                 width={300}
                                 height={300}
@@ -53,7 +53,7 @@ const Certifications = () => {
                           {/* 3rd Certification */}
                           <div className="bg-black rounded-lg shadow-lg p-6 transition-transform transform hover:scale-90 hover:shadow-lg duration-300">
                             <Image
-                                src={introtopythondatacamp}
+                                src={introtopython_datacamp}
                                 alt="Introduction to Python"
                                 width={300}
                                 height={300}
@@ -73,7 +73,7 @@ const Certifications = () => {
                           {/* 4th Certification */}
                           <div className="bg-black rounded-lg shadow-lg p-6 transition-transform transform hover:scale-90 hover:shadow-lg duration-300">
                             <Image
-                                src={introtopythondatacamp}
+                                src={introtopython_datacamp}
                                 alt="Introduction to Python"
                                 width={300}
                                 height={300}
@@ -93,7 +93,7 @@ const Certifications = () => {
                           {/* 5th Certification */}
                           <div className="bg-black rounded-lg shadow-lg p-6 transition-transform transform hover:scale-90 hover:shadow-lg duration-300">
                             <Image
-                                src={introtopythondatacamp}
+                                src={introtopython_datacamp}
                                 alt="Introduction to Python"
                                 width={300}
                                 height={300}
