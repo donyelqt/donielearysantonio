@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
-import { introtopythondatacamp } from "@/public/assets";
+import { introtopythondatacamp, understandingdatascience_datacamp } from "@/public/assets";
 
 const Certifications = () => {
     return (
@@ -33,8 +33,8 @@ const Certifications = () => {
                         {/* 2nd Certification */}
                         <div className="bg-black rounded-lg shadow-lg p-6 transition-transform transform hover:scale-90 hover:shadow-lg duration-300">
                             <Image
-                                src={introtopythondatacamp}
-                                alt="Introduction to Python"
+                                src={understandingdatascience_datacamp}
+                                alt="Understanding Data Science"
                                 width={300}
                                 height={300}
                                 className="mx-auto mb-4"
