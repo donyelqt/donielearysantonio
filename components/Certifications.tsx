@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa"; 
 import { introtopythondatacamp } from "@/public/assets";
 
 const Certifications = () => {
@@ -10,7 +11,7 @@ const Certifications = () => {
                     <h2 className="text-3xl font-bold text-center mb-8">Certifications</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {/* First Certification */}
-                        <div className="bg-black rounded-lg shadow-lg p-6 hover:shadow-lg transition-shadow duration-300">
+                        <div className="bg-black rounded-lg shadow-lg p-6 transition-transform transform hover:scale-90 hover:shadow-lg duration-300">
                             <Image
                                 src={introtopythondatacamp}
                                 alt="Introduction to Python"
@@ -23,6 +24,9 @@ const Certifications = () => {
                                 <p className="text-sm text-gray-400 text-center">DataCamp</p>
                                 <p className="text-sm text-gray-400 text-center">Issued: Jan 2025</p>
                             </div>
+                            <p className="text-textCyan text-md mt-4 hover: cursor-pointer">View Certificate
+                            <FaArrowRight className="ml-2" />
+                            </p>
                         </div>
 
                         {/* Second Certification */}
