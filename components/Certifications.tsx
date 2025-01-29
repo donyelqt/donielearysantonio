@@ -39,12 +39,12 @@ const Certifications = () => {
                                 height={300}
                                 className="mx-auto mb-4"
                             />
-                            <h3 className="text-xl text-white font-semibold text-center">Introduction to Python</h3>
+                            <h3 className="text-xl text-white font-semibold text-center">Understanding Data Science</h3>
                             <div className="flex justify-between mt-4">
                                 <p className="text-sm text-gray-400 text-center">DataCamp</p>
                                 <p className="text-sm text-gray-400 text-center">Issued: Jan 2025</p>
                             </div>
-                            <p className="text-textCyan text-md mt-4 hover:cursor-pointer"><a href="https://www.datacamp.com/statement-of-accomplishment/course/ce18e56d2ce65ba03dda2e5f801ce815e45723e2?raw=1" className="flex items-center">
+                            <p className="text-textCyan text-md mt-4 hover:cursor-pointer"><a href="https://www.datacamp.com/statement-of-accomplishment/course/8ab417d390576c5f375389ab2ee8b7e1bf9f3b5f?raw=1" className="flex items-center">
                                 View Certificate<FaArrowRight className="ml-2" />
                             </a>
                             </p>
