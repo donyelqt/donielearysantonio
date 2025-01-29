@@ -11,6 +11,7 @@ import AllProjects from "@/components/works/AllProjects";
 import Contact from "@/components/works/Contact";
 import Footer from "@/components/works/Footer";
 import CompetitionsandAwards from "@/components/CompetitionsandAwards";
+import Certifications from "@/components/Certifications";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
             <Experience />
             <CompetitionsandAwards />
             <Projects />
+            <Certifications />
             {/*<AllProjects />*/}
             <Contact />
             <Footer />            

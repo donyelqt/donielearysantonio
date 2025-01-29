@@ -125,6 +125,20 @@ function handleClick(e:any){
             </Link>
             <Link 
               className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              href="#certifications"
+              onClick={handleScroll}
+            >
+              <motion.li
+                initial={{ y: -10, opacity: 0}} 
+                animate={{ y: 0, opacity: 1 }} 
+                transition={{ duration: 0.4 }}
+            >
+                <span className="text-textCyan">05.</span>
+                Certifications
+             </motion.li>
+            </Link>
+            <Link 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#contact"
               onClick={handleScroll}
             >
@@ -133,7 +147,7 @@ function handleClick(e:any){
                 animate={{ y: 0, opacity: 1 }} 
                 transition={{ duration: 0.5 }}
             >
-                <span className="text-textCyan">05.</span>
+                <span className="text-textCyan">06.</span>
                 Contact
              </motion.li>
             </Link>    
@@ -246,7 +260,7 @@ function handleClick(e:any){
                 Competitions
              </motion.li>
             </Link>
-            <Link 
+           <Link 
               className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#project"
               onClick={handleScroll}
@@ -266,6 +280,24 @@ function handleClick(e:any){
             </Link>
             <Link 
               className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
+              href="#certifications"
+              onClick={handleScroll}
+            >
+              <motion.li
+                initial={{ y: 20, opacity: 0}} 
+                animate={{ y: 0, opacity: 1 }} 
+                transition={{ 
+                  duration: 0.5,
+                  delay: 0.4,
+                  ease: "easeIn"
+                }}
+            >
+                <span className="text-textCyan">05.</span>
+                Certifications
+             </motion.li>
+            </Link>
+            <Link 
+              className="flex items-center gap-1 font-medium text-white hover:text-textCyan cursor-pointer duration-300 nav-link" 
               href="#contact"
               onClick={handleScroll}
             >
@@ -278,7 +310,7 @@ function handleClick(e:any){
                   ease: "easeIn"
                 }}
             >
-                <span className="text-textCyan">05.</span>
+                <span className="text-textCyan">06.</span>
                 Contact
              </motion.li>
             </Link>    
