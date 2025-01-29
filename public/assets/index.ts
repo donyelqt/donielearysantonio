@@ -39,11 +39,12 @@ import perapinoyweb from "./images/perapinoyweb.png"
 import parapoproj from "./images/parapoproj.jpg"
 import comparativeanalysis from "./images/comparativeanalysis.png"
 import introtopython_datacamp from "./images/introtopython_datacamp.jpg"
-import understandingdatascience_datacamp from "./images/understandingdatascience_datacamp.png"
+import understandingdatascience_datacamp from "./images/understandingdatascience_datacamp.jpg"
+import understandingmachinelearning_datacamp from "./images/understandingmachinelearning_datacamp.jpg"
 
 export { donieleAI, portfolioUniversityProject, logo, profileImg, netflixbydonieleImg, donieleprof, 
 html, javascript, typescript, react, nextjs, css3, csharp, java, python, cplus2, nodejs, tailwindcss, 
 supabase, postgresql, prisma, scss, ucgastrobaguiomockup, ucgastroconsultmockup,
  netflixbydonielemockup, donieleaimockup, donielemockup, git, github, vercel, 
  bootstrap, firebase, kalilinux, edensoft, edengreenhouse, flutter, dart, perapinoyweb, parapoproj,
-comparativeanalysis, introtopython_datacamp, understandingdatascience_datacamp }
+comparativeanalysis, introtopython_datacamp, understandingdatascience_datacamp, understandingmachinelearning_datacamp }
