@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa"; 
+import { FaArrowRight } from "react-icons/fa";
 import { introtopythondatacamp } from "@/public/assets";
 
 const Certifications = () => {
@@ -20,12 +20,13 @@ const Certifications = () => {
                                 className="mx-auto mb-4"
                             />
                             <h3 className="text-xl text-white font-semibold text-center">Introduction to Python</h3>
-                            <div className="flex justify-between">
+                            <div className="flex justify-between mt-4">
                                 <p className="text-sm text-gray-400 text-center">DataCamp</p>
                                 <p className="text-sm text-gray-400 text-center">Issued: Jan 2025</p>
                             </div>
-                            <p className="text-textCyan text-md mt-4 hover: cursor-pointer">View Certificate
-                            <FaArrowRight className="ml-2" />
+                            <p className="text-textCyan text-md mt-4 hover:cursor-pointer flex items-center"><a href="https://www.datacamp.com/statement-of-accomplishment/course/ce18e56d2ce65ba03dda2e5f801ce815e45723e2?raw=1">
+                                View Certificate<FaArrowRight className="ml-2" />
+                            </a>
                             </p>
                         </div>
 
