@@ -8,7 +8,7 @@ const Certifications = () => {
         <section id="certifications" className="max-w-container mx-auto lgl:px-20 py-24">
             <div className="bg-transparent">
                 <div className="container mx-auto px-4">
-                    <h2 className="text-4xl font-bold text-center text-textLight mb-8">Certifications</h2>
+                    <h2 className="text-4xl font-bold text-center text-textLight mb-8">CERTIFICATIONS</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {/* 1st Certification */}
                         <div className="bg-black rounded-lg shadow-lg p-6 transition-transform transform hover:scale-90 hover:shadow-lg duration-300">
