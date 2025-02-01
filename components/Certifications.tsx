@@ -89,27 +89,7 @@ const Certifications = () => {
                             </a>
                             </p>
                         </div>
-
-                          {/* 5th Certification */}
-                          <div className="bg-black rounded-lg shadow-lg p-6 transition-transform transform hover:scale-90 hover:shadow-lg duration-300">
-                            <Image
-                                src={introtopython_datacamp}
-                                alt="Introduction to Python"
-                                width={300}
-                                height={300}
-                                className="mx-auto mb-4"
-                            />
-                            <h3 className="text-xl text-white font-semibold text-center">Introduction to Python</h3>
-                            <div className="flex justify-between mt-4">
-                                <p className="text-sm text-gray-400 text-center">DataCamp</p>
-                                <p className="text-sm text-gray-400 text-center">Issued: Jan 2025</p>
-                            </div>
-                            <p className="text-textCyan text-md mt-4 hover:cursor-pointer"><a href="https://www.datacamp.com/statement-of-accomplishment/course/ce18e56d2ce65ba03dda2e5f801ce815e45723e2?raw=1" className="flex items-center">
-                                View Certificate<FaArrowRight className="ml-2" />
-                            </a>
-                            </p>
-                        </div>
-
+                        
                     </div>
                 </div>
             </div>
