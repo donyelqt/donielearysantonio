@@ -122,7 +122,7 @@ const Certifications = () => {
                             <h3 className="text-xl text-white font-semibold text-center">Software Engineering Principles in Python</h3>
                             <div className="flex justify-between mt-4">
                                 <p className="text-sm text-gray-400 text-center">DataCamp</p>
-                                <p className="text-sm text-gray-400 text-center">Issued: Feb 2025</p>
+                                <p className="text-sm text-gray-400 text-center">Issued: March 2025</p>
                             </div>
                             <p className="text-textCyan text-md mt-4 hover:cursor-pointer"><a href="https://www.datacamp.com/statement-of-accomplishment/course/0b03f6d06bdd3f91b83969f8b70defc7a7c6e780?raw=1" className="flex items-center">
                                 View Certificate<FaArrowRight className="ml-2" />
