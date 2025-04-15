@@ -211,12 +211,12 @@ const Experience = () => {
           >
             UC Innovation and Technology Transfer Office.
           </li>
-          <li
+          {/*<li
             onClick={handleParaPo}
             className={`${workParaPo ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             Para Po!
-          </li>
+          </li>*/}
           <li
             onClick={handleDataCamp}
             className={`${workDataCamp ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
