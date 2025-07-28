@@ -455,7 +455,7 @@ const Projects = () => {
                 </p>
                 <h3 className="text-xl md:text-xl font-bold">
                   {/* Title with dynamic size for responsiveness */}
-                  <span className="text-xl md:text-xl text-textCyan">10.</span> Comparative Analysis of Shortest Path Algorithms
+                  <span className="text-xl md:text-xl text-textCyan">09.</span> Comparative Analysis of Shortest Path Algorithms
                 </h3>
                 <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
                   {/* Description */}
