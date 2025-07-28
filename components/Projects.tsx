@@ -376,7 +376,7 @@ const Projects = () => {
             </div>
           </div>
           {/* Project 9 */}
-          <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          {/*<div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
             <div className="flex flex-col xl:flex-row gap-6">
               <a
                 className="w-full xl:w-1/2 h-auto relative group"
@@ -421,7 +421,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
           {/* Project 10 */}
           <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
             {/* Outer wrapper: 
