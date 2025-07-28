@@ -199,7 +199,7 @@ const Experience = () => {
           >
             Trifecta Solutions Inc.
           </li>
-          <li
+          {/*<li
             onClick={handleIllustrados}
             className={`${workIllustrados ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
@@ -210,7 +210,7 @@ const Experience = () => {
             className={`${workUCinTTO ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             UC Innovation and Technology Transfer Office.
-          </li>
+          </li>*/}
           {/*<li
             onClick={handleParaPo}
             className={`${workParaPo ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
