@@ -558,7 +558,7 @@ const Projects = () => {
               </p>
               <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">11.</span> Tarana.ai</h3>
               <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
-                The <span className="text-textCyan">3rd Place Winner</span> at AI.DEAS FOR IMPACT HACKATHON 2025 and <span className="text-textCyan">Regional Finalist</span> at the Philippine Startup Challenge 10 (CAR). An <span className="text-textCyan">agentic AI travel planning app</span> that creates <span className="text-textCyan">real-time, hyper-personalized itineraries</span> based on a traveler’s interests, utilizing an <span className="text-textCyan">advanced RAG pipeline</span> and <span className="text-textCyan">multi-agent system</span>.
+                The <span className="text-textCyan">3rd Place Winner</span> at AI.DEAS FOR IMPACT HACKATHON 2025 and <span className="text-textCyan">Regional Finalist</span> at the Philippine Startup Challenge 10 (CAR). An <span className="text-textCyan">agentic AI travel planning app</span> launched in <span className="text-textCyan">Baguio City, Philippines</span> with the support of the <span className="text-textCyan">Baguio City LGU</span> that creates <span className="text-textCyan">real-time, hyper-personalized itineraries</span> based on a traveler’s interests, utilizing an <span className="text-textCyan">advanced RAG pipeline</span> and <span className="text-textCyan">multi-agent system</span>.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>Next.js 15</li>
