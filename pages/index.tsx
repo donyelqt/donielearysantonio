@@ -2,7 +2,7 @@ import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
 import RightSide from "@/components/RightSide";
 import Head from "next/head";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
@@ -13,6 +13,8 @@ import Footer from "@/components/works/Footer";
 import CompetitionsandAwards from "@/components/CompetitionsandAwards";
 import Certifications from "@/components/Certifications";
 
+import StarBackground from "@/components/StarBackground";
+
 export default function Home() {
   return (
     <>
@@ -22,14 +24,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo2.ico" />
       </Head>
-      <main className="w-full h-screen font-bodyFont bg-gradient-to-tl from-slate-900 via-blue-900 to-slate-900 text-textLight
-      overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
+      <main className="w-full h-screen font-bodyFont bg-gradient-to-tl from-[#0B1120] via-[#2A1B3D] to-[#0B1120] text-textLight
+      overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60 relative">
+        <StarBackground />
         <Navbar />
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
-          <motion.div 
-            initial={{ opacity: 0 }} 
-            animate={{ opacity: 1 }} 
-            transition={{ delay: 1.5 }} 
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5 }}
             className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0"
           >
             <LeftSide />
@@ -43,15 +46,15 @@ export default function Home() {
             <Certifications />
             {/*<AllProjects />*/}
             <Contact />
-            <Footer />            
+            <Footer />
           </div>
-          <motion.div 
-            initial={{ opacity: 0 }} 
-            animate={{ opacity: 1 }} 
-            transition={{ delay: 1.5 }}  
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5 }}
             className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
           >
-            
+
           </motion.div>
         </div>
       </main>
