@@ -511,7 +511,7 @@ const Projects = () => {
               </p>
               <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">10.</span> AI.GIS + Lifeband</h3>
               <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
-                The <span className="text-textCyan">"Best in Pitch" Winner</span> at Make-a-Thon 2025. A <span className="text-textCyan">real-time health monitoring application</span> featuring an <span className="text-textCyan">AI Doctor Assistant</span> (powered by Google Genkit) that analyzes live vitals to provide <span className="text-textCyan">proactive health advice</span> and <span className="text-textCyan">automatic emergency alerts</span>.
+                The <span className="text-textCyan">&quot;Best in Pitch&quot; Winner</span> at Make-a-Thon 2025. A <span className="text-textCyan">real-time health monitoring application</span> featuring an <span className="text-textCyan">AI Doctor Assistant</span> (powered by Google Genkit) that analyzes live vitals to provide <span className="text-textCyan">proactive health advice</span> and <span className="text-textCyan">automatic emergency alerts</span>.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>Next.js</li>
