@@ -24,7 +24,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo2.ico" />
       </Head>
-      <main className="w-full h-screen font-bodyFont bg-gradient-to-tl from-[#0B1120] via-[#2A1B3D] to-[#0B1120] text-textLight
+      <main className="w-full h-screen font-bodyFont bg-gradient-to-tl from-[#151c2f] via-[#112d55] to-[#151c2f] text-textLight
       overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60 relative">
         <StarBackground />
         <Navbar />

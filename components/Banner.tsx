@@ -15,7 +15,7 @@ const Banner = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-2xl font-titleFont tracking-wide text-textCyan"
         >
-          Hello, World! 🧑🏻‍💻🚀👾
+          Hello, World! {/*🧑🏻‍💻🚀👾*/}
         </motion.h3>
         <motion.h1
           initial={{ y: 10, opacity: 0 }}
@@ -54,9 +54,9 @@ const Banner = () => {
       </div>
 
       <motion.div
-        initial={{ y: 0, opacity: 0 }}
+        initial={{ y: 400, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.7, delay: 1 }}
+        transition={{ duration: 3, delay: 0.1, ease: "easeInOut" }}
         className="text-textCyan flex lgl:inline-flex w-full lgl:w-1/3 justify-center items-center"
       >
         <Rocket3D />

@@ -1,7 +1,7 @@
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 import { comparativeanalysis, donieleAI, edengreenhouse, edensoft, netflixbydonieleImg, parapoproj, perapinoyweb } from "@/public/assets";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsImage } from "react-icons/bs";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import { portfolioUniversityProject, ucgastrobaguiomockup, ucgastroconsultmockup, netflixbydonielemockup, donieleaimockup, donielemockup } from "@/public/assets";
 
@@ -486,6 +486,199 @@ const Projects = () => {
                     <RxOpenInNewWindow />
                   </a>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Project 10 */}
+        <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://github.com/donyelqt/AI.GIS"
+              target="_blank"
+            >
+              <div className="w-full h-[350px] bg-[#112240] rounded-lg border-2 border-dashed border-textDark/30 flex flex-col justify-center items-center group-hover:border-textCyan/50 group-hover:bg-[#0B1120] transition-colors duration-300 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-tr from-textCyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <BsImage className="text-5xl text-textDark/50 group-hover:text-textCyan duration-300 z-10" />
+                <p className="text-textDark/50 text-sm font-titleFont tracking-widest mt-4 group-hover:text-textCyan duration-300 z-10">
+                  IMAGE COMING SOON
+                </p>
+              </div>
+            </a>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-center text-right xl:-ml-16 z-10">
+              <p className="font-titleFont text-textCyan text-sm tracking-wide">
+              </p>
+              <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">10.</span> AI.GIS + Lifeband</h3>
+              <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
+                The <span className="text-textCyan">"Best in Pitch" Winner</span> at Make-a-Thon 2025. A <span className="text-textCyan">real-time health monitoring application</span> featuring an <span className="text-textCyan">AI Doctor Assistant</span> (powered by Google Genkit) that analyzes live vitals to provide <span className="text-textCyan">proactive health advice</span> and <span className="text-textCyan">automatic emergency alerts</span>.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>Next.js</li>
+                <li>Google Genkit</li>
+                <li>Gemini Pro</li>
+                <li>ShadCN</li>
+                <li>Tailwind CSS</li>
+              </ul>
+              <div className="text-2xl flex gap-4 ">
+                <a className="hover:text-textCyan duration-300"
+                  href="https://github.com/donyelqt/AI.GIS"
+                  target="_blank"
+                >
+                  <BsGithub />
+                </a>
+                <a className="hover:text-textCyan duration-300"
+                  href="https://github.com/donyelqt/AI.GIS"
+                  target="_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Project 11 */}
+        <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://github.com/donyelqt/Tarana.ai"
+              target="_blank"
+            >
+              <div className="w-full h-[350px] bg-[#112240] rounded-lg border-2 border-dashed border-textDark/30 flex flex-col justify-center items-center group-hover:border-textCyan/50 group-hover:bg-[#0B1120] transition-colors duration-300 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-tr from-textCyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <BsImage className="text-5xl text-textDark/50 group-hover:text-textCyan duration-300 z-10" />
+                <p className="text-textDark/50 text-sm font-titleFont tracking-widest mt-4 group-hover:text-textCyan duration-300 z-10">
+                  IMAGE COMING SOON
+                </p>
+              </div>
+            </a>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-center text-right xl:-ml-16 z-10">
+              <p className="font-titleFont text-textCyan text-sm tracking-wide">
+              </p>
+              <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">11.</span> Tarana.ai</h3>
+              <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
+                The <span className="text-textCyan">3rd Place Winner</span> at AI.DEAS FOR IMPACT HACKATHON 2025 and <span className="text-textCyan">Regional Finalist</span> at the Philippine Startup Challenge 10 (CAR). An <span className="text-textCyan">agentic AI travel planning app</span> that creates <span className="text-textCyan">real-time, hyper-personalized itineraries</span> based on a traveler’s interests, utilizing an <span className="text-textCyan">advanced RAG pipeline</span> and <span className="text-textCyan">multi-agent system</span>.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>Next.js 15</li>
+                <li>React 19</li>
+                <li>Supabase (pgvector)</li>
+                <li>Google Gemini AI</li>
+                <li>TomTom API</li>
+                <li>OpenWeatherMap</li>
+                <li>Framer Motion</li>
+                <li>Tailwind CSS</li>
+              </ul>
+              <div className="text-2xl flex gap-4 ">
+                <a className="hover:text-textCyan duration-300"
+                  href="https://github.com/donyelqt/Tarana.ai"
+                  target="_blank"
+                >
+                  <BsGithub />
+                </a>
+                <a className="hover:text-textCyan duration-300"
+                  href="https://github.com/donyelqt/Tarana.ai"
+                  target="_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Project 12 */}
+        <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://github.com/donyelqt/Huzz-ler"
+              target="_blank"
+            >
+              <div className="w-full h-[350px] bg-[#112240] rounded-lg border-2 border-dashed border-textDark/30 flex flex-col justify-center items-center group-hover:border-textCyan/50 group-hover:bg-[#0B1120] transition-colors duration-300 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-tr from-textCyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <BsImage className="text-5xl text-textDark/50 group-hover:text-textCyan duration-300 z-10" />
+                <p className="text-textDark/50 text-sm font-titleFont tracking-widest mt-4 group-hover:text-textCyan duration-300 z-10">
+                  IMAGE COMING SOON
+                </p>
+              </div>
+            </a>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-center text-right xl:-ml-16 z-10">
+              <p className="font-titleFont text-textCyan text-sm tracking-wide">
+              </p>
+              <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">12.</span> Huzz-ler</h3>
+              <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
+                A <span className="text-textCyan">gamified productivity Android application</span> designed to <span className="text-textCyan">track assignments</span>, <span className="text-textCyan">manage rewards</span>, and <span className="text-textCyan">boost motivation</span> through an interactive dashboard and assignment tracking system.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>Kotlin</li>
+                <li>Jetpack Compose</li>
+                <li>Room</li>
+                <li>Retrofit</li>
+              </ul>
+              <div className="text-2xl flex gap-4 ">
+                <a className="hover:text-textCyan duration-300"
+                  href="https://github.com/donyelqt/Huzz-ler"
+                  target="_blank"
+                >
+                  <BsGithub />
+                </a>
+                <a className="hover:text-textCyan duration-300"
+                  href="https://github.com/donyelqt/Huzz-ler"
+                  target="_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Project 13 */}
+        <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://github.com/donyelqt/Hinaing"
+              target="_blank"
+            >
+              <div className="w-full h-[350px] bg-[#112240] rounded-lg border-2 border-dashed border-textDark/30 flex flex-col justify-center items-center group-hover:border-textCyan/50 group-hover:bg-[#0B1120] transition-colors duration-300 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-tr from-textCyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <BsImage className="text-5xl text-textDark/50 group-hover:text-textCyan duration-300 z-10" />
+                <p className="text-textDark/50 text-sm font-titleFont tracking-widest mt-4 group-hover:text-textCyan duration-300 z-10">
+                  IMAGE COMING SOON
+                </p>
+              </div>
+            </a>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-center text-right xl:-ml-16 z-10">
+              <p className="font-titleFont text-textCyan text-sm tracking-wide">
+              </p>
+              <h3 className="text-xl md:text-2xl font-bold"><span className="text-xl md:text-2xl text-textCyan">13.</span> Hinaing</h3>
+              <p className="bg-[#080808] text-sm md:text-base text-left p-6 md:p-6 rounded-3xl">
+                A <span className="text-textCyan">Self-Learning Multi-Agent System</span> utilizing a <span className="text-textCyan">7-node diverse architecture</span>. It features <span className="text-textCyan">Ensemble Sentiment Analysis</span> (RoBERTa + Gemini 2.5), <span className="text-textCyan">5-Signal Credibility Verification</span>, and <span className="text-textCyan">Hybrid Retrieval (Reddit, Facebook, Web)</span> to provide deep, context-aware insights on complex social issues.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>FastAPI</li>
+                <li>LangGraph</li>
+                <li>LangSmith</li>
+                <li>Google Gemini 2.5</li>
+                <li>RoBERTa</li>
+                <li>Qdrant</li>
+                <li>Next.js 15</li>
+                <li>Docker</li>
+              </ul>
+              <div className="text-2xl flex gap-4 ">
+                <a className="hover:text-textCyan duration-300"
+                  href="https://github.com/donyelqt/Hinaing"
+                  target="_blank"
+                >
+                  <BsGithub />
+                </a>
+                <a className="hover:text-textCyan duration-300"
+                  href="https://github.com/donyelqt/Hinaing"
+                  target="_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
               </div>
             </div>
           </div>
