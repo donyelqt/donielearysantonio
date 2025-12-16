@@ -142,7 +142,7 @@ const RocketMesh = () => {
 
 const Rocket3D = () => {
   return (
-    <div className="w-full h-[500px]">
+    <div className="w-full h-[300px] lgl:h-[500px]">
       <Canvas>
         <PerspectiveCamera makeDefault position={[0, 0, 6]} />
         <ambientLight intensity={0.6} />

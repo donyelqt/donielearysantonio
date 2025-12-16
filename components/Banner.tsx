@@ -6,14 +6,14 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col lgl:flex-row gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
+      className="max-w-contentContainer mx-auto px-4 pt-10 pb-24 lgl:py-32 flex flex-col lgl:flex-row gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
     >
-      <div className="flex flex-col gap-4 lgl:gap-8 justify-center w-full lgl:w-2/3">
+      <div className="flex flex-col gap-4 lgl:gap-8 items-center lgl:items-start justify-center w-full lgl:w-2/3 lgl:-translate-y-20">
         <motion.h3
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}
-          className="text-2xl font-titleFont tracking-wide text-textCyan"
+          className="text-sm sm:text-lg mdl:text-xl lgl:text-2xl font-titleFont tracking-wide text-textCyan"
         >
           Hello, World! {/*🧑🏻‍💻🚀👾*/}
         </motion.h3>
@@ -21,7 +21,7 @@ const Banner = () => {
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.7 }}
-          className="text-3xl lgl:text-5xl font-titleFont font-semibold flex flex-col text-textWhite"
+          className="text-xl sm:text-2xl md:text-3xl lgl:text-5xl font-titleFont font-semibold flex flex-col items-center lgl:items-start text-textWhite text-center lgl:text-left"
         >
           Doniele Arys Antonio.{" "}
           <span className=" text-textCyan mt-2 lgl:mt-4 typewriter">
@@ -57,7 +57,7 @@ const Banner = () => {
         initial={{ y: 400, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 3, delay: 0.1, ease: "easeInOut" }}
-        className="text-textCyan flex lgl:inline-flex w-full lgl:w-1/3 justify-center items-center"
+        className="text-textCyan flex lgl:inline-flex w-full lgl:w-1/3 justify-center items-center lgl:-translate-y-20"
       >
         <Rocket3D />
       </motion.div>
