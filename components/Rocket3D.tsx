@@ -53,20 +53,30 @@ const RocketMesh = () => {
 
   return (
     <group ref={meshRef} rotation={[0, 0, Math.PI / 6]}>
-      {/* Body - Thicker and Silver */}
+      {/* Body - Satin White */}
       <mesh position={[0, -0.2, 0]}>
         <cylinderGeometry args={[0.7, 0.7, 2.2, 32]} />
         <meshStandardMaterial
-          color="#E2E2E2" // Silver/White
-          metalness={0.5}
+          color="#ffffff"
+          metalness={0.1}
           roughness={0.2}
+          emissive="#ffffff"
+          emissiveIntensity={0.05}
         />
+      </mesh>
+
+      {/* Detail Rings - Added to break up the body for a more 'engineered' look */}
+      <mesh position={[0, 0.4, 0]}>
+        <cylinderGeometry args={[0.71, 0.71, 0.05, 32]} />
+        <meshStandardMaterial color="#cbd5e1" metalness={0.8} roughness={0.2} />
+      </mesh>
+      <mesh position={[0, -0.8, 0]}>
+        <cylinderGeometry args={[0.71, 0.71, 0.05, 32]} />
+        <meshStandardMaterial color="#cbd5e1" metalness={0.8} roughness={0.2} />
       </mesh>
 
       {/* Nose Cone - Red, Rounded Cone */}
       <mesh position={[0, 1.4, 0]}>
-        {/* Using a cylinder with 0 top radius for a cone, but maybe a bit curved if we could, 
-            but standard cone matching the body radius is good */}
         <cylinderGeometry args={[0, 0.7, 1.0, 32]} />
         <meshStandardMaterial
           color="#EA3323" // Apple Red
@@ -78,20 +88,17 @@ const RocketMesh = () => {
       {/* Bottom Cap - Darker Grey Engine Mount */}
       <mesh position={[0, -1.35, 0]}>
         <cylinderGeometry args={[0.6, 0.4, 0.3, 32]} />
-        <meshStandardMaterial color="#475569" metalness={0.6} roughness={0.4} />
+        <meshStandardMaterial color="#64748b" metalness={0.8} roughness={0.2} />
       </mesh>
 
       {/* High-Precision Porthole Window */}
       <group position={[0, 0.4, 0.69]} rotation={[Math.PI / 2, 0, 0]}>
-        {/* Main Frame (Outer Rim) */}
         <mesh position={[0, 0, 0]}>
           <cylinderGeometry args={[0.29, 0.29, 0.06, 32]} />
-          <meshStandardMaterial color="#94a3b8" metalness={0.8} roughness={0.2} />
+          <meshStandardMaterial color="#cbd5e1" metalness={0.9} roughness={0.1} />
         </mesh>
 
-        {/* Glass Pane (Slightly Recessed visually by being smaller radius inside) */}
         <mesh position={[0, 0.01, 0]}>
-          {/* Slightly taller to avoid z-fight on body side, but we care about top side */}
           <cylinderGeometry args={[0.22, 0.22, 0.07, 32]} />
           <meshStandardMaterial
             color="#38bdf8"
@@ -102,7 +109,6 @@ const RocketMesh = () => {
           />
         </mesh>
 
-        {/* Rivets for Detail */}
         {rivets.map((pos, i) => (
           <mesh key={i} position={pos}>
             <sphereGeometry args={[0.015, 8, 8]} />
@@ -114,8 +120,7 @@ const RocketMesh = () => {
       {/* Fins (3 way symmetry, Red) - Swept Shape */}
       {[0, 1, 2].map((i) => (
         <group key={i} rotation={[0, (Math.PI * 2 / 3) * i, 0]}>
-          {/* Center the fin depth around the axis */}
-          <group position={[0.6, -0.2, 0]} rotation={[0, 0, 0]}>
+          <group position={[0.6, -0.2, 0]}>
             <mesh position={[0, 0, -0.05]}>
               <extrudeGeometry args={[finShape, extrudeSettings]} />
               <meshStandardMaterial color="#EA3323" metalness={0.3} roughness={0.4} />
@@ -127,7 +132,7 @@ const RocketMesh = () => {
       {/* Fire */}
       <mesh ref={fireRef} position={[0, -2.2, 0]} rotation={[Math.PI, 0, 0]}>
         <coneGeometry args={[0.3, 1.6, 16]} />
-        <meshBasicMaterial color="#fbbf24" transparent opacity={0.8} /> {/* Amber/Yellow */}
+        <meshBasicMaterial color="#fbbf24" transparent opacity={0.8} />
         <mesh position={[0, -0.2, 0]}>
           <coneGeometry args={[0.15, 1.2, 16]} />
           <meshBasicMaterial color="#ffffff" transparent opacity={0.9} />
@@ -148,8 +153,8 @@ const Rocket3D = () => {
         <ambientLight intensity={0.6} />
         <pointLight position={[10, 10, 10]} intensity={1.5} />
         <pointLight position={[-10, 5, -5]} color="#38bdf8" intensity={0.8} />
-        <Environment preset="city" />
-        <Sparkles count={100} scale={12} size={6} speed={0.4} opacity={1} color="#fbbf24" />
+        <Environment preset="studio" />
+        <Sparkles count={100} scale={12} size={6} speed={0.4} opacity={0.6} color="#fbbf24" />
 
         <Float
           speed={2}
