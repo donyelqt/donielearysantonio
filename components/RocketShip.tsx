@@ -75,9 +75,10 @@ const RocketShip = () => {
 
                 {/* Definitions for Gradients */}
                 <defs>
-                    <linearGradient id="bodyGradient" x1="100" y1="40" x2="100" y2="340" gradientUnits="userSpaceOnUse">
-                        <stop stopColor="#e2e8f0" />
-                        <stop offset="1" stopColor="#94a3b8" />
+                    <linearGradient id="bodyGradient" x1="0" y1="0" x2="1" y2="0">
+                        <stop offset="0%" stopColor="#FFFFFF" />
+                        <stop offset="50%" stopColor="#FBFCFE" />
+                        <stop offset="100%" stopColor="#F1F5F9" />
                     </linearGradient>
                 </defs>
             </motion.svg>
