@@ -15,7 +15,7 @@ import {
 } from "react-icons/si";
 
 const Navbar = () => {
-  const ref = useRef<string | any>("")
+  const ref = useRef<HTMLDivElement | null>(null);
   const [showMenu, setShowMenu] = useState(false);
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
@@ -174,7 +174,9 @@ const Navbar = () => {
         {
           showMenu && (
             <div
-              ref={(node) => (ref.current = node)}
+              ref={(node) => {
+                ref.current = node;
+              }}
               onClick={handleClick}
               className="absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end"
             >
@@ -326,41 +328,42 @@ const Navbar = () => {
                     </motion.button>
                   </a>
                   <div className="flex flex-items center gap-4">
-                    <motion.a href="https://github.com/donyelqt" target="_blank">
+                    <a href="https://github.com/donyelqt" target="_blank">
                       <span className="w-10 h-10 text-xl bg-textBlack rounded-full inline-flex items-center justify-center hover:text-textCyan cursor-pointer hover:-translate-y-2 transition-all duration-300">
                         <SiGithub />
                       </span>
-                    </motion.a>
-                    <motion.a href="https://www.facebook.com/donielearys.antonio" target="_blank">
+                    </a>
+                    <a href="https://www.facebook.com/donielearys.antonio" target="_blank">
                       <span className="w-10 h-10 text-xl bg-textBlack rounded-full inline-flex items-center justify-center hover:text-textCyan cursor-pointer hover:-translate-y-2 transition-all duration-300">
                         <SiFacebook />
                       </span>
-                    </motion.a>
-                    <motion.a href="https://instagram.com/donieleantonio" target="_blank">
+                    </a>
+                    <a href="https://instagram.com/donieleantonio" target="_blank">
                       <span className="w-10 h-10 text-xl bg-textBlack rounded-full inline-flex items-center justify-center hover:text-textCyan cursor-pointer hover:-translate-y-2 transition-all duration-300">
                         <SiInstagram />
                       </span>
-                    </motion.a>
-                    <motion.a href="https://www.linkedin.com/in/donielearysantonio" target="_blank">
+                    </a>
+                    <a href="https://www.linkedin.com/in/donielearysantonio" target="_blank">
                       <span className="w-10 h-10 text-xl bg-textBlack rounded-full inline-flex items-center justify-center hover:text-textCyan cursor-pointer hover:-translate-y-2 transition-all duration-300">
                         <SiLinkedin />
                       </span>
-                    </motion.a>
-                    <motion.a href="" target="_blank">
+                    </a>
+                    <a href="" target="_blank">
                       <span className="w-10 h-10 text-xl bg-textBlack rounded-full inline-flex items-center justify-center hover:text-textCyan cursor-pointer hover:-translate-y-2 transition-all duration-300">
                         <SiTwitter />
                       </span>
-                    </motion.a>
+                    </a>
                   </div>
-                  <motion.a
+                  <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1.2, ease: "easeIn" }}
                     className="text-sm w-72 tracking-widest text-textCyan text-center mt-4"
-                    href="mailto:arysantonio123@gmail.com"
                   >
-                    <p>arysantonio123@gmail</p>
-                  </motion.a>
+                    <a href="mailto:arysantonio123@gmail.com">
+                      <p>arysantonio123@gmail</p>
+                    </a>
+                  </motion.div>
                 </div>
               </motion.div>
             </div>
