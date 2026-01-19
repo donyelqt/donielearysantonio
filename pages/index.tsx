@@ -12,8 +12,8 @@ import Contact from "@/components/works/Contact";
 import Footer from "@/components/works/Footer";
 import CompetitionsandAwards from "@/components/CompetitionsandAwards";
 import Certifications from "@/components/Certifications";
-
 import StarBackground from "@/components/StarBackground";
+import ShootingStars from "@/components/ShootingStars";
 
 export default function Home() {
   return (
@@ -27,6 +27,7 @@ export default function Home() {
       <main className="w-full h-screen font-bodyFont bg-gradient-to-tl from-[#151c2f] via-[#112d55] to-[#151c2f] text-textLight
       overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60 relative">
         <StarBackground />
+        <ShootingStars />
         <Navbar />
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
           <motion.div
