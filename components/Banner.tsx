@@ -1,13 +1,15 @@
 import { motion } from "framer-motion";
 import Rocket3D from "./Rocket3D";
+import Neptune from "./Neptune";
 
 const Banner = () => {
   return (
     <section
       id="home"
-      className="max-w-contentContainer mx-auto px-4 pt-10 pb-24 lgl:py-32 flex flex-col lgl:flex-row gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
+      className="max-w-contentContainer mx-auto px-4 pt-10 pb-24 lgl:py-32 flex flex-col lgl:flex-row gap-4 lgl:gap-8 mdl:px-10 xl:px-4 relative"
     >
-      <div className="flex flex-col gap-4 lgl:gap-8 items-center lgl:items-start justify-center w-full lgl:w-2/3 lgl:-translate-y-20">
+      <Neptune />
+      <div className="flex flex-col gap-4 lgl:gap-8 items-center lgl:items-start justify-center w-full lgl:w-2/3 lgl:-translate-y-20 relative">
         <h3
           className="text-sm sm:text-lg mdl:text-xl lgl:text-2xl font-titleFont tracking-wide text-textCyan"
         >
