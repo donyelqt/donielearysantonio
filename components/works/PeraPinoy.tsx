@@ -12,7 +12,7 @@ const PeraPinoy = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-      Founder | CTO | Lead Software Engineer <span className="text-textCyan tracking-wide">@PeraPinoy!</span>
+      Full-stack AI Engineer <span className="text-textCyan tracking-wide">@PeraPinoy!</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         July 2024 - Present
