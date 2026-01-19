@@ -10,6 +10,7 @@ import Illustrados from "./works/Illustrados";
 import UCinTTO from "./works/UCinTTO";
 import ParaPo from "./works/ParaPo";
 import DataCampScholar from "./works/DataCampScholar";
+import TaranaAI from "./works/TaranaAI";
 
 const Experience = () => {
   const [workPeraPinoy, setWorkPeraPinoy] = useState(true);
@@ -22,6 +23,7 @@ const Experience = () => {
   const [workUCinTTO, setUCinTTO] = useState(false);
   const [workParaPo, setParaPo] = useState(false);
   const [workDataCamp, setDataCamp] = useState(false);
+  const [workTaranaAI, setTaranaAI] = useState(false);
 
   const handlePeraPinoy = () => {
     setWorkPeraPinoy(true);
@@ -152,6 +154,21 @@ const Experience = () => {
     setUCinTTO(false);
     setParaPo(false);
     setDataCamp(true);
+    setTaranaAI(false);
+  };
+
+  const handleTaranaAI = () => {
+    setWorkPeraPinoy(false);
+    setWorkFreelance(false);
+    setWorkUniversityOfTheCordilleras(false);
+    setWorkPhinmaUniversityOfPangasinan(false);
+    setWorkHack4Gov(false);
+    setWorkTrifectaSolutionsInc(false);
+    setWorkIllustrados(false);
+    setUCinTTO(false);
+    setParaPo(false);
+    setDataCamp(false);
+    setTaranaAI(true);
   };
   
 
@@ -223,6 +240,12 @@ const Experience = () => {
           >
             DataCamp
           </li>
+          <li
+            onClick={handleTaranaAI}
+            className={`${workTaranaAI ? "border-l-textCyan text-textCyan" : "border-l-hoverColor text-textDark"} border-l-2 bg-transparent hover:bg-blue-800 py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            Tarana-AI
+          </li>
         </ul>
         {workFreelance && <Freelance />}
         {workUniversityOfTheCordilleras && <UniversityOfTheCordilleras />}
@@ -234,6 +257,7 @@ const Experience = () => {
         {workUCinTTO && <UCinTTO />}
         {workParaPo && <ParaPo />}
         {workDataCamp && <DataCampScholar />}
+        {workTaranaAI && <TaranaAI />}
       </div>
     </section>
   );
