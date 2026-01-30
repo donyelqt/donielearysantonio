@@ -22,7 +22,7 @@ const TaranaAI = () => {
           <span className="text-textCyan mt-1">
             <AiFillThunderbolt />
           </span>{""}
-          Architected a BFF-based, DDD component monolith, reducing cross-domain coupling by ~40% and improving feature development velocity by ~30%.
+          Architected a BFF-based, DDD component monolith, reducing cross-domain coupling by ~40% and improving feature development velocity by ~30%. Optimized the Agentic RAG Pipeline Latency from 60s to 15-30s in real-time data adaptation with Live Traffic Data, Weather Data, and User Preferences Data Fusion.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textCyan mt-1">
